@@ -1,0 +1,16 @@
+<mujoco model="box_sliding_contact">
+  <option timestep="0.002" integrator="implicitfast"/>
+  <worldbody>
+    <geom name="floor" type="plane" size="2 2 .1"/>
+    <body name="box" pos="0 0 .051">
+      <freejoint name="root"/>
+      <inertial pos=".01 0 0" mass=".8" diaginertia=".003 .004 .005"/>
+      <geom name="box_geom" type="box" size=".1 .08 .05" contype="0" conaffinity="0"/>
+    </body>
+  </worldbody>
+  <contact><pair geom1="box_geom" geom2="floor" condim="6" friction=".6 .4 .01 .001 .002"/></contact>
+  <keyframe>
+    <key name="slide" qpos="0 0 .051 1 0 0 0" qvel=".5 .1 0 0 0 .2"/>
+    <key name="drop" qpos="0 0 .3 1 0 0 0"/>
+  </keyframe>
+</mujoco>

@@ -1,0 +1,31 @@
+<mujoco model="articulated_contact_rig">
+  <compiler angle="radian"/>
+  <option timestep="0.002" integrator="implicitfast"/>
+  <default><geom contype="0" conaffinity="0"/><joint damping=".1" armature=".01"/></default>
+  <worldbody>
+    <geom name="floor" type="plane" size="2 2 .1"/>
+    <body name="base" pos="0 0 .12">
+      <freejoint name="root"/>
+      <geom name="base_geom" type="box" size=".14 .12 .06" mass="2"/>
+      <body name="arm" pos="0 0 .06">
+        <joint name="shoulder" type="hinge" axis="0 1 0" range="-.6 .6" solreflimit=".006 1"/>
+        <geom name="arm_geom" type="capsule" fromto="0 0 0 .2 0 .1" size=".025" mass=".25"/>
+        <body name="tip" pos=".2 0 .1">
+          <joint name="elbow" type="hinge" axis="1 0 0" range="-.5 .5"/>
+          <geom name="tip_geom" type="sphere" pos=".04 0 0" size=".04" mass=".1"/>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+  <contact>
+    <pair geom1="base_geom" geom2="floor" condim="3" friction=".7 .7 .01 .001 .001"/>
+    <pair geom1="arm_geom" geom2="floor" condim="3"/>
+    <pair geom1="tip_geom" geom2="floor" condim="3"/>
+  </contact>
+  <actuator><position name="shoulder_drive" joint="shoulder" kp="8" kv=".8"/><position name="elbow_drive" joint="elbow" kp="4" kv=".4"/></actuator>
+  <keyframe>
+    <key name="hold" qpos="0 0 .12 1 0 0 0 .2 -.1" ctrl=".2 -.1"/>
+    <key name="limit" qpos="0 0 .12 1 0 0 0 .7 .55" ctrl="1 1"/>
+    <key name="excited" qpos="0 0 .12 1 0 0 0 -.3 .25" qvel=".1 0 0 0 .2 0 .5 -.5" ctrl=".4 -.4"/>
+  </keyframe>
+</mujoco>
