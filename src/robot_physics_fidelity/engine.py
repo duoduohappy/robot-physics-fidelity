@@ -19,6 +19,11 @@ class Unsupported(ValueError):
     pass
 
 def digest_model(m):
+    from .semantics import fingerprint
+    return fingerprint(m)['sha256']
+
+
+def legacy_selected_array_digest(m):
     h = hashlib.sha256()
     for field in ['names','body_pos','body_quat','body_mass','body_inertia','body_iquat','body_ipos','geom_type','geom_size','geom_pos','geom_quat','geom_contype','geom_conaffinity','mesh_vert','mesh_face','jnt_type','jnt_axis','jnt_range','jnt_solref','jnt_solimp','dof_damping','dof_armature','dof_frictionloss','pair_geom1','pair_geom2','pair_friction','pair_solref','pair_solimp','pair_margin','pair_gap','actuator_gainprm','actuator_biasprm','actuator_ctrlrange','key_qpos','key_ctrl']:
         value = getattr(m,field)
@@ -139,7 +144,8 @@ def alignment(a,b):
     result['geom']={}
     for i in set(a.pair_geom1)|set(a.pair_geom2):
         name=mujoco.mj_id2name(a,mujoco.mjtObj.mjOBJ_GEOM,int(i))
-        found=[j for j in range(b.ngeom) if (mujoco.mj_id2name(b,mujoco.mjtObj.mjOBJ_GEOM,j) or '').rsplit('/',1)[-1].rsplit('_',1)[0]==name]
+        exact=[j for j in range(b.ngeom) if mujoco.mj_id2name(b,mujoco.mjtObj.mjOBJ_GEOM,j)==name]
+        found=exact or [j for j in range(b.ngeom) if (mujoco.mj_id2name(b,mujoco.mjtObj.mjOBJ_GEOM,j) or '').rsplit('/',1)[-1].rsplit('_',1)[0]==name]
         if len(found)!=1: raise Unsupported('Required endpoint was lost: '+name)
         result['geom'][int(i)]=found[0]
     return result

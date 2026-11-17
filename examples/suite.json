@@ -1,0 +1,12 @@
+{
+  "format": 1,
+  "cases": [
+    {"id":"sphere-drop","source":"pair_only.xml","keyframe":"home","expected_status":"PASS"},
+    {"id":"box-slide","source":"box_slide.xml","keyframe":"slide","expected_status":"PASS"},
+    {"id":"box-drop","source":"box_slide.xml","keyframe":"drop","expected_status":"PASS"},
+    {"id":"rig-hold","source":"hinge_rig.xml","keyframe":"hold","expected_status":"PASS"},
+    {"id":"rig-limit","source":"hinge_rig.xml","keyframe":"limit","expected_status":"PASS"},
+    {"id":"rig-excited","source":"hinge_rig.xml","keyframe":"excited","expected_status":"PASS"},
+    {"id":"no-contact","source":"airborne.xml","keyframe":"home","expected_status":"INSUFFICIENT","reason":"0.5 second rollout never reaches the floor; no contact evidence"}
+  ]
+}

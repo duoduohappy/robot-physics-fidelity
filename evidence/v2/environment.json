@@ -1,0 +1,12 @@
+{
+  "executable": "$WORKSPACE\\work\\rpf-v2-final-env\\Scripts\\python.exe",
+  "prefix": "$WORKSPACE\\work\\rpf-v2-final-env",
+  "base_prefix": "$USER_HOME\\AppData\\Local\\Programs\\Python\\Python311",
+  "user_site_enabled": false,
+  "module": "$WORKSPACE\\work\\rpf-v2-final-env\\Lib\\site-packages\\robot_physics_fidelity\\__init__.py",
+  "pythonpath_absent": true,
+  "kernel_cache": "$WORKSPACE\\work\\rpf-v2-final-cache",
+  "original_mesh_cache_reused": true,
+  "actual_other_dependency_versions_tested": false,
+  "raw_local_report_sha256": "8686e06cee2b503adaf950643b58aacaccae9f6e896b221b372bcf491529c089"
+}

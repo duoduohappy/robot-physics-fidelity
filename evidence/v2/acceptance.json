@@ -1,0 +1,58 @@
+{
+  "status": "ENGINEERING_AND_RESEARCH_RUNS_COMPLETED",
+  "checks": [
+    {
+      "name": "unit-tests",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "pip-check",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "baseline",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "repeat",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "handoff-rig-hold",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "handoff-g1-knees",
+      "exit_code": 1,
+      "expected_exit_code": 1
+    },
+    {
+      "name": "rollback",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "handoff-after-rollback",
+      "exit_code": 1,
+      "expected_exit_code": 1
+    },
+    {
+      "name": "research",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    }
+  ],
+  "unit_tests": 21,
+  "matrix_cases": 10,
+  "matrix_replays": 2,
+  "source_entry_xml_unchanged": true,
+  "actual_external_user_trial": false,
+  "real_hardware_validation": false,
+  "novel_algorithm_claim": false,
+  "raw_local_report_sha256": "0e0b202ef1efb4582ae4de79ef15e85dc7b99ae80abe7bd21ff7b8c07279e7c3"
+}

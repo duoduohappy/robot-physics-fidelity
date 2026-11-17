@@ -1,98 +1,77 @@
-# Robot Physics Fidelity · 第一档工具 v1.0
+# Robot Physics Fidelity 2.0
 
-面向机器人仿真资产的**受限诊断、修复与验收命令行工具**。本次升级只完成三类工程能力：定位显著分歧、验证后启用且可回退的资产修复、独立安装和复现。
+面向机器人仿真资产的受限物理语义审计、批量验收、可回退修复和诊断研究组件。第二档是可复用工程组件，第三档是附实验的诊断研究模块；不是新物理求解器，也没有真实机器人或 sim-to-real 验证。
 
-[公开轨迹演示](https://robot-physics-fidelity-demo.savory-fox-4497.chatgpt.site) · [项目仓库](https://github.com/duoduohappy/robot-physics-fidelity)
+[公开轨迹演示](https://robot-physics-fidelity-demo.savory-fox-4497.chatgpt.site) · [开发边界](docs/V2_V3_SCOPE.md) · [查重与方法归属](docs/RELATED_WORK.md)
 
-## 当前证据
+## 安装与快速运行
 
-在全新 Python 3.11 venv 中安装 wheel，禁用系统 site-packages，清空 `PYTHONPATH`，从固定源网格重新生成 USD：
-
-| 案例 | 验收 | 候选被启用 | 身体位置最大差 |
-|---|---|---|---:|
-| Apollo / stand | PASS | 是 | 0.000287 mm |
-| G1 / home | PASS | 是 | 0.000621 mm |
-| G1 / knees_bent | FAIL | 否 | 0.195096 mm，速度超限 |
-| 随包离线基本几何示例 | PASS | 是 | 小于 0.000001 mm |
-| 高空无接触示例 | INSUFFICIENT | 否 | 缺少接触证据，不能判通过 |
-
-固定标准不变：0.5 秒；身体位置分量最大差 ≤1 mm；qvel 分量最大差 ≤0.01（各分量原生单位）。此外必须保留支持的 pair/限位参数、不得增加额外接触，且源/目标均有实际接触。配置 pair 全部保留不等于每条都动态触发。
-
-19 次 CLI 命令得到预期退出状态；8 项故障注入测试覆盖失败不启用、完整性检查、越界路径、源变化、初态与验收证据绑定及回退。它们不代替物理测试。
-
-G1 的自动诊断定位到首次超限为第 17 步、0.068 秒，最大速度分歧对应 `left_shoulder_yaw_joint`；此时最大位置分歧身体为 `right_ankle_pitch_link`。输出相同 qpos/qvel/ctrl/加速度 warmstart/time 下的接触位置、法向、距离与力，并执行有限参数对照。**根因仍为 UNRESOLVED**；不会根据数组不同直接宣称找到了原因。
-
-## 安装与离线示例（Windows / Python 3.11）
-
-从仓库或交付包取得源码与 `releases/robot_physics_fidelity-1.0.0-py3-none-any.whl`。本地交付目录中的 wheel 在 `dist/`。
+Windows、Python 3.11。先确认 `python --version` 为 3.11；也可用已安装 Python 3.11 的绝对路径替代 `python`。依赖安装需要网络，离线场景不需要机器人或额外网格。
 
 ```powershell
-py -3.11 -m venv .venv
+python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements-lock.txt
-.\.venv\Scripts\python.exe -m pip install --no-deps releases/robot_physics_fidelity-1.0.0-py3-none-any.whl
+.\.venv\Scripts\python.exe -m pip install --no-deps releases/robot_physics_fidelity-2.0.0-py3-none-any.whl
 .\.venv\Scripts\rpf.exe doctor
-.\.venv\Scripts\rpf.exe plan --source examples/pair_only.xml --keyframe home --workspace runs/example
-.\.venv\Scripts\rpf.exe repair --workspace runs/example --report runs/example-result.json
-.\.venv\Scripts\rpf.exe active-path --workspace runs/example
-.\.venv\Scripts\rpf.exe rollback --workspace runs/example
+.\.venv\Scripts\rpf.exe suite --manifest examples/suite.json --output runs/first
+.\.venv\Scripts\rpf.exe suite --manifest examples/suite.json --output runs/repeat --baseline runs/first/suite.json
 ```
 
-若使用本地 ZIP，第三行改为 `dist/robot_physics_fidelity-1.0.0-py3-none-any.whl`。依赖安装需要网络；示例本身不需要联网或下载机器人。无需激活 PowerShell 环境脚本，也不依赖原开发工作区目录。
+ZIP 中 wheel 位于 `dist/`，将安装命令的 `releases/` 改成 `dist/`。也可从源码 `pip install --no-deps .`。每次输出目录必须不存在。首先检查 `runs/first/suite.json`、`junit.xml` 和每个案例的 `physics.json`、`semantics.json`。
 
-本次干净环境测试使用新安装的约 628 MiB 运行依赖，未使用旧依赖目录或旧内核缓存；真实模型复用了已校验的**只读原始网格缓存**。这不是另一个人的试用，也不宣称 Linux/macOS 已验收。`doctor` 检查版本，不代替后续真实运行。
+固定验收：0.5 秒 CPU 原生 MuJoCo 对照；身体位置分量最大差 ≤1 mm，qvel 分量最大差 ≤0.01（各自原生单位）；pair/限位参数保持，无额外接触，并要求实际接触证据。没有修改原门槛。
 
-## 真实资产流程
+## 第二档：可复用验收组件
+
+- 按身体、关节、自由度、执行器和 pair 端点身份对齐，检查惯量张量、坐标系、关节限位/动力学、执行器增益/限制、碰撞/pair 和求解配置；差异是审核候选，不等于已证实原因。
+- 源指纹覆盖锁定 MuJoCo 所公开的数值数组、标量及字节字段，记录字段数量；不是对所有外部文件及任意 USD 的语义等价证明。
+- 批量清单、逐案例证据、JUnit 和 Windows CPU CI 示例。已知失败显示为失败证据，并在 JUnit 中 skipped；不算保真通过。
+- 基线比较检查环境、输入、初态、状态、语义摘要和误差退化。变更需人工审核，不自动覆盖基线。实际多版本依赖兼容性尚未验证。
+- `examples/consume_verified_asset.py` 展示下游只消费已经通过且完整性有效的候选；原始回退资产不被当成已认证资产。
+
+[团队接入流程](docs/TEAM_INTEGRATION.md) · [验收结论](docs/ACCEPTANCE_V2_V3.md)
+
+```powershell
+.\.venv\Scripts\rpf.exe plan --source examples/hinge_rig.xml --keyframe hold --workspace runs/rig
+.\.venv\Scripts\rpf.exe repair --workspace runs/rig --report runs/rig-result.json
+.\.venv\Scripts\rpf.exe active-path --workspace runs/rig
+.\.venv\Scripts\rpf.exe rollback --workspace runs/rig
+```
+
+修复继续只保留端点、显式 pair 参数及原始限位 solref。先计划、独立候选验证、PASS 才原子启用；失败/证据不足不启用。回退恢复磁盘资产选择，不恢复正在运行的仿真状态；原始资产标为 UNQUALIFIED_ORIGINAL。
+
+## 第三档：有基线和消融的诊断研究
+
+实验比较逐行干预、既有 ddmin、未排序累计恢复和三状态加速度残差排序。先验证全部候选恢复是否足够，再按预算搜索并核查 1-minimal 修复集合。所有干预都只在原生模型副本中，不修改资产。
+
+```powershell
+.\.venv\Scripts\python.exe research/benchmark.py --output runs/research --repetitions 5
+```
+
+需要先准备候选 USD 再诊断实际资产：
+
+```powershell
+$report = Get-Content runs/rig-result.json -Raw | ConvertFrom-Json
+.\.venv\Scripts\rpf.exe localize --source examples/hinge_rig.xml --keyframe hold --candidate $report.candidate --method ranked --budget 64 --report runs/localization.json
+```
+
+无故障返回 NO_FAILURE；白名单不足返回 UNRESOLVED；预算耗尽返回 BUDGET_EXHAUSTED。CONFIRMED_WITHIN_TEST 只说明找到了当前测试内足以恢复通过、经单项删除验证的集合，不保证唯一真实根因或全局最小基数。
+
+[研究方法](docs/RESEARCH_METHOD.md) · [实验结果](docs/RESEARCH_RESULTS.md)
+
+## 真实公开资产
 
 ```powershell
 .\.venv\Scripts\rpf.exe fetch-demo --asset apollo --directory data
 .\.venv\Scripts\rpf.exe fetch-demo --asset g1 --directory data
-.\.venv\Scripts\rpf.exe inspect --source data/g1/scene_mjx.xml --keyframe knees_bent
-.\.venv\Scripts\rpf.exe plan --source data/g1/scene_mjx.xml --keyframe knees_bent --workspace runs/g1-knees
-.\.venv\Scripts\rpf.exe repair --workspace runs/g1-knees --report runs/g1-knees-result.json
-.\.venv\Scripts\rpf.exe diagnose --source data/g1/scene_mjx.xml --keyframe knees_bent --candidate runs/g1-knees/candidate-<生成的标识>/asset.usda --report runs/g1-diagnosis.json
 ```
 
-`repair` 的报告给出候选路径，不要手写标识。G1 屈膝预期退出 4，当前选择仍为原始资产。Apollo 使用 `data/apollo/scene.xml` 和 `stand`；G1 home 使用 `home`。下载仅包含固定提交所需网格、XML 和原许可，并逐文件验证 Git blob SHA1；不自动下载全仓库。
+Apollo 使用 `data/apollo/scene.xml`、`stand`；G1 使用 `data/g1/scene_mjx.xml`、`home` 或 `knees_bent`。将路径相对清单目录写入自己的 suite 清单即可。只下载固定提交清单所需文件，校验 Git blob SHA1，保留资产原许可。无需下载整个数据集。
 
-`plan` 工作区必须不存在；转换或检查中断时保留证据，重试使用新工作区。计划记录接触端点、pair 参数、明确限位参数与非物理实例准备操作，未执行候选修复。执行前再次核对选定编译数组的源签名、操作清单和原始 USD 树哈希；记录的签名或内容不一致时拒绝执行。该签名不是任意模型全部语义的完整证明。通过证据另与源签名和指定初态绑定。
+## 支持边界与退出码
 
-## 修复、启用和回退的真实含义
+仍限制一个自由根、命名 hinge、显式 primitive pair、零移动体自动碰撞掩码、静态自动碰撞受 pair 契约覆盖、无状态 joint-transmission 执行器，最多 256 body/geom。未支持 equality、tendon、mocap、其他关节类型、mesh 碰撞、未知物理 USD 实例、其他后端和硬件。
 
-- 仅支持保留显式 pair 所需端点、pair 有效参数、明确源限位 `solref`；不做自动调参。
-- 生成独立候选 USD，重新导入和验收；只有 PASS 才原子更新 `active.json`。FAIL、INSUFFICIENT 或错误不作为成功候选启用。
-- `active-path` 验证哈希及通过证据后返回当前选定文件；它不控制外部仿真器，消费者需要使用返回路径。
-- `rollback` 校验原始副本后恢复**磁盘资产选择指针**；不恢复正在运行的机器人/仿真器状态。原始资产可能本就不保真，所以标记 `UNQUALIFIED_ORIGINAL`，回退不是对原始资产的认证。
-- 不覆盖源 XML 或已有原始 USD。候选、失败报告及回退回执保留。文件哈希用于本工具的完整性检查，不是对恶意用户篡改整个工作区的签名防护。
+退出码：0 对应命令成功或预期流程完成；2 ERROR；3 UNSUPPORTED；4 物理 FAIL；5 INSUFFICIENT；6 语义差异或基线需审核；7 批量意外结果；8 研究 UNRESOLVED；9 研究预算耗尽。批量返回 0 不代表其中已知失败资产通过。上游日志可能混入 stdout，自动化读取 JSON 报告。
 
-## 状态和退出码
-
-| 状态 | 退出码 | 意义 |
-|---|---:|---|
-| PASS | 0 | 当前固定验收通过 |
-| PLANNED / SUPPORTED / SELECTED / READY | 0 | 对应命令成功，不等于模型保真验收通过 |
-| ERROR | 2 | 输入、文件、运行或完整性错误；检查原始报告 |
-| UNSUPPORTED | 3 | 超出范围，拒绝尝试该修复 |
-| FAIL | 4 | 已执行验收但未通过，候选不启用 |
-| INSUFFICIENT | 5 | 数值符合但缺少接触证据，候选不启用 |
-
-标准输出可能含上游诊断日志。自动化应读取 `--report` 生成的 JSON，不依赖截取控制台文本。
-
-## 支持范围
-
-一个自由根、命名铰链、基本几何 pair 端点、移动体自动碰撞掩码为零、静态 world 碰撞均由显式 pair 覆盖、单一关节传动执行器且无状态动态；最多 256 个 body/geom。可保留真实机器人视觉网格；不把 mesh 碰撞或任意接触模型宣称为已支持。
-
-不支持 tendon、实际 equality、mocap、多个自由根、状态执行器、其他关节类型、含物理内容的原生 USD instance 等。歧义身份与未标记碰撞端点拒绝导入。部分检查必须在官方转换后才能完成；中断会留下未启用的准备错误记录。
-
-诊断输入是本实验契约的候选 USD；任意未知 USD 不会自动猜测其含义。对未修复官方转换缺口，先看 `plan` 的差异清单。源初态、控制和积分配置显式按身份对齐；并不声称全部配置已自动往返。
-
-未验证真实硬件、长期任务、其他物理后端、完整传感器往返、Newton state/control 同步，也未测得节省人工时间。不是新物理算法，无全球原创性证明。
-
-## 证据与真实试用
-
-`evidence/clean/acceptance.json`、`environment.json`、物理验收与回退报告是原始本机证据。`docs/ACCEPTANCE.md` 为交付结论，`docs/TRIAL_GUIDE.md` 为交给另一位工程师的试用任务。**真实外部使用者试用尚未开展**，没有伪造反馈或代替其签收。
-
-依赖和公开资产遵循各自许可；模型原许可见随包文件。新 wheel 不包含大型网格或二进制依赖。
-
-## 一条命令运行复现流程
-
-安装完成后，可使用 [试用辅助脚本](tools/trial/README.md) 自动运行离线流程及可选 G1 失败案例，保存各步日志和 JSON，避免手工复制候选路径。辅助脚本已在本机隔离环境验证；不代表真实外部使用者试用。
+当前没有外部团队采用、真实使用者节时或硬件效果证据。试用清单见 `docs/TRIAL_GUIDE.md`。历史 v1 结果与安装包仍保留；第二/三档结论以本版验收与研究报告为准。

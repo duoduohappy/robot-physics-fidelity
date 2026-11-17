@@ -1,0 +1,337 @@
+{
+  "format": 1,
+  "environment": {
+    "python": "3.11.9",
+    "platform": "Windows",
+    "versions": {
+      "robot-physics-fidelity": "2.0.0",
+      "mujoco": "3.17.0",
+      "newton": "1.8.0",
+      "warp-lang": "1.19.0",
+      "mujoco-usd-converter": "0.9.0"
+    }
+  },
+  "cases": [
+    {
+      "id": "sphere-drop",
+      "keyframe": "home",
+      "expected_status": "PASS",
+      "reason": null,
+      "input_fingerprint": {
+        "sha256": "8980437ab22e26f1e24c2d1dbae33a8872151948de7832f5198cf9b4f56a2163",
+        "public_fields": 616,
+        "scope": "public numeric arrays/scalars and bytes exposed by pinned MuJoCo; not external files or a cryptographic attestation"
+      },
+      "status": "PASS",
+      "candidate_activated": true,
+      "semantic_summary": {
+        "status": "SEMANTIC_DIFFERENCES",
+        "difference_count": 8,
+        "fields": [
+          "disableflags",
+          "geom_conaffinity",
+          "geom_contype",
+          "geom_gap",
+          "geom_size",
+          "jnt_actfrcrange",
+          "jnt_range"
+        ]
+      },
+      "max_body_position_error_m": 7.435499785324318e-10,
+      "max_qvel_error": 1.0651421789020787e-07,
+      "expected_result_observed": true,
+      "seconds": 18.859
+    },
+    {
+      "id": "box-slide",
+      "keyframe": "slide",
+      "expected_status": "PASS",
+      "reason": null,
+      "input_fingerprint": {
+        "sha256": "787bb3d7393a97681ee4a173241b702272e8faab5f9e6c4862e40366b2258cb7",
+        "public_fields": 616,
+        "scope": "public numeric arrays/scalars and bytes exposed by pinned MuJoCo; not external files or a cryptographic attestation"
+      },
+      "status": "PASS",
+      "candidate_activated": true,
+      "semantic_summary": {
+        "status": "SEMANTIC_DIFFERENCES",
+        "difference_count": 7,
+        "fields": [
+          "disableflags",
+          "geom_conaffinity",
+          "geom_contype",
+          "geom_gap",
+          "geom_size",
+          "jnt_actfrcrange",
+          "jnt_range"
+        ]
+      },
+      "max_body_position_error_m": 1.1424853910146915e-09,
+      "max_qvel_error": 1.641226059501122e-07,
+      "expected_result_observed": true,
+      "seconds": 0.297
+    },
+    {
+      "id": "box-drop",
+      "keyframe": "drop",
+      "expected_status": "PASS",
+      "reason": null,
+      "input_fingerprint": {
+        "sha256": "787bb3d7393a97681ee4a173241b702272e8faab5f9e6c4862e40366b2258cb7",
+        "public_fields": 616,
+        "scope": "public numeric arrays/scalars and bytes exposed by pinned MuJoCo; not external files or a cryptographic attestation"
+      },
+      "status": "PASS",
+      "candidate_activated": true,
+      "semantic_summary": {
+        "status": "SEMANTIC_DIFFERENCES",
+        "difference_count": 7,
+        "fields": [
+          "disableflags",
+          "geom_conaffinity",
+          "geom_contype",
+          "geom_gap",
+          "geom_size",
+          "jnt_actfrcrange",
+          "jnt_range"
+        ]
+      },
+      "max_body_position_error_m": 1.1259946308683766e-09,
+      "max_qvel_error": 4.8856724887968994e-08,
+      "expected_result_observed": true,
+      "seconds": 0.266
+    },
+    {
+      "id": "rig-hold",
+      "keyframe": "hold",
+      "expected_status": "PASS",
+      "reason": null,
+      "input_fingerprint": {
+        "sha256": "40b81d281ade3149a40129ee2a1b5585f492a73df328b4c12fdc3eeea1a75d2a",
+        "public_fields": 616,
+        "scope": "public numeric arrays/scalars and bytes exposed by pinned MuJoCo; not external files or a cryptographic attestation"
+      },
+      "status": "PASS",
+      "candidate_activated": true,
+      "semantic_summary": {
+        "status": "SEMANTIC_DIFFERENCES",
+        "difference_count": 15,
+        "fields": [
+          "disableflags",
+          "geom_gap",
+          "geom_quat",
+          "geom_size",
+          "jnt_actfrclimited",
+          "jnt_actfrcrange",
+          "jnt_range"
+        ]
+      },
+      "max_body_position_error_m": 3.3449741865254623e-09,
+      "max_qvel_error": 5.991260554338851e-08,
+      "expected_result_observed": true,
+      "seconds": 0.343
+    },
+    {
+      "id": "rig-limit",
+      "keyframe": "limit",
+      "expected_status": "PASS",
+      "reason": null,
+      "input_fingerprint": {
+        "sha256": "40b81d281ade3149a40129ee2a1b5585f492a73df328b4c12fdc3eeea1a75d2a",
+        "public_fields": 616,
+        "scope": "public numeric arrays/scalars and bytes exposed by pinned MuJoCo; not external files or a cryptographic attestation"
+      },
+      "status": "PASS",
+      "candidate_activated": true,
+      "semantic_summary": {
+        "status": "SEMANTIC_DIFFERENCES",
+        "difference_count": 15,
+        "fields": [
+          "disableflags",
+          "geom_gap",
+          "geom_quat",
+          "geom_size",
+          "jnt_actfrclimited",
+          "jnt_actfrcrange",
+          "jnt_range"
+        ]
+      },
+      "max_body_position_error_m": 8.441395235592175e-09,
+      "max_qvel_error": 1.6191713445579126e-06,
+      "expected_result_observed": true,
+      "seconds": 0.313
+    },
+    {
+      "id": "rig-excited",
+      "keyframe": "excited",
+      "expected_status": "PASS",
+      "reason": null,
+      "input_fingerprint": {
+        "sha256": "40b81d281ade3149a40129ee2a1b5585f492a73df328b4c12fdc3eeea1a75d2a",
+        "public_fields": 616,
+        "scope": "public numeric arrays/scalars and bytes exposed by pinned MuJoCo; not external files or a cryptographic attestation"
+      },
+      "status": "PASS",
+      "candidate_activated": true,
+      "semantic_summary": {
+        "status": "SEMANTIC_DIFFERENCES",
+        "difference_count": 15,
+        "fields": [
+          "disableflags",
+          "geom_gap",
+          "geom_quat",
+          "geom_size",
+          "jnt_actfrclimited",
+          "jnt_actfrcrange",
+          "jnt_range"
+        ]
+      },
+      "max_body_position_error_m": 4.172367340515848e-09,
+      "max_qvel_error": 4.3501546631574683e-07,
+      "expected_result_observed": true,
+      "seconds": 0.312
+    },
+    {
+      "id": "no-contact",
+      "keyframe": "home",
+      "expected_status": "INSUFFICIENT",
+      "reason": "0.5 second rollout never reaches the floor; no contact evidence",
+      "input_fingerprint": {
+        "sha256": "cb616c2a322c0841a70021aeb988382901f6634b0201d7bae1527a9236a08c59",
+        "public_fields": 616,
+        "scope": "public numeric arrays/scalars and bytes exposed by pinned MuJoCo; not external files or a cryptographic attestation"
+      },
+      "status": "INSUFFICIENT",
+      "candidate_activated": false,
+      "semantic_summary": {
+        "status": "SEMANTIC_DIFFERENCES",
+        "difference_count": 9,
+        "fields": [
+          "disableflags",
+          "geom_conaffinity",
+          "geom_contype",
+          "geom_gap",
+          "geom_size",
+          "integrator",
+          "jnt_actfrcrange",
+          "jnt_range"
+        ]
+      },
+      "max_body_position_error_m": 0.0,
+      "max_qvel_error": 0.0,
+      "expected_result_observed": true,
+      "seconds": 0.25
+    },
+    {
+      "id": "apollo-stand",
+      "keyframe": "stand",
+      "expected_status": "PASS",
+      "reason": null,
+      "input_fingerprint": {
+        "sha256": "5056fcf3b0534955d353b1ad0a5021a25d459d3bea2b2240e91922a44f62d940",
+        "public_fields": 616,
+        "scope": "public numeric arrays/scalars and bytes exposed by pinned MuJoCo; not external files or a cryptographic attestation"
+      },
+      "status": "PASS",
+      "candidate_activated": true,
+      "semantic_summary": {
+        "status": "SEMANTIC_DIFFERENCES",
+        "difference_count": 81,
+        "fields": [
+          "body_quat",
+          "disableflags",
+          "geom_condim",
+          "geom_gap",
+          "geom_margin",
+          "geom_quat",
+          "geom_size",
+          "iterations",
+          "jnt_actfrcrange",
+          "jnt_range",
+          "timestep"
+        ]
+      },
+      "max_body_position_error_m": 2.8735773310861745e-07,
+      "max_qvel_error": 2.787427153227995e-05,
+      "expected_result_observed": true,
+      "seconds": 34.266
+    },
+    {
+      "id": "g1-home",
+      "keyframe": "home",
+      "expected_status": "PASS",
+      "reason": null,
+      "input_fingerprint": {
+        "sha256": "4efedfe30e8394446861106ff8eb570727b1e63bca2d3a2949a2ff6739434bbc",
+        "public_fields": 616,
+        "scope": "public numeric arrays/scalars and bytes exposed by pinned MuJoCo; not external files or a cryptographic attestation"
+      },
+      "status": "PASS",
+      "candidate_activated": true,
+      "semantic_summary": {
+        "status": "SEMANTIC_DIFFERENCES",
+        "difference_count": 142,
+        "fields": [
+          "body_quat",
+          "disableflags",
+          "geom_conaffinity",
+          "geom_condim",
+          "geom_contype",
+          "geom_gap",
+          "geom_quat",
+          "geom_size",
+          "iterations",
+          "jnt_actfrcrange",
+          "jnt_range",
+          "timestep"
+        ]
+      },
+      "max_body_position_error_m": 6.209867010192882e-07,
+      "max_qvel_error": 0.00029009838186944137,
+      "expected_result_observed": true,
+      "seconds": 7.14
+    },
+    {
+      "id": "g1-knees",
+      "keyframe": "knees_bent",
+      "expected_status": "FAIL",
+      "reason": "Known velocity divergence; source unchanged, candidate must not activate",
+      "input_fingerprint": {
+        "sha256": "4efedfe30e8394446861106ff8eb570727b1e63bca2d3a2949a2ff6739434bbc",
+        "public_fields": 616,
+        "scope": "public numeric arrays/scalars and bytes exposed by pinned MuJoCo; not external files or a cryptographic attestation"
+      },
+      "status": "FAIL",
+      "candidate_activated": false,
+      "semantic_summary": {
+        "status": "SEMANTIC_DIFFERENCES",
+        "difference_count": 142,
+        "fields": [
+          "body_quat",
+          "disableflags",
+          "geom_conaffinity",
+          "geom_condim",
+          "geom_contype",
+          "geom_gap",
+          "geom_quat",
+          "geom_size",
+          "iterations",
+          "jnt_actfrcrange",
+          "jnt_range",
+          "timestep"
+        ]
+      },
+      "max_body_position_error_m": 0.00019509633026271872,
+      "max_qvel_error": 0.15500007109600666,
+      "expected_result_observed": true,
+      "seconds": 7.016
+    }
+  ],
+  "external_human_trial": false,
+  "baseline_compared": false,
+  "regressions": [],
+  "status": "EXPECTED_RESULTS_VERIFIED",
+  "qualification": "Expected failures remain failures; this aggregate is a workflow/CI result, not blanket asset qualification.",
+  "raw_local_report_sha256": "1dc8912c8b565711f8b155059b7c88f396d4f52ff6d2fa82a872e1d58d6d182b"
+}

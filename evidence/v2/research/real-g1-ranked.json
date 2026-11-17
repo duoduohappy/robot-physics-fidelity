@@ -1,0 +1,63 @@
+{
+  "status": "UNRESOLVED",
+  "method": "ranked",
+  "budget": 64,
+  "candidate_count": 30,
+  "selected_changes": [],
+  "one_minimal_verified": false,
+  "full_rollouts": 2,
+  "same_state_forward_calls": 0,
+  "source_sampling_steps": 0,
+  "source_sampling_forward_calls": 0,
+  "seconds": 0.48399999999674037,
+  "ranking_scores": null,
+  "trials": [
+    {
+      "restored": [],
+      "status": "FAIL",
+      "max_qvel_error": 0.15500007109600666,
+      "max_body_position_error_m": 0.00019509633026271872
+    },
+    {
+      "restored": [
+        "jnt_actfrcrange:0",
+        "jnt_actfrcrange:1",
+        "jnt_actfrcrange:2",
+        "jnt_actfrcrange:3",
+        "jnt_actfrcrange:4",
+        "jnt_actfrcrange:5",
+        "jnt_actfrcrange:6",
+        "jnt_actfrcrange:7",
+        "jnt_actfrcrange:8",
+        "jnt_actfrcrange:9",
+        "jnt_actfrcrange:10",
+        "jnt_actfrcrange:11",
+        "jnt_actfrcrange:12",
+        "jnt_actfrcrange:13",
+        "jnt_actfrcrange:14",
+        "jnt_actfrcrange:15",
+        "jnt_actfrcrange:16",
+        "jnt_actfrcrange:17",
+        "jnt_actfrcrange:18",
+        "jnt_actfrcrange:19",
+        "jnt_actfrcrange:20",
+        "jnt_actfrcrange:21",
+        "jnt_actfrcrange:22",
+        "jnt_actfrcrange:23",
+        "jnt_actfrcrange:24",
+        "jnt_actfrcrange:25",
+        "jnt_actfrcrange:26",
+        "jnt_actfrcrange:27",
+        "jnt_actfrcrange:28",
+        "jnt_actfrcrange:29"
+      ],
+      "status": "FAIL",
+      "max_qvel_error": 0.15500007109600666,
+      "max_body_position_error_m": 0.00019509633026271872
+    }
+  ],
+  "caller_models_unchanged": true,
+  "asset_modified": false,
+  "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair.",
+  "raw_local_report_sha256": "0709f3626c4ab4a11c9f831614f495326504dd8bba5deff5ba481fe4597c3563"
+}

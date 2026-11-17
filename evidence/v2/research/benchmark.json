@@ -1,0 +1,5586 @@
+{
+  "status": "COMPLETED_EXPERIMENTS",
+  "methods": {
+    "singletons": {
+      "unique_cases": 10,
+      "runs": 50,
+      "exact_injected_set_runs": 35,
+      "confirmed": 40,
+      "false_selected_count": 0,
+      "full_rollouts": 610,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 16.92299999995157,
+      "median_seconds_per_run": 0.35150000000430737
+    },
+    "ddmin": {
+      "unique_cases": 10,
+      "runs": 50,
+      "exact_injected_set_runs": 45,
+      "confirmed": 50,
+      "false_selected_count": 0,
+      "full_rollouts": 645,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 17.772000000055414,
+      "median_seconds_per_run": 0.242500000007567
+    },
+    "unranked": {
+      "unique_cases": 10,
+      "runs": 50,
+      "exact_injected_set_runs": 45,
+      "confirmed": 50,
+      "false_selected_count": 0,
+      "full_rollouts": 950,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 26.153999999922235,
+      "median_seconds_per_run": 0.6095000000059372
+    },
+    "ranked": {
+      "unique_cases": 10,
+      "runs": 50,
+      "exact_injected_set_runs": 45,
+      "confirmed": 50,
+      "false_selected_count": 0,
+      "full_rollouts": 335,
+      "same_state_forward_calls": 2700,
+      "source_sampling_steps": 2550,
+      "source_sampling_forward_calls": 150,
+      "seconds": 11.2970000001078,
+      "median_seconds_per_run": 0.125
+    }
+  },
+  "cases": [
+    {
+      "case": "rig-hold-gain",
+      "split": "development",
+      "repetition": 0,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.14100000000325963,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-gain",
+      "split": "development",
+      "repetition": 0,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 23,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.6089999999967404,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-gain",
+      "split": "development",
+      "repetition": 0,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 13,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.34399999998277053,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-gain",
+      "split": "development",
+      "repetition": 0,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.2340000000258442,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-gain",
+      "split": "development",
+      "repetition": 1,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 23,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.5940000000118744,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-gain",
+      "split": "development",
+      "repetition": 1,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.1409999999741558,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-gain",
+      "split": "development",
+      "repetition": 1,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 13,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.34400000001187436,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-gain",
+      "split": "development",
+      "repetition": 1,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.25,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-gain",
+      "split": "development",
+      "repetition": 2,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.14000000001396984,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-gain",
+      "split": "development",
+      "repetition": 2,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.25,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-gain",
+      "split": "development",
+      "repetition": 2,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 13,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.35999999998603016,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-gain",
+      "split": "development",
+      "repetition": 2,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 23,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.625,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-gain",
+      "split": "development",
+      "repetition": 3,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.25,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-gain",
+      "split": "development",
+      "repetition": 3,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 23,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.6089999999967404,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-gain",
+      "split": "development",
+      "repetition": 3,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 13,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.35899999999674037,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-gain",
+      "split": "development",
+      "repetition": 3,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.125,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-gain",
+      "split": "development",
+      "repetition": 4,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 13,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.360000000015134,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-gain",
+      "split": "development",
+      "repetition": 4,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.139999999984866,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-gain",
+      "split": "development",
+      "repetition": 4,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.235000000015134,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-gain",
+      "split": "development",
+      "repetition": 4,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 23,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.610000000015134,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-damping",
+      "split": "development",
+      "repetition": 0,
+      "execution_order": 0,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 8,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.21900000001187436,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-damping",
+      "split": "development",
+      "repetition": 0,
+      "execution_order": 1,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.25,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-damping",
+      "split": "development",
+      "repetition": 0,
+      "execution_order": 2,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 15,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.39100000000325963,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-damping",
+      "split": "development",
+      "repetition": 0,
+      "execution_order": 3,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 36,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 1.0160000000032596,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-damping",
+      "split": "development",
+      "repetition": 1,
+      "execution_order": 0,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 15,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.4210000000020955,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-damping",
+      "split": "development",
+      "repetition": 1,
+      "execution_order": 1,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.23499999998603016,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-damping",
+      "split": "development",
+      "repetition": 1,
+      "execution_order": 2,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 8,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.20399999999790452,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-damping",
+      "split": "development",
+      "repetition": 1,
+      "execution_order": 3,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 36,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 1.0,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-damping",
+      "split": "development",
+      "repetition": 2,
+      "execution_order": 0,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 15,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.40599999998812564,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-damping",
+      "split": "development",
+      "repetition": 2,
+      "execution_order": 1,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.25,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-damping",
+      "split": "development",
+      "repetition": 2,
+      "execution_order": 2,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 36,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 1.0,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-damping",
+      "split": "development",
+      "repetition": 2,
+      "execution_order": 3,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 8,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.21899999998277053,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-damping",
+      "split": "development",
+      "repetition": 3,
+      "execution_order": 0,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 36,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 1.0150000000139698,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-damping",
+      "split": "development",
+      "repetition": 3,
+      "execution_order": 1,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.25,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-damping",
+      "split": "development",
+      "repetition": 3,
+      "execution_order": 2,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 15,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.39100000000325963,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-damping",
+      "split": "development",
+      "repetition": 3,
+      "execution_order": 3,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 8,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.21799999999348074,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-damping",
+      "split": "development",
+      "repetition": 4,
+      "execution_order": 0,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 36,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 1.0160000000032596,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-damping",
+      "split": "development",
+      "repetition": 4,
+      "execution_order": 1,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.23399999999674037,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-damping",
+      "split": "development",
+      "repetition": 4,
+      "execution_order": 2,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 15,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.40599999998812564,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-damping",
+      "split": "development",
+      "repetition": 4,
+      "execution_order": 3,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 8,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.21900000001187436,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-combined",
+      "split": "development",
+      "repetition": 0,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.125,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-combined",
+      "split": "development",
+      "repetition": 0,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 23,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.625,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-combined",
+      "split": "development",
+      "repetition": 0,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 13,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.34299999999348074,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-combined",
+      "split": "development",
+      "repetition": 0,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.25,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-combined",
+      "split": "development",
+      "repetition": 1,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.25,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-combined",
+      "split": "development",
+      "repetition": 1,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 23,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.625,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-combined",
+      "split": "development",
+      "repetition": 1,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.125,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-combined",
+      "split": "development",
+      "repetition": 1,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 13,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.375,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-combined",
+      "split": "development",
+      "repetition": 2,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 23,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.6089999999967404,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-combined",
+      "split": "development",
+      "repetition": 2,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.125,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-combined",
+      "split": "development",
+      "repetition": 2,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 13,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.35899999999674037,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-combined",
+      "split": "development",
+      "repetition": 2,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.235000000015134,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-combined",
+      "split": "development",
+      "repetition": 3,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 13,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.34400000001187436,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-combined",
+      "split": "development",
+      "repetition": 3,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 23,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.625,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-combined",
+      "split": "development",
+      "repetition": 3,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.125,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-combined",
+      "split": "development",
+      "repetition": 3,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.235000000015134,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-combined",
+      "split": "development",
+      "repetition": 4,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.25,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-combined",
+      "split": "development",
+      "repetition": 4,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 23,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.6559999999881256,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-combined",
+      "split": "development",
+      "repetition": 4,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.14100000000325963,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-hold-combined",
+      "split": "development",
+      "repetition": 4,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 13,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.35899999999674037,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-gain",
+      "split": "held_out_configuration",
+      "repetition": 0,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 13,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.3590000000258442,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-gain",
+      "split": "held_out_configuration",
+      "repetition": 0,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.25,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-gain",
+      "split": "held_out_configuration",
+      "repetition": 0,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.14100000000325963,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-gain",
+      "split": "held_out_configuration",
+      "repetition": 0,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 23,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.6719999999913853,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-gain",
+      "split": "held_out_configuration",
+      "repetition": 1,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 13,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.375,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-gain",
+      "split": "held_out_configuration",
+      "repetition": 1,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 23,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.6559999999881256,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-gain",
+      "split": "held_out_configuration",
+      "repetition": 1,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.14000000001396984,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-gain",
+      "split": "held_out_configuration",
+      "repetition": 1,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.28200000000651926,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-gain",
+      "split": "held_out_configuration",
+      "repetition": 2,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.264999999984866,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-gain",
+      "split": "held_out_configuration",
+      "repetition": 2,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 23,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.6720000000204891,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-gain",
+      "split": "held_out_configuration",
+      "repetition": 2,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 13,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.375,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-gain",
+      "split": "held_out_configuration",
+      "repetition": 2,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.125,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-gain",
+      "split": "held_out_configuration",
+      "repetition": 3,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 13,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.35999999998603016,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-gain",
+      "split": "held_out_configuration",
+      "repetition": 3,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.25,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-gain",
+      "split": "held_out_configuration",
+      "repetition": 3,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 23,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.7029999999795109,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-gain",
+      "split": "held_out_configuration",
+      "repetition": 3,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.125,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-gain",
+      "split": "held_out_configuration",
+      "repetition": 4,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 23,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.625,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-gain",
+      "split": "held_out_configuration",
+      "repetition": 4,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.26600000000325963,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-gain",
+      "split": "held_out_configuration",
+      "repetition": 4,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 13,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.375,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-gain",
+      "split": "held_out_configuration",
+      "repetition": 4,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.125,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-damping",
+      "split": "held_out_configuration",
+      "repetition": 0,
+      "execution_order": 0,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.125,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-damping",
+      "split": "held_out_configuration",
+      "repetition": 0,
+      "execution_order": 1,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 15,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.40700000000651926,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-damping",
+      "split": "held_out_configuration",
+      "repetition": 0,
+      "execution_order": 2,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 8,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.235000000015134,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-damping",
+      "split": "held_out_configuration",
+      "repetition": 0,
+      "execution_order": 3,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.25,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-damping",
+      "split": "held_out_configuration",
+      "repetition": 1,
+      "execution_order": 0,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.25,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-damping",
+      "split": "held_out_configuration",
+      "repetition": 1,
+      "execution_order": 1,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 15,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.42199999999138527,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-damping",
+      "split": "held_out_configuration",
+      "repetition": 1,
+      "execution_order": 2,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.125,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-damping",
+      "split": "held_out_configuration",
+      "repetition": 1,
+      "execution_order": 3,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 8,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.23499999998603016,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-damping",
+      "split": "held_out_configuration",
+      "repetition": 2,
+      "execution_order": 0,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 15,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.4370000000053551,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-damping",
+      "split": "held_out_configuration",
+      "repetition": 2,
+      "execution_order": 1,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.25,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-damping",
+      "split": "held_out_configuration",
+      "repetition": 2,
+      "execution_order": 2,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 8,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.23399999999674037,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-damping",
+      "split": "held_out_configuration",
+      "repetition": 2,
+      "execution_order": 3,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.15700000000651926,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-damping",
+      "split": "held_out_configuration",
+      "repetition": 3,
+      "execution_order": 0,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.25,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-damping",
+      "split": "held_out_configuration",
+      "repetition": 3,
+      "execution_order": 1,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 15,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.4220000000204891,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-damping",
+      "split": "held_out_configuration",
+      "repetition": 3,
+      "execution_order": 2,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.125,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-damping",
+      "split": "held_out_configuration",
+      "repetition": 3,
+      "execution_order": 3,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 8,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.21900000001187436,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-damping",
+      "split": "held_out_configuration",
+      "repetition": 4,
+      "execution_order": 0,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.14000000001396984,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-damping",
+      "split": "held_out_configuration",
+      "repetition": 4,
+      "execution_order": 1,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.25,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-damping",
+      "split": "held_out_configuration",
+      "repetition": 4,
+      "execution_order": 2,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 15,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.42199999999138527,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-damping",
+      "split": "held_out_configuration",
+      "repetition": 4,
+      "execution_order": 3,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 8,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.21899999998277053,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-combined",
+      "split": "held_out_configuration",
+      "repetition": 0,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 5,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.1870000000053551,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-combined",
+      "split": "held_out_configuration",
+      "repetition": 0,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 32,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.8909999999741558,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-combined",
+      "split": "held_out_configuration",
+      "repetition": 0,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 25,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.7030000000086147,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-combined",
+      "split": "held_out_configuration",
+      "repetition": 0,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "UNRESOLVED_COMBINATION",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": false,
+      "full_rollouts": 20,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.5620000000053551,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-combined",
+      "split": "held_out_configuration",
+      "repetition": 1,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 25,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.6879999999946449,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-combined",
+      "split": "held_out_configuration",
+      "repetition": 1,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "UNRESOLVED_COMBINATION",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": false,
+      "full_rollouts": 20,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.5620000000053551,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-combined",
+      "split": "held_out_configuration",
+      "repetition": 1,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 5,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.1879999999946449,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-combined",
+      "split": "held_out_configuration",
+      "repetition": 1,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 32,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.8910000000032596,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-combined",
+      "split": "held_out_configuration",
+      "repetition": 2,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 32,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.875,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-combined",
+      "split": "held_out_configuration",
+      "repetition": 2,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "UNRESOLVED_COMBINATION",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": false,
+      "full_rollouts": 20,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.5779999999795109,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-combined",
+      "split": "held_out_configuration",
+      "repetition": 2,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 5,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.1879999999946449,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-combined",
+      "split": "held_out_configuration",
+      "repetition": 2,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 25,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.7039999999979045,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-combined",
+      "split": "held_out_configuration",
+      "repetition": 3,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "UNRESOLVED_COMBINATION",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": false,
+      "full_rollouts": 20,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.5629999999946449,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-combined",
+      "split": "held_out_configuration",
+      "repetition": 3,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 25,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.7029999999795109,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-combined",
+      "split": "held_out_configuration",
+      "repetition": 3,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 5,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.1870000000053551,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-combined",
+      "split": "held_out_configuration",
+      "repetition": 3,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 32,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.8910000000032596,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-combined",
+      "split": "held_out_configuration",
+      "repetition": 4,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 5,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.17100000000209548,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-combined",
+      "split": "held_out_configuration",
+      "repetition": 4,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "UNRESOLVED_COMBINATION",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": false,
+      "full_rollouts": 20,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.5789999999979045,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-combined",
+      "split": "held_out_configuration",
+      "repetition": 4,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 32,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.875,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-limit-combined",
+      "split": "held_out_configuration",
+      "repetition": 4,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 25,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.6870000000053551,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-gain",
+      "split": "held_out_configuration",
+      "repetition": 0,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 23,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.6410000000032596,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-gain",
+      "split": "held_out_configuration",
+      "repetition": 0,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 13,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.35899999999674037,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-gain",
+      "split": "held_out_configuration",
+      "repetition": 0,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.235000000015134,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-gain",
+      "split": "held_out_configuration",
+      "repetition": 0,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.125,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-gain",
+      "split": "held_out_configuration",
+      "repetition": 1,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 13,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.360000000015134,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-gain",
+      "split": "held_out_configuration",
+      "repetition": 1,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 23,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.6089999999967404,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-gain",
+      "split": "held_out_configuration",
+      "repetition": 1,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.125,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-gain",
+      "split": "held_out_configuration",
+      "repetition": 1,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.25,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-gain",
+      "split": "held_out_configuration",
+      "repetition": 2,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 23,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.639999999984866,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-gain",
+      "split": "held_out_configuration",
+      "repetition": 2,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.125,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-gain",
+      "split": "held_out_configuration",
+      "repetition": 2,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.25,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-gain",
+      "split": "held_out_configuration",
+      "repetition": 2,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 13,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.34400000001187436,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-gain",
+      "split": "held_out_configuration",
+      "repetition": 3,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.125,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-gain",
+      "split": "held_out_configuration",
+      "repetition": 3,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 23,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.625,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-gain",
+      "split": "held_out_configuration",
+      "repetition": 3,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 13,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.35899999999674037,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-gain",
+      "split": "held_out_configuration",
+      "repetition": 3,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.25,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-gain",
+      "split": "held_out_configuration",
+      "repetition": 4,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 13,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.35899999999674037,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-gain",
+      "split": "held_out_configuration",
+      "repetition": 4,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 23,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.6410000000032596,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-gain",
+      "split": "held_out_configuration",
+      "repetition": 4,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.25,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-gain",
+      "split": "held_out_configuration",
+      "repetition": 4,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0"
+      ],
+      "selected": [
+        "actuator_gainprm:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.125,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-damping",
+      "split": "held_out_configuration",
+      "repetition": 0,
+      "execution_order": 0,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.26600000000325963,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-damping",
+      "split": "held_out_configuration",
+      "repetition": 0,
+      "execution_order": 1,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 15,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.4370000000053551,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-damping",
+      "split": "held_out_configuration",
+      "repetition": 0,
+      "execution_order": 2,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 8,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.23399999999674037,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-damping",
+      "split": "held_out_configuration",
+      "repetition": 0,
+      "execution_order": 3,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.125,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-damping",
+      "split": "held_out_configuration",
+      "repetition": 1,
+      "execution_order": 0,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 15,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.40700000000651926,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-damping",
+      "split": "held_out_configuration",
+      "repetition": 1,
+      "execution_order": 1,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 8,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.21799999999348074,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-damping",
+      "split": "held_out_configuration",
+      "repetition": 1,
+      "execution_order": 2,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.125,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-damping",
+      "split": "held_out_configuration",
+      "repetition": 1,
+      "execution_order": 3,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.25,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-damping",
+      "split": "held_out_configuration",
+      "repetition": 2,
+      "execution_order": 0,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 8,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.21899999998277053,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-damping",
+      "split": "held_out_configuration",
+      "repetition": 2,
+      "execution_order": 1,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.26500000001396984,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-damping",
+      "split": "held_out_configuration",
+      "repetition": 2,
+      "execution_order": 2,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 15,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.42199999999138527,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-damping",
+      "split": "held_out_configuration",
+      "repetition": 2,
+      "execution_order": 3,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.125,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-damping",
+      "split": "held_out_configuration",
+      "repetition": 3,
+      "execution_order": 0,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 8,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.21900000001187436,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-damping",
+      "split": "held_out_configuration",
+      "repetition": 3,
+      "execution_order": 1,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 15,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.42199999999138527,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-damping",
+      "split": "held_out_configuration",
+      "repetition": 3,
+      "execution_order": 2,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.125,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-damping",
+      "split": "held_out_configuration",
+      "repetition": 3,
+      "execution_order": 3,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.23499999998603016,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-damping",
+      "split": "held_out_configuration",
+      "repetition": 4,
+      "execution_order": 0,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 15,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.40599999998812564,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-damping",
+      "split": "held_out_configuration",
+      "repetition": 4,
+      "execution_order": 1,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 8,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.21900000001187436,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-damping",
+      "split": "held_out_configuration",
+      "repetition": 4,
+      "execution_order": 2,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.125,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-damping",
+      "split": "held_out_configuration",
+      "repetition": 4,
+      "execution_order": 3,
+      "truth": [
+        "dof_damping:6"
+      ],
+      "selected": [
+        "dof_damping:6"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 9,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.25,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-combined",
+      "split": "held_out_configuration",
+      "repetition": 0,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 25,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.6870000000053551,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-combined",
+      "split": "held_out_configuration",
+      "repetition": 0,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "UNRESOLVED_COMBINATION",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": false,
+      "full_rollouts": 20,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.5470000000204891,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-combined",
+      "split": "held_out_configuration",
+      "repetition": 0,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 32,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.8439999999827705,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-combined",
+      "split": "held_out_configuration",
+      "repetition": 0,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 5,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.17199999999138527,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-combined",
+      "split": "held_out_configuration",
+      "repetition": 1,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 25,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.6720000000204891,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-combined",
+      "split": "held_out_configuration",
+      "repetition": 1,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "UNRESOLVED_COMBINATION",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": false,
+      "full_rollouts": 20,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.5620000000053551,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-combined",
+      "split": "held_out_configuration",
+      "repetition": 1,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 32,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.8599999999860302,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-combined",
+      "split": "held_out_configuration",
+      "repetition": 1,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 5,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.1870000000053551,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-combined",
+      "split": "held_out_configuration",
+      "repetition": 2,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "UNRESOLVED_COMBINATION",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": false,
+      "full_rollouts": 20,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.5309999999881256,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-combined",
+      "split": "held_out_configuration",
+      "repetition": 2,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 25,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.6720000000204891,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-combined",
+      "split": "held_out_configuration",
+      "repetition": 2,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 32,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.8900000000139698,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-combined",
+      "split": "held_out_configuration",
+      "repetition": 2,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 5,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.1879999999946449,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-combined",
+      "split": "held_out_configuration",
+      "repetition": 3,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "UNRESOLVED_COMBINATION",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": false,
+      "full_rollouts": 20,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.5469999999913853,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-combined",
+      "split": "held_out_configuration",
+      "repetition": 3,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 32,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.8590000000258442,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-combined",
+      "split": "held_out_configuration",
+      "repetition": 3,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 25,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.6559999999881256,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-combined",
+      "split": "held_out_configuration",
+      "repetition": 3,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 5,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.17199999999138527,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-combined",
+      "split": "held_out_configuration",
+      "repetition": 4,
+      "execution_order": 0,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 32,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.875,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-combined",
+      "split": "held_out_configuration",
+      "repetition": 4,
+      "execution_order": 1,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 25,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.6710000000020955,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-combined",
+      "split": "held_out_configuration",
+      "repetition": 4,
+      "execution_order": 2,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [],
+      "exact_injected_set": false,
+      "false_selected_count": 0,
+      "status": "UNRESOLVED_COMBINATION",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": false,
+      "full_rollouts": 20,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.5309999999881256,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "rig-excited-combined",
+      "split": "held_out_configuration",
+      "repetition": 4,
+      "execution_order": 3,
+      "truth": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "selected": [
+        "actuator_gainprm:0",
+        "dof_damping:7"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 18,
+      "one_minimal_verified": true,
+      "full_rollouts": 5,
+      "same_state_forward_calls": 57,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.1720000000204891,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "box-slide-damping",
+      "split": "held_out_topology",
+      "repetition": 0,
+      "execution_order": 0,
+      "truth": [
+        "dof_damping:0"
+      ],
+      "selected": [
+        "dof_damping:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 8,
+      "one_minimal_verified": true,
+      "full_rollouts": 5,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.14100000000325963,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "box-slide-damping",
+      "split": "held_out_topology",
+      "repetition": 0,
+      "execution_order": 1,
+      "truth": [
+        "dof_damping:0"
+      ],
+      "selected": [
+        "dof_damping:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 8,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.0779999999795109,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "box-slide-damping",
+      "split": "held_out_topology",
+      "repetition": 0,
+      "execution_order": 2,
+      "truth": [
+        "dof_damping:0"
+      ],
+      "selected": [
+        "dof_damping:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 8,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 27,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.09400000001187436,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "box-slide-damping",
+      "split": "held_out_topology",
+      "repetition": 0,
+      "execution_order": 3,
+      "truth": [
+        "dof_damping:0"
+      ],
+      "selected": [
+        "dof_damping:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 8,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.09399999998277053,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "box-slide-damping",
+      "split": "held_out_topology",
+      "repetition": 1,
+      "execution_order": 0,
+      "truth": [
+        "dof_damping:0"
+      ],
+      "selected": [
+        "dof_damping:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 8,
+      "one_minimal_verified": true,
+      "full_rollouts": 5,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.14100000000325963,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "box-slide-damping",
+      "split": "held_out_topology",
+      "repetition": 1,
+      "execution_order": 1,
+      "truth": [
+        "dof_damping:0"
+      ],
+      "selected": [
+        "dof_damping:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 8,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.0779999999795109,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "box-slide-damping",
+      "split": "held_out_topology",
+      "repetition": 1,
+      "execution_order": 2,
+      "truth": [
+        "dof_damping:0"
+      ],
+      "selected": [
+        "dof_damping:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 8,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 27,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.11000000001513399,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "box-slide-damping",
+      "split": "held_out_topology",
+      "repetition": 1,
+      "execution_order": 3,
+      "truth": [
+        "dof_damping:0"
+      ],
+      "selected": [
+        "dof_damping:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 8,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.09299999999348074,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "box-slide-damping",
+      "split": "held_out_topology",
+      "repetition": 2,
+      "execution_order": 0,
+      "truth": [
+        "dof_damping:0"
+      ],
+      "selected": [
+        "dof_damping:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 8,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 27,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.10999999998603016,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "box-slide-damping",
+      "split": "held_out_topology",
+      "repetition": 2,
+      "execution_order": 1,
+      "truth": [
+        "dof_damping:0"
+      ],
+      "selected": [
+        "dof_damping:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 8,
+      "one_minimal_verified": true,
+      "full_rollouts": 5,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.14000000001396984,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "box-slide-damping",
+      "split": "held_out_topology",
+      "repetition": 2,
+      "execution_order": 2,
+      "truth": [
+        "dof_damping:0"
+      ],
+      "selected": [
+        "dof_damping:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 8,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.09400000001187436,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "box-slide-damping",
+      "split": "held_out_topology",
+      "repetition": 2,
+      "execution_order": 3,
+      "truth": [
+        "dof_damping:0"
+      ],
+      "selected": [
+        "dof_damping:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 8,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.0779999999795109,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "box-slide-damping",
+      "split": "held_out_topology",
+      "repetition": 3,
+      "execution_order": 0,
+      "truth": [
+        "dof_damping:0"
+      ],
+      "selected": [
+        "dof_damping:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 8,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.09400000001187436,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "box-slide-damping",
+      "split": "held_out_topology",
+      "repetition": 3,
+      "execution_order": 1,
+      "truth": [
+        "dof_damping:0"
+      ],
+      "selected": [
+        "dof_damping:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 8,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.09399999998277053,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "box-slide-damping",
+      "split": "held_out_topology",
+      "repetition": 3,
+      "execution_order": 2,
+      "truth": [
+        "dof_damping:0"
+      ],
+      "selected": [
+        "dof_damping:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 8,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 27,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.1090000000258442,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "box-slide-damping",
+      "split": "held_out_topology",
+      "repetition": 3,
+      "execution_order": 3,
+      "truth": [
+        "dof_damping:0"
+      ],
+      "selected": [
+        "dof_damping:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 8,
+      "one_minimal_verified": true,
+      "full_rollouts": 5,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.1409999999741558,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "box-slide-damping",
+      "split": "held_out_topology",
+      "repetition": 4,
+      "execution_order": 0,
+      "truth": [
+        "dof_damping:0"
+      ],
+      "selected": [
+        "dof_damping:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 8,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 27,
+      "source_sampling_steps": 51,
+      "source_sampling_forward_calls": 3,
+      "seconds": 0.1090000000258442,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "box-slide-damping",
+      "split": "held_out_topology",
+      "repetition": 4,
+      "execution_order": 1,
+      "truth": [
+        "dof_damping:0"
+      ],
+      "selected": [
+        "dof_damping:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "unranked",
+      "budget": 64,
+      "candidate_count": 8,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.0779999999795109,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "box-slide-damping",
+      "split": "held_out_topology",
+      "repetition": 4,
+      "execution_order": 2,
+      "truth": [
+        "dof_damping:0"
+      ],
+      "selected": [
+        "dof_damping:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 8,
+      "one_minimal_verified": true,
+      "full_rollouts": 5,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.14100000000325963,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "box-slide-damping",
+      "split": "held_out_topology",
+      "repetition": 4,
+      "execution_order": 3,
+      "truth": [
+        "dof_damping:0"
+      ],
+      "selected": [
+        "dof_damping:0"
+      ],
+      "exact_injected_set": true,
+      "false_selected_count": 0,
+      "status": "CONFIRMED_WITHIN_TEST",
+      "method": "singletons",
+      "budget": 64,
+      "candidate_count": 8,
+      "one_minimal_verified": true,
+      "full_rollouts": 3,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.09400000001187436,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "real-g1",
+      "split": "real_conversion_failure",
+      "truth": null,
+      "status": "UNRESOLVED",
+      "method": "ddmin",
+      "budget": 64,
+      "candidate_count": 30,
+      "one_minimal_verified": false,
+      "full_rollouts": 2,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.48399999999674037,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    },
+    {
+      "case": "real-g1",
+      "split": "real_conversion_failure",
+      "truth": null,
+      "status": "UNRESOLVED",
+      "method": "ranked",
+      "budget": 64,
+      "candidate_count": 30,
+      "one_minimal_verified": false,
+      "full_rollouts": 2,
+      "same_state_forward_calls": 0,
+      "source_sampling_steps": 0,
+      "source_sampling_forward_calls": 0,
+      "seconds": 0.48399999999674037,
+      "caller_models_unchanged": true,
+      "asset_modified": false,
+      "meaning": "A 1-minimal sufficient native-array repair set within this test and candidate whitelist; not a unique cause or a persistent USD repair."
+    }
+  ],
+  "total_seconds": 77.95299999997951,
+  "repetitions": 5,
+  "seed": 20261117,
+  "method_order": "seeded random order within every case/repetition",
+  "predeclared_primary_metrics": [
+    "exact injected-set recovery",
+    "false selected rows",
+    "full rollouts",
+    "forward calls",
+    "wall time including ranking"
+  ],
+  "external_validation": false,
+  "novel_algorithm_claim": false,
+  "limitations": [
+    "Synthetic known faults and inactive/tiny distractors; not a representative industry dataset",
+    "Held-out means predefined fixture configurations/topology, not a separate organization or robot",
+    "Repeated same-machine timing; wall times are descriptive, no cross-machine or significance claim",
+    "Single-row interventions may fail for combinations; 1-minimal sufficient repair is not a unique root cause",
+    "G1 real failure may remain unresolved; all candidate repairs are native diagnostic copies"
+  ],
+  "raw_local_report_sha256": "be2d55c9db9a90e4c86b848f2b44abe2e3d4bc2fc0bcb2aab4e7edb78c3c8760"
+}

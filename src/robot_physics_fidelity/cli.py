@@ -6,11 +6,16 @@ import os
 from pathlib import Path
 
 EXIT={'PASS':0,'PLANNED':0,'SUPPORTED':0,'SELECTED':0,'ROLLED_BACK':0,'READY':0,'FETCHED':0,'FAIL':4,'INSUFFICIENT':5,'UNSUPPORTED':3,'ERROR':2}
+EXIT.update(EXPECTED_RESULTS_VERIFIED=0,REVIEW_REQUIRED=6,UNEXPECTED_RESULT=7,SEMANTIC_DIFFERENCES=6,MATCH_WITHIN_AUDIT_TOLERANCE=0)
+EXIT.update(CONFIRMED_WITHIN_TEST=0,NO_FAILURE=0,UNRESOLVED=8,UNRESOLVED_COMBINATION=8,BUDGET_EXHAUSTED=9)
 
 def main(argv=None):
     parser=argparse.ArgumentParser(description=__doc__)
     sub=parser.add_subparsers(dest='command',required=True)
     sub.add_parser('doctor')
+    batch=sub.add_parser('suite'); batch.add_argument('--manifest',required=True); batch.add_argument('--output',required=True); batch.add_argument('--baseline')
+    audit=sub.add_parser('audit'); audit.add_argument('--source',required=True); audit.add_argument('--keyframe',required=True); audit.add_argument('--candidate',required=True); audit.add_argument('--report')
+    research=sub.add_parser('localize'); research.add_argument('--source',required=True); research.add_argument('--keyframe',required=True); research.add_argument('--candidate',required=True); research.add_argument('--method',choices=['ranked','unranked','ddmin','singletons'],default='ranked'); research.add_argument('--budget',type=int,default=64); research.add_argument('--report')
     fetch=sub.add_parser('fetch-demo'); fetch.add_argument('--asset',choices=['apollo','g1'],required=True); fetch.add_argument('--directory',required=True)
     for name in ['inspect','plan','diagnose','validate']:
         p=sub.add_parser(name); p.add_argument('--source',required=True); p.add_argument('--keyframe',required=True)
@@ -33,6 +38,15 @@ def main(argv=None):
             result={'status':'READY' if versions==expected else 'UNSUPPORTED','versions':versions,'expected':expected,'network_access_required':False}
         else:
             from . import engine, transactions
+            if args.command=='suite':
+                from . import suite
+                result=suite.run(args.manifest,args.output,args.baseline)
+            elif args.command=='audit':
+                from . import semantics
+                result=semantics.audit(engine.preflight(args.source,args.keyframe),engine.load_target(args.candidate).mj_model)
+            elif args.command=='localize':
+                from . import research
+                result=research.localize(engine.preflight(args.source,args.keyframe),engine.load_target(args.candidate).mj_model,args.keyframe,args.method,args.budget)
             if args.command in ['inspect','plan','diagnose','validate']:
                 source=engine.preflight(args.source,args.keyframe)
             if args.command=='inspect':
@@ -41,7 +55,7 @@ def main(argv=None):
             elif args.command=='repair': result=transactions.repair(args.workspace)
             elif args.command=='rollback': result=transactions.rollback(args.workspace)
             elif args.command=='active-path': result=transactions.active_path(args.workspace)
-            else:
+            elif args.command in ['diagnose','validate']:
                 solver=engine.load_target(args.candidate)
                 result=(engine.diagnose if args.command=='diagnose' else engine.evaluate)(source,solver.mj_model,args.keyframe)
                 result.update(source_signature=engine.digest_model(source),keyframe=args.keyframe)

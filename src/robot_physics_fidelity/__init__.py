@@ -1,2 +1,2 @@
-"""First-tier bounded physics asset tooling."""
-__version__ = "1.0.0"
+"""Reusable bounded physics acceptance and experimental diagnostic search."""
+__version__ = "2.0.0"

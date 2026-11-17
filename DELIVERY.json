@@ -1,14 +1,26 @@
 {
-  "version": "1.0.0",
-  "wheel": "robot_physics_fidelity-1.0.0-py3-none-any.whl",
-  "wheel_sha256": "1cd75d5691a6ebf7c5c0b9a0f15490765043c3d6a8f580a2991c61c301f3bcd7",
-  "engineering_acceptance": "PASS_WITH_KNOWN_UNRESOLVED_G1_CASE",
-  "clean_cli_invocations": 19,
-  "transaction_tests": 8,
-  "second_human_usability_test": false,
-  "three_deliverables": [
-    "automatic divergence evidence with uncertainty",
-    "verified bounded repair and pointer rollback",
-    "standalone wheel and clean-environment reproduction"
+  "version": "2.0.0",
+  "wheel_sha256": "4b7dfb04a1db53f66ca4ec84607c7c1f0973277b26cb443086c7b2332ef22934",
+  "unit_tests": 21,
+  "matrix_unique_cases": 10,
+  "matrix_replays": 2,
+  "research_unique_cases": 10,
+  "research_repetitions": 5,
+  "research_method_runs": 200,
+  "full_rollout_reduction_percent": 48.06201550387597,
+  "external_user_validation": false,
+  "hardware_validation": false,
+  "novel_algorithm_proven": false,
+  "real_g1_research": [
+    [
+      "real-g1",
+      "ddmin",
+      "UNRESOLVED"
+    ],
+    [
+      "real-g1",
+      "ranked",
+      "UNRESOLVED"
+    ]
   ]
 }

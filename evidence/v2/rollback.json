@@ -1,0 +1,9 @@
+{
+  "status": "ROLLED_BACK",
+  "previous_selection": "candidate",
+  "restored_asset": "original/articulated_contact_rig.usda",
+  "source_files_modified": false,
+  "original_integrity_verified": true,
+  "runtime_state_restored": false,
+  "raw_local_report_sha256": "4ce2ad606a7e0da1ed07792b10465bd78d998a4c5d74c7ad425bdcd1add4ce2a"
+}
