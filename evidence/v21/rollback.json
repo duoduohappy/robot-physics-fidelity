@@ -1,0 +1,12 @@
+{
+  "status": "ROLLED_BACK",
+  "previous_selection": "verified_original",
+  "selection": "unqualified_original",
+  "asset": "$WORKSPACE\\work\\go2-auto-final-acceptance\\positive\\original\\go2 scene.usda",
+  "qualified": false,
+  "runtime_state_restored": false,
+  "asset_modified": false,
+  "meaning": "Revoked qualification of the same original export; no candidate file switch or running-state rollback",
+  "raw_local_sha256": "49bf3fdd97693b7ab974a761734cfbe13068f05b7968258e9de7388a77f5288a",
+  "full_trace_evidence": "releases/robot_physics_fidelity-2.1.0-evidence.zip"
+}

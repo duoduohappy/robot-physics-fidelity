@@ -1,4 +1,4 @@
-# Robot Physics Fidelity 2.0
+# Robot Physics Fidelity 2.1
 
 面向机器人仿真资产的受限物理语义审计、批量验收、可回退修复和诊断研究组件。第二档是可复用工程组件，第三档是附实验的诊断研究模块；不是新物理求解器，也没有真实机器人或 sim-to-real 验证。
 
@@ -11,7 +11,7 @@ Windows、Python 3.11。先确认 `python --version` 为 3.11；也可用已安�
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements-lock.txt
-.\.venv\Scripts\python.exe -m pip install --no-deps releases/robot_physics_fidelity-2.0.0-py3-none-any.whl
+.\.venv\Scripts\python.exe -m pip install --no-deps releases/robot_physics_fidelity-2.1.0-py3-none-any.whl
 .\.venv\Scripts\rpf.exe doctor
 .\.venv\Scripts\rpf.exe suite --manifest examples/suite.json --output runs/first
 .\.venv\Scripts\rpf.exe suite --manifest examples/suite.json --output runs/repeat --baseline runs/first/suite.json
@@ -20,6 +20,14 @@ python -m venv .venv
 ZIP 中 wheel 位于 `dist/`，将安装命令的 `releases/` 改成 `dist/`。也可从源码 `pip install --no-deps .`。每次输出目录必须不存在。首先检查 `runs/first/suite.json`、`junit.xml` 和每个案例的 `physics.json`、`semantics.json`。
 
 固定验收：0.5 秒 CPU 原生 MuJoCo 对照；身体位置分量最大差 ≤1 mm，qvel 分量最大差 ≤0.01（各自原生单位）；pair/限位参数保持，无额外接触，并要求实际接触证据。没有修改原门槛。
+
+## 新增：Go2 自动碰撞验收
+
+固定原版 Go2 现在有独立验收通道：24 个碰撞几何、276 个资格对、四组固定 CPU 条件。通过后认证官方导出并明确无需修复；失败不认证，支持撤销认证。必须使用报告记录的运行配置。旧的显式 pair 入口仍拒绝自动碰撞输入，不等于新通道不支持。
+
+[操作命令、边界与证据说明](docs/GO2_AUTOMATIC.md)
+
+[2.1 本机验收报告](docs/ACCEPTANCE_2_1.md)。历史研究结果沿用 v2 记录，没有因本次工程更新重新计算或扩大其结论。
 
 ## 第二档：可复用验收组件
 
@@ -75,7 +83,3 @@ Apollo 使用 `data/apollo/scene.xml`、`stand`；G1 使用 `data/g1/scene_mjx.x
 退出码：0 对应命令成功或预期流程完成；2 ERROR；3 UNSUPPORTED；4 物理 FAIL；5 INSUFFICIENT；6 语义差异或基线需审核；7 批量意外结果；8 研究 UNRESOLVED；9 研究预算耗尽。批量返回 0 不代表其中已知失败资产通过。上游日志可能混入 stdout，自动化读取 JSON 报告。
 
 当前没有外部团队采用、真实使用者节时或硬件效果证据。试用清单见 `docs/TRIAL_GUIDE.md`。历史 v1 结果与安装包仍保留；第二/三档结论以本版验收与研究报告为准。
-
-## 独立公开资产接入记录
-
-[Unitree Go2 接入案例](case-studies/go2/REPORT.md)：原始 CPU 模型可运行、官方转换器可导出，但本工具因自动碰撞不受支持而拒绝接入。保留源文件校验、拒绝证据与[操作向导](case-studies/go2/README.md)，不将安全拒绝说成业务接入成功。

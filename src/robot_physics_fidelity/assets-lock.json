@@ -520,5 +520,122 @@
       }
     ],
     "scene": "scene_mjx.xml"
+  },
+  "go2": {
+    "format": 1,
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "71f066ad0be9cd271f7ed58c030243ef157af9f4",
+    "asset": "Unitree Go2 MJX description",
+    "scene": "scene_mjx.xml",
+    "keyframe": "home",
+    "license": "BSD-3-Clause",
+    "maximum_download_bytes": 33554432,
+    "files": [
+      {
+        "path": "unitree_go2/CHANGELOG.md",
+        "bytes": 238,
+        "git_blob_sha1": "d5c80eb74208029f9e8c1cc91b2a5c6265204730"
+      },
+      {
+        "path": "unitree_go2/LICENSE",
+        "bytes": 1537,
+        "git_blob_sha1": "b646a94d1e171bc58d5761c1bcaadaa579a4d757"
+      },
+      {
+        "path": "unitree_go2/README.md",
+        "bytes": 2435,
+        "git_blob_sha1": "a1c7451dd564861ca2a50625badfe158c189ca36"
+      },
+      {
+        "path": "unitree_go2/go2_mjx.xml",
+        "bytes": 13770,
+        "git_blob_sha1": "cffe07dd7974a3d387e1e868a9ff4c4b4db046d0"
+      },
+      {
+        "path": "unitree_go2/scene_mjx.xml",
+        "bytes": 820,
+        "git_blob_sha1": "945ce73645dbf93b257acb1ba785ce25353d8b42"
+      },
+      {
+        "path": "unitree_go2/assets/base_0.obj",
+        "bytes": 1330465,
+        "git_blob_sha1": "f2e688236f56bd2738468a213ea61fd2f69baf0b"
+      },
+      {
+        "path": "unitree_go2/assets/base_1.obj",
+        "bytes": 811791,
+        "git_blob_sha1": "e9a44eb668902b7f934f8328e4d33c6e38df8db9"
+      },
+      {
+        "path": "unitree_go2/assets/base_2.obj",
+        "bytes": 294090,
+        "git_blob_sha1": "bc661591f01c760072cb9f3fb6d80b2545bb1d53"
+      },
+      {
+        "path": "unitree_go2/assets/base_3.obj",
+        "bytes": 379093,
+        "git_blob_sha1": "5c98393efeb90c26bef36279e000d738dff8ff9d"
+      },
+      {
+        "path": "unitree_go2/assets/base_4.obj",
+        "bytes": 7776234,
+        "git_blob_sha1": "1f45bc4fa84604cd8e69124084805104b96be188"
+      },
+      {
+        "path": "unitree_go2/assets/calf_0.obj",
+        "bytes": 877174,
+        "git_blob_sha1": "1d9be4c392ba62a96a07043096d96d0a981fb9e9"
+      },
+      {
+        "path": "unitree_go2/assets/calf_1.obj",
+        "bytes": 326865,
+        "git_blob_sha1": "01197551ce8ad7d7118590f949897c72a57b0e11"
+      },
+      {
+        "path": "unitree_go2/assets/calf_mirror_0.obj",
+        "bytes": 876538,
+        "git_blob_sha1": "710bbe9ee5190e182e31730acb0e9ec6ed4c87db"
+      },
+      {
+        "path": "unitree_go2/assets/calf_mirror_1.obj",
+        "bytes": 327261,
+        "git_blob_sha1": "6b27378a4e44d27bf974ec7ba311f5725c4dc2da"
+      },
+      {
+        "path": "unitree_go2/assets/foot.obj",
+        "bytes": 1144729,
+        "git_blob_sha1": "edc559eeb5b385e3df55573074e35ce1ef227a46"
+      },
+      {
+        "path": "unitree_go2/assets/hip_0.obj",
+        "bytes": 2863864,
+        "git_blob_sha1": "551f12437a92cf72206aa56dca412c88220b6c4a"
+      },
+      {
+        "path": "unitree_go2/assets/hip_1.obj",
+        "bytes": 2767918,
+        "git_blob_sha1": "ed2bebfc4c2febfef45a1c67c40397964a6df6e4"
+      },
+      {
+        "path": "unitree_go2/assets/thigh_0.obj",
+        "bytes": 2841868,
+        "git_blob_sha1": "0b99756ffd7d3391abeff66fc510a1ae7c5a4c8b"
+      },
+      {
+        "path": "unitree_go2/assets/thigh_1.obj",
+        "bytes": 1491320,
+        "git_blob_sha1": "5005be1de988534d0f4b94ec51eaf1ff41ba7970"
+      },
+      {
+        "path": "unitree_go2/assets/thigh_mirror_0.obj",
+        "bytes": 2817674,
+        "git_blob_sha1": "7c2fd2ce44ed9e4f1d550ca1847c7c9e58f91be1"
+      },
+      {
+        "path": "unitree_go2/assets/thigh_mirror_1.obj",
+        "bytes": 1482261,
+        "git_blob_sha1": "fb7e0b4963b9889fe6b1127bbca03844163b1bc7"
+      }
+    ]
   }
 }

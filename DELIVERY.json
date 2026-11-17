@@ -1,26 +1,22 @@
 {
-  "version": "2.0.0",
-  "wheel_sha256": "4b7dfb04a1db53f66ca4ec84607c7c1f0973277b26cb443086c7b2332ef22934",
-  "unit_tests": 21,
-  "matrix_unique_cases": 10,
-  "matrix_replays": 2,
-  "research_unique_cases": 10,
-  "research_repetitions": 5,
-  "research_method_runs": 200,
-  "full_rollout_reduction_percent": 48.06201550387597,
-  "external_user_validation": false,
+  "version": "2.1.0",
+  "contract": "go2-auto-sphere-plane-v1",
+  "unit_tests": 33,
+  "collision_geoms": 24,
+  "pair_checks": 276,
+  "eligible_pairs": 233,
+  "profiles": [
+    "home",
+    "raised",
+    "joint-offset",
+    "control-offset"
+  ],
+  "fault_cases_blocked": 5,
+  "asset_repair_performed": false,
+  "original_source_files_unchanged": true,
+  "legacy_lane_unchanged": true,
+  "requires_recorded_runtime_configuration": true,
+  "new_human_trial": false,
   "hardware_validation": false,
-  "novel_algorithm_proven": false,
-  "real_g1_research": [
-    [
-      "real-g1",
-      "ddmin",
-      "UNRESOLVED"
-    ],
-    [
-      "real-g1",
-      "ranked",
-      "UNRESOLVED"
-    ]
-  ]
+  "wheel_sha256": "d796a20a407af11d2c7f6c86c52b8d3d8f8a0d531258e7527afc289b55167e02"
 }

@@ -12,8 +12,17 @@ jobs:
       - run: python -m pip install --no-deps .
       - run: python -m unittest discover -s tests -v
       - run: rpf suite --manifest examples/suite.json --output ci-physics-results
+      - run: rpf fetch-demo --asset go2 --directory ci-data
+      - run: rpf auto-plan --source ci-data/go2/scene_mjx.xml --workspace ci-auto-results
+      - run: rpf auto-verify --workspace ci-auto-results --report ci-auto-results/cli-verification.json
+      - run: rpf auto-active-path --workspace ci-auto-results
+      - run: rpf auto-rollback --workspace ci-auto-results
+      - run: python tests/run_go2_auto_acceptance.py --source ci-data/go2/scene_mjx.xml --output ci-auto-negative-results
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: physics-evidence
-          path: ci-physics-results
+          path: |
+            ci-physics-results
+            ci-auto-results
+            ci-auto-negative-results/**/*.json

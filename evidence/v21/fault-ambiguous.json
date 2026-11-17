@@ -1,0 +1,6 @@
+{
+  "status": "UNSUPPORTED",
+  "reason": "Missing/ambiguous collision identity for source index 6",
+  "raw_local_sha256": "42704e5d3aa1b03569ac902796dd81f0a7d4d31db40a0082f5fa0ec44ca1fd69",
+  "full_trace_evidence": "releases/robot_physics_fidelity-2.1.0-evidence.zip"
+}

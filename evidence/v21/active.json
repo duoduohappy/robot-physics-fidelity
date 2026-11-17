@@ -1,0 +1,40 @@
+{
+  "status": "SELECTED",
+  "selection": "verified_original",
+  "qualified": true,
+  "qualification": "PASS_GO2_AUTO_PROFILE",
+  "asset": "$WORKSPACE\\work\\go2-auto-final-acceptance\\positive\\original\\go2 scene.usda",
+  "repair_required": false,
+  "requires_recorded_runtime_configuration": true,
+  "runtime_configuration": {
+    "timestep": 0.002,
+    "integrator": 0,
+    "iterations": 1,
+    "ls_iterations": 5,
+    "solver": 2,
+    "cone": 0,
+    "jacobian": 2,
+    "tolerance": 1e-08,
+    "ls_tolerance": 0.01,
+    "noslip_iterations": 0,
+    "impratio": 100.0,
+    "gravity": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "disableflags": 32768,
+    "enableflags": 0
+  },
+  "profiles": [
+    "home",
+    "raised",
+    "joint-offset",
+    "control-offset"
+  ],
+  "required_default_equality_active": [
+    false
+  ],
+  "raw_local_sha256": "a9ee2eaba900d174e0fbe7693dfa2e80a12ab65a95daa5090f791abc1cb2d0c2",
+  "full_trace_evidence": "releases/robot_physics_fidelity-2.1.0-evidence.zip"
+}

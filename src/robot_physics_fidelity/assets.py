@@ -1,4 +1,4 @@
-"""Explicit, hash-checked fetch of the two fixed public demo assets."""
+"""Explicit, hash-checked fetch of fixed public demo assets."""
 from pathlib import Path
 from importlib.resources import files
 import concurrent.futures

@@ -1,0 +1,10 @@
+{
+  "executable": "$WORKSPACE\\work\\rpf-v21-env\\Scripts\\python.exe",
+  "prefix": "$WORKSPACE\\work\\rpf-v21-env",
+  "base_prefix": "$USER_HOME\\AppData\\Local\\Programs\\Python\\Python311",
+  "module": "$WORKSPACE\\work\\rpf-v21-env\\Lib\\site-packages\\robot_physics_fidelity\\__init__.py",
+  "user_site": false,
+  "pythonpath_absent": true,
+  "raw_local_sha256": "0fc3b528eb89308147023a509c41167b7eb5445108b1260ed34a8b6a43f9d0be",
+  "full_trace_evidence": "releases/robot_physics_fidelity-2.1.0-evidence.zip"
+}

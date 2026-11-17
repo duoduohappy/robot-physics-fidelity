@@ -13,10 +13,14 @@ def main(argv=None):
     parser=argparse.ArgumentParser(description=__doc__)
     sub=parser.add_subparsers(dest='command',required=True)
     sub.add_parser('doctor')
+    ap=sub.add_parser('auto-plan');ap.add_argument('--source',required=True);ap.add_argument('--workspace',required=True);ap.add_argument('--report')
+    av=sub.add_parser('auto-validate');av.add_argument('--source',required=True);av.add_argument('--candidate',required=True);av.add_argument('--report')
+    for name in ['auto-verify','auto-active-path','auto-rollback']:
+        ap=sub.add_parser(name);ap.add_argument('--workspace',required=True);ap.add_argument('--report')
     batch=sub.add_parser('suite'); batch.add_argument('--manifest',required=True); batch.add_argument('--output',required=True); batch.add_argument('--baseline')
     audit=sub.add_parser('audit'); audit.add_argument('--source',required=True); audit.add_argument('--keyframe',required=True); audit.add_argument('--candidate',required=True); audit.add_argument('--report')
     research=sub.add_parser('localize'); research.add_argument('--source',required=True); research.add_argument('--keyframe',required=True); research.add_argument('--candidate',required=True); research.add_argument('--method',choices=['ranked','unranked','ddmin','singletons'],default='ranked'); research.add_argument('--budget',type=int,default=64); research.add_argument('--report')
-    fetch=sub.add_parser('fetch-demo'); fetch.add_argument('--asset',choices=['apollo','g1'],required=True); fetch.add_argument('--directory',required=True)
+    fetch=sub.add_parser('fetch-demo'); fetch.add_argument('--asset',choices=['apollo','g1','go2'],required=True); fetch.add_argument('--directory',required=True)
     for name in ['inspect','plan','diagnose','validate']:
         p=sub.add_parser(name); p.add_argument('--source',required=True); p.add_argument('--keyframe',required=True)
         if name=='plan': p.add_argument('--workspace',required=True)
@@ -38,6 +42,13 @@ def main(argv=None):
             result={'status':'READY' if versions==expected else 'UNSUPPORTED','versions':versions,'expected':expected,'network_access_required':False}
         else:
             from . import engine, transactions
+            if args.command.startswith('auto-'):
+                from . import automatic, auto_transactions
+                if args.command=='auto-plan':result=auto_transactions.prepare(args.source,args.workspace)
+                elif args.command=='auto-validate':result=automatic.validate(args.source,args.candidate)
+                else:
+                    action={'auto-verify':auto_transactions.verify,'auto-active-path':auto_transactions.active_path,'auto-rollback':auto_transactions.rollback}[args.command]
+                    result=action(args.workspace)
             if args.command=='suite':
                 from . import suite
                 result=suite.run(args.manifest,args.output,args.baseline)

@@ -1,0 +1,63 @@
+{
+  "status": "ACCEPTED_BOUNDED_GO2_AUTOMATIC_LANE",
+  "source_files_unchanged": true,
+  "original_files_checked": 21,
+  "positive_profiles": [
+    [
+      "home",
+      "PASS"
+    ],
+    [
+      "raised",
+      "PASS"
+    ],
+    [
+      "joint-offset",
+      "PASS"
+    ],
+    [
+      "control-offset",
+      "PASS"
+    ]
+  ],
+  "pairs_checked": 276,
+  "eligible_pairs": 233,
+  "faults": [
+    {
+      "fault": "mask",
+      "status": "UNSUPPORTED",
+      "qualified": false,
+      "type": "controlled USD fault injection"
+    },
+    {
+      "fault": "missing",
+      "status": "UNSUPPORTED",
+      "qualified": false,
+      "type": "controlled USD fault injection"
+    },
+    {
+      "fault": "radius",
+      "status": "UNSUPPORTED",
+      "qualified": false,
+      "type": "controlled USD fault injection"
+    },
+    {
+      "fault": "ambiguous",
+      "status": "UNSUPPORTED",
+      "qualified": false,
+      "type": "controlled USD fault injection"
+    },
+    {
+      "fault": "mass",
+      "status": "FAIL",
+      "qualified": false,
+      "type": "controlled USD fault injection"
+    }
+  ],
+  "tampered_asset_blocked": true,
+  "repair_performed": false,
+  "real_hardware_validation": false,
+  "scope": "Pinned original Go2, recorded CPU configuration and four fixed profiles; not general automatic-collision qualification",
+  "raw_local_sha256": "a9047ffe8fe7931cca95155886b9911e94093dc2573c52a0b748dca034cebd32",
+  "full_trace_evidence": "releases/robot_physics_fidelity-2.1.0-evidence.zip"
+}

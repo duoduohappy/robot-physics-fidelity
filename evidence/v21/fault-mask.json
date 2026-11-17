@@ -1,0 +1,6 @@
+{
+  "status": "UNSUPPORTED",
+  "reason": "Authored USD mask contradicts the uniform-mask Go2 source",
+  "raw_local_sha256": "89ef021529d552bcb7af25f56d879d4eebf5cb74f97abab90f4fa45a77cb8865",
+  "full_trace_evidence": "releases/robot_physics_fidelity-2.1.0-evidence.zip"
+}

@@ -1,0 +1,39 @@
+{
+  "status": "EXPECTED_RESULTS_VERIFIED",
+  "checks": [
+    {
+      "name": "pip-check",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "legacy-suite",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "legacy-go2-rejection",
+      "exit_code": 3,
+      "expected_exit_code": 3
+    },
+    {
+      "name": "go2-guide-scripted",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "auto-validate-readonly",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "unknown-source",
+      "exit_code": 3,
+      "expected_exit_code": 3
+    }
+  ],
+  "human_trial_completed": false,
+  "legacy_lane_unchanged": true,
+  "raw_local_sha256": "10d8f82a519d42c05cc4f7357f2d303ef952bb6b04bbbf37d214d81f712ca7a8",
+  "full_trace_evidence": "releases/robot_physics_fidelity-2.1.0-evidence.zip"
+}

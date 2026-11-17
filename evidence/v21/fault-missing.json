@@ -1,0 +1,6 @@
+{
+  "status": "UNSUPPORTED",
+  "reason": "Collision geom count changed or unaccounted target geom",
+  "raw_local_sha256": "8c0ca3f18cdad5e82b023386156a6506962852410f3f109dfc041b1a024c76de",
+  "full_trace_evidence": "releases/robot_physics_fidelity-2.1.0-evidence.zip"
+}

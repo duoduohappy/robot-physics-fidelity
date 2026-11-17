@@ -1,0 +1,7 @@
+{
+  "status": "UNSUPPORTED",
+  "error": "Auto lane requires the pinned original Go2 scene_mjx.xml bundle",
+  "activation_state": "inspect active-path for an existing workspace; no success is implied",
+  "raw_local_sha256": "223697fefd4d369931b8fb2ee09a8198fe791f663edd5034fb684697efe05c07",
+  "full_trace_evidence": "releases/robot_physics_fidelity-2.1.0-evidence.zip"
+}
