@@ -25,7 +25,7 @@ def main():
     if not args.asset_directory and not asset.exists():asset=root/'data/go2'
     output=root/'runs'/('owner-trial-'+time.strftime('%Y%m%d-%H%M%S')+'-'+uuid.uuid4().hex[:6])
     output.mkdir(parents=True,exist_ok=False)
-    receipt={'status':'IN_PROGRESS','execution_mode':'interactive_owner_self_trial' if sys.stdin.isatty() else 'scripted_replay',
+    receipt={'status':'IN_PROGRESS','guide_version':'1.1','execution_mode':'interactive_owner_self_trial' if sys.stdin.isatty() else 'scripted_replay',
              'external_user_trial':False,'operator_identity_verified':False,'steps':[],'feedback':{},'output':str(output)}
     env=os.environ.copy();env.pop('PYTHONPATH',None);env['PYTHONIOENCODING']='utf-8'
 
@@ -48,6 +48,18 @@ def main():
         if result.returncode!=code or (status and payload.get('status')!=status):
             raise RuntimeError(name+' 结果不符合预期，查看 '+str(output/(name+'.log')))
         print('结果：'+str(payload.get('status','命令成功')))
+        explanations={
+            'PLANNED':'已列出准备做的修改。此时没有生成通过验收的修复候选。',
+            'PASS':'候选已经接受固定测试并达到门槛；仅对这个初态、控制和时长有效。',
+            'ROLLED_BACK':'已把资产选择恢复到原始文件。这不是重新验收，也不恢复运行中的仿真状态。',
+            'UNSUPPORTED':'工具检查后停止：输入超出支持范围。尚未做行为验收，不是在判断机器人模型物理不合格。'}
+        if payload.get('status') in explanations:print('这意味着：'+explanations[payload['status']])
+        if name=='installation':print('这意味着：工具已安装且依赖版本符合当前要求；还没有检查任何机器人资产。')
+        if payload.get('selection')=='candidate':print('当前使用：修复候选文件，已通过本次固定测试。后续程序仍需主动读取这个路径。')
+        elif payload.get('selection')=='original':print('当前使用：原始文件；UNQUALIFIED_ORIGINAL 表示它尚未被认证，不代表它一定错误。')
+        if payload.get('status')=='UNSUPPORTED':
+            print('Go2 的具体原因：它用自动碰撞规则，而 v2 仅接受命名的显式接触对。不要把掩码清零或只补几个脚底接触来凑通过。')
+            print('本案接入结果：尚未成功；安全停止是正确行为，但没有解决 Go2 的转换保真问题。')
         for key in ['candidate_activated','selection','qualification','asset','runtime_state_restored','error']:
             if key in payload:print(str(key)+' = '+str(payload[key]))
         return payload
@@ -56,6 +68,12 @@ def main():
     print('先用已支持的离线示例练习完整闭环，再检查原版 Go2。Go2 预期被拒绝，不会被改成支持模型。')
     print('脚本不安装依赖、不下载网格、不上传反馈。每个步骤先说明，再由你按 Enter 执行。')
     print('记录目录：'+str(output))
+    print('\n先理解三个不同概念：')
+    print('  通过 PASS：已经测试，达到指定门槛。')
+    print('  拒绝 UNSUPPORTED：工具不支持，先停止，尚未验收。')
+    print('  回退 ROLLED_BACK：改回使用原始文件，和是否通过测试是两回事。')
+    print('\n碰撞规则：自动碰撞由引擎按几何掩码等规则筛选；显式接触对是直接指定某两个几何可以接触。')
+    print('两种机制可以同时存在。Go2 使用自动碰撞；本次不会修改它的规则。')
     try:
         if importlib.metadata.version('robot-physics-fidelity')!='2.0.0':raise RuntimeError('请使用安装了 v2.0.0 的 Python 环境')
         pause('第 1 步：检查安装环境。成功后可打开 installation.log 查看 READY 和依赖版本。')
@@ -89,7 +107,8 @@ def main():
         unchanged=all(hashlib.sha256(Path(f).read_bytes()).hexdigest()==h for f,h in hashes.items())
         if not unchanged:raise RuntimeError('原始 Go2 文件发生变化')
         receipt['source_files_unchanged']=True
-        print('\n流程已完成。下面三项可直接按 Enter 留空；不会自动填写成功评价。')
+        print('\n命令流程已完成；Go2 仍未成功接入。离线小模型通过、Go2 被拒绝、回退选择原始文件，三者含义不同。')
+        print('下面三项请按实际感受填写，可直接按 Enter 留空；不会自动填写成功评价。')
         for key,prompt in [('unclear_step','哪一步没看懂？'),('help_needed','过程中需要了什么帮助？'),('evidence_clarity','通过、拒绝和回退的区别是否清楚？')]:
             receipt['feedback'][key]=input(prompt+' ')
         receipt['status']='EXPECTED_WORKFLOW_COMPLETED'

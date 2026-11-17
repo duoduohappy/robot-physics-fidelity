@@ -1,0 +1,259 @@
+{
+  "status": "IDENTITY_MAPPING_NOT_ESTABLISHED",
+  "production_gate_changed": false,
+  "candidate_activated": false,
+  "usd_colliders": [
+    {
+      "path": "/tn__go2scene_h8/Geometry/floor",
+      "type": "Plane",
+      "contype_authored": false,
+      "conaffinity_authored": false
+    },
+    {
+      "path": "/tn__go2scene_h8/Geometry/base/Sphere",
+      "type": "Sphere",
+      "contype_authored": false,
+      "conaffinity_authored": false
+    },
+    {
+      "path": "/tn__go2scene_h8/Geometry/base/Sphere_1",
+      "type": "Sphere",
+      "contype_authored": false,
+      "conaffinity_authored": false
+    },
+    {
+      "path": "/tn__go2scene_h8/Geometry/base/Sphere_2",
+      "type": "Sphere",
+      "contype_authored": false,
+      "conaffinity_authored": false
+    },
+    {
+      "path": "/tn__go2scene_h8/Geometry/base/FL_hip/Sphere",
+      "type": "Sphere",
+      "contype_authored": false,
+      "conaffinity_authored": false
+    },
+    {
+      "path": "/tn__go2scene_h8/Geometry/base/FL_hip/FL_thigh/Sphere",
+      "type": "Sphere",
+      "contype_authored": false,
+      "conaffinity_authored": false
+    },
+    {
+      "path": "/tn__go2scene_h8/Geometry/base/FL_hip/FL_thigh/FL_calf/Sphere",
+      "type": "Sphere",
+      "contype_authored": false,
+      "conaffinity_authored": false
+    },
+    {
+      "path": "/tn__go2scene_h8/Geometry/base/FL_hip/FL_thigh/FL_calf/Sphere_1",
+      "type": "Sphere",
+      "contype_authored": false,
+      "conaffinity_authored": false
+    },
+    {
+      "path": "/tn__go2scene_h8/Geometry/base/FL_hip/FL_thigh/FL_calf/FL",
+      "type": "Sphere",
+      "contype_authored": false,
+      "conaffinity_authored": false
+    },
+    {
+      "path": "/tn__go2scene_h8/Geometry/base/FR_hip/Sphere",
+      "type": "Sphere",
+      "contype_authored": false,
+      "conaffinity_authored": false
+    },
+    {
+      "path": "/tn__go2scene_h8/Geometry/base/FR_hip/FR_thigh/Sphere",
+      "type": "Sphere",
+      "contype_authored": false,
+      "conaffinity_authored": false
+    },
+    {
+      "path": "/tn__go2scene_h8/Geometry/base/FR_hip/FR_thigh/FR_calf/Sphere",
+      "type": "Sphere",
+      "contype_authored": false,
+      "conaffinity_authored": false
+    },
+    {
+      "path": "/tn__go2scene_h8/Geometry/base/FR_hip/FR_thigh/FR_calf/Sphere_1",
+      "type": "Sphere",
+      "contype_authored": false,
+      "conaffinity_authored": false
+    },
+    {
+      "path": "/tn__go2scene_h8/Geometry/base/FR_hip/FR_thigh/FR_calf/FR",
+      "type": "Sphere",
+      "contype_authored": false,
+      "conaffinity_authored": false
+    },
+    {
+      "path": "/tn__go2scene_h8/Geometry/base/RL_hip/Sphere",
+      "type": "Sphere",
+      "contype_authored": false,
+      "conaffinity_authored": false
+    },
+    {
+      "path": "/tn__go2scene_h8/Geometry/base/RL_hip/RL_thigh/Sphere",
+      "type": "Sphere",
+      "contype_authored": false,
+      "conaffinity_authored": false
+    },
+    {
+      "path": "/tn__go2scene_h8/Geometry/base/RL_hip/RL_thigh/RL_calf/Sphere",
+      "type": "Sphere",
+      "contype_authored": false,
+      "conaffinity_authored": false
+    },
+    {
+      "path": "/tn__go2scene_h8/Geometry/base/RL_hip/RL_thigh/RL_calf/Sphere_1",
+      "type": "Sphere",
+      "contype_authored": false,
+      "conaffinity_authored": false
+    },
+    {
+      "path": "/tn__go2scene_h8/Geometry/base/RL_hip/RL_thigh/RL_calf/RL",
+      "type": "Sphere",
+      "contype_authored": false,
+      "conaffinity_authored": false
+    },
+    {
+      "path": "/tn__go2scene_h8/Geometry/base/RR_hip/Sphere",
+      "type": "Sphere",
+      "contype_authored": false,
+      "conaffinity_authored": false
+    },
+    {
+      "path": "/tn__go2scene_h8/Geometry/base/RR_hip/RR_thigh/Sphere",
+      "type": "Sphere",
+      "contype_authored": false,
+      "conaffinity_authored": false
+    },
+    {
+      "path": "/tn__go2scene_h8/Geometry/base/RR_hip/RR_thigh/RR_calf/Sphere",
+      "type": "Sphere",
+      "contype_authored": false,
+      "conaffinity_authored": false
+    },
+    {
+      "path": "/tn__go2scene_h8/Geometry/base/RR_hip/RR_thigh/RR_calf/Sphere_1",
+      "type": "Sphere",
+      "contype_authored": false,
+      "conaffinity_authored": false
+    },
+    {
+      "path": "/tn__go2scene_h8/Geometry/base/RR_hip/RR_thigh/RR_calf/RR",
+      "type": "Sphere",
+      "contype_authored": false,
+      "conaffinity_authored": false
+    }
+  ],
+  "counts": {
+    "source_geoms": 57,
+    "target_geoms": 24,
+    "source_bodies": 14,
+    "target_bodies": 14
+  },
+  "identity_candidates": [
+    {
+      "source_geom_index": 0,
+      "target_candidates": [
+        0
+      ]
+    },
+    {
+      "source_geom_index": 6,
+      "target_candidates": []
+    },
+    {
+      "source_geom_index": 7,
+      "target_candidates": []
+    },
+    {
+      "source_geom_index": 8,
+      "target_candidates": []
+    },
+    {
+      "source_geom_index": 11,
+      "target_candidates": []
+    },
+    {
+      "source_geom_index": 14,
+      "target_candidates": []
+    },
+    {
+      "source_geom_index": 17,
+      "target_candidates": []
+    },
+    {
+      "source_geom_index": 18,
+      "target_candidates": []
+    },
+    {
+      "source_geom_index": 20,
+      "target_candidates": []
+    },
+    {
+      "source_geom_index": 23,
+      "target_candidates": []
+    },
+    {
+      "source_geom_index": 26,
+      "target_candidates": []
+    },
+    {
+      "source_geom_index": 29,
+      "target_candidates": []
+    },
+    {
+      "source_geom_index": 30,
+      "target_candidates": []
+    },
+    {
+      "source_geom_index": 32,
+      "target_candidates": []
+    },
+    {
+      "source_geom_index": 35,
+      "target_candidates": []
+    },
+    {
+      "source_geom_index": 38,
+      "target_candidates": []
+    },
+    {
+      "source_geom_index": 41,
+      "target_candidates": []
+    },
+    {
+      "source_geom_index": 42,
+      "target_candidates": []
+    },
+    {
+      "source_geom_index": 44,
+      "target_candidates": []
+    },
+    {
+      "source_geom_index": 47,
+      "target_candidates": []
+    },
+    {
+      "source_geom_index": 50,
+      "target_candidates": []
+    },
+    {
+      "source_geom_index": 53,
+      "target_candidates": []
+    },
+    {
+      "source_geom_index": 54,
+      "target_candidates": []
+    },
+    {
+      "source_geom_index": 56,
+      "target_candidates": []
+    }
+  ],
+  "interpretation": "Stop before trajectory comparison; no guessing of anonymous collision identities",
+  "source_files_unchanged": true
+}

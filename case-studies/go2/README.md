@@ -19,7 +19,7 @@
 如双击无法运行，在 PowerShell 中执行（当前已准备好的本机路径）：
 
 ```powershell
-cd <你的本机项目根目录>
+cd $WORKSPACE
 .\work\rpf-v2-final-env\Scripts\python.exe .\outputs\go2-independent-intake\guided_run.py
 ```
 
@@ -57,3 +57,9 @@ python -c "from robot_physics_fidelity import engine; print(engine.convert('data
 本次该导出成功。但“生成 USD”不等于通过行为对照，也不表示这个 USD 已被 RPF 修复或启用。本工具的受管理接入在预检时已经停止，未继续审计、修复或做源/目标保真验收。
 
 详见 REPORT.md 和 evidence 中的报告。原始网格、依赖和转换产物不打入案例包。
+
+## 操作说明更新与后续评估
+
+操作向导已更新到 guide 1.1，逐条解释状态和碰撞规则；见 USABILITY_NOTES.md。新版的自动回放检查不等于再次真人试用。
+
+随后对上游标准导入做了独立探测：固定 Go2 home 的 0.5 秒 CPU 对照达到原运动门槛，观察接触对相同。这个结果说明不能把 v2 的契约拒绝说成 Newton 不支持自动碰撞；它也不等于完整规则验收或正式 Go2 支持。详见 [自动碰撞开发边界](automatic-collision/DEVELOPMENT_BOUNDARY.md)。
