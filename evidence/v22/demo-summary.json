@@ -1,0 +1,105 @@
+{
+  "status": "ACCEPTED_GATED_LOAD_AND_STEP",
+  "cases": {
+    "normal": {
+      "status": "COMPLETED",
+      "profile": "raised",
+      "loader_called": true,
+      "model_created": true,
+      "steps_executed": 250,
+      "gate_checked": true,
+      "events": [
+        {
+          "event": "qualification_checked",
+          "steps_executed": 0
+        },
+        {
+          "event": "downstream_loader_called",
+          "steps_executed": 0
+        },
+        {
+          "event": "model_created_from_frozen_asset",
+          "steps_executed": 0
+        },
+        {
+          "event": "authorization_rechecked_before_first_step",
+          "steps_executed": 0
+        },
+        {
+          "event": "job_completed",
+          "steps_executed": 250
+        }
+      ],
+      "scope": "Fixed Go2 native CPU load and stepping; not a robot controller, hardware trial or generic simulator plugin",
+      "snapshot_tree_sha256": "ac89ee6cb81242c412d9dd760db628f927852e322b9c75eacc48d936bebd3681",
+      "versions": {
+        "robot-physics-fidelity": "2.2.0",
+        "mujoco": "3.17.0",
+        "newton": "1.8.0",
+        "mujoco-usd-converter": "0.9.0",
+        "warp-lang": "1.19.0"
+      },
+      "verification": "PASS_GO2_AUTO_PROFILE",
+      "requires_recorded_runtime_configuration": true,
+      "loaded_asset": "$WORKSPACE\\work\\go2-downstream-final\\normal-job\\frozen-asset\\go2 scene.usda",
+      "simulated_duration_s": 0.5000000000000003,
+      "frames_qualified": true,
+      "interpretation": "Actual native model loaded through Newton standard USD import and advanced under recorded CPU settings; source meshes may be used to visualize these target states."
+    },
+    "fault": {
+      "status": "BLOCKED",
+      "profile": "home",
+      "loader_called": false,
+      "model_created": false,
+      "steps_executed": 0,
+      "gate_checked": true,
+      "events": [
+        {
+          "event": "qualification_checked",
+          "steps_executed": 0
+        }
+      ],
+      "scope": "Fixed Go2 native CPU load and stepping; not a robot controller, hardware trial or generic simulator plugin",
+      "block_code": "NOT_QUALIFIED",
+      "reason": "当前资产未认证或认证已撤销；下游加载器未调用。",
+      "frames_qualified": false
+    },
+    "revoked": {
+      "status": "BLOCKED",
+      "profile": "home",
+      "loader_called": false,
+      "model_created": false,
+      "steps_executed": 0,
+      "gate_checked": true,
+      "events": [
+        {
+          "event": "qualification_checked",
+          "steps_executed": 0
+        }
+      ],
+      "scope": "Fixed Go2 native CPU load and stepping; not a robot controller, hardware trial or generic simulator plugin",
+      "block_code": "NOT_QUALIFIED",
+      "reason": "当前资产未认证或认证已撤销；下游加载器未调用。",
+      "frames_qualified": false
+    },
+    "tampered": {
+      "status": "BLOCKED",
+      "profile": "home",
+      "loader_called": false,
+      "model_created": false,
+      "steps_executed": 0,
+      "gate_checked": false,
+      "events": [],
+      "scope": "Fixed Go2 native CPU load and stepping; not a robot controller, hardware trial or generic simulator plugin",
+      "block_code": "INTEGRITY_OR_INPUT_ERROR",
+      "reason": "Original artifact integrity mismatch",
+      "frames_qualified": false
+    }
+  },
+  "source_files_unchanged": true,
+  "running_revocation_stopped_after_steps": 3,
+  "source_visualization": "Source visual meshes render target native-model states; no source trajectory substitutes",
+  "controlled_fault": "Artificial 3x base mass before plan hash recording; not a claimed real converter defect",
+  "human_or_hardware_trial": false,
+  "raw_local_sha256": "27d30ab1433d00849f215bd33433c3763ed2ad9b90f1e1ec09651d6d3cca5428"
+}

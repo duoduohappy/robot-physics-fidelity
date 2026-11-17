@@ -1,0 +1,14 @@
+{
+  "status": "BLOCKED",
+  "profile": "home",
+  "loader_called": false,
+  "model_created": false,
+  "steps_executed": 0,
+  "gate_checked": false,
+  "events": [],
+  "scope": "Fixed Go2 native CPU load and stepping; not a robot controller, hardware trial or generic simulator plugin",
+  "block_code": "INTEGRITY_OR_INPUT_ERROR",
+  "reason": "Original artifact integrity mismatch",
+  "frames_qualified": false,
+  "raw_local_sha256": "51542516a3ccfee0e4ba59ff552d359a262b9225a5de9b5efd92929d28a71e78"
+}

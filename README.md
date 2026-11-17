@@ -1,4 +1,4 @@
-# Robot Physics Fidelity 2.1
+# Robot Physics Fidelity 2.2
 
 面向机器人仿真资产的受限物理语义审计、批量验收、可回退修复和诊断研究组件。第二档是可复用工程组件，第三档是附实验的诊断研究模块；不是新物理求解器，也没有真实机器人或 sim-to-real 验证。
 
@@ -11,7 +11,7 @@ Windows、Python 3.11。先确认 `python --version` 为 3.11；也可用已安�
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements-lock.txt
-.\.venv\Scripts\python.exe -m pip install --no-deps releases/robot_physics_fidelity-2.1.0-py3-none-any.whl
+.\.venv\Scripts\python.exe -m pip install --no-deps releases/robot_physics_fidelity-2.2.0-py3-none-any.whl
 .\.venv\Scripts\rpf.exe doctor
 .\.venv\Scripts\rpf.exe suite --manifest examples/suite.json --output runs/first
 .\.venv\Scripts\rpf.exe suite --manifest examples/suite.json --output runs/repeat --baseline runs/first/suite.json
@@ -28,6 +28,12 @@ ZIP 中 wheel 位于 `dist/`，将安装命令的 `releases/` 改成 `dist/`。�
 [操作命令、边界与证据说明](docs/GO2_AUTOMATIC.md)
 
 [2.1 本机验收报告](docs/ACCEPTANCE_2_1.md)。历史研究结果沿用 v2 记录，没有因本次工程更新重新计算或扩大其结论。
+
+## 新增：认证控制实际仿真加载
+
+`rpf auto-run` 核对当前认证与资产指纹，生成并校验独立作业快照，再创建目标原生 CPU 模型并推进。未认证、撤销和变更案例在加载前阻断；运行中撤销停止后续步骤并保留实际步数。
+
+[接入与复现](docs/DOWNSTREAM_LOADING.md) · [2.2 本机验收](docs/ACCEPTANCE_2_2.md) · [公开加载对照](https://robot-physics-fidelity-demo.savory-fox-4497.chatgpt.site/go2-gate/index.html)
 
 ## 第二档：可复用验收组件
 

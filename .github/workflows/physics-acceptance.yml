@@ -18,6 +18,7 @@ jobs:
       - run: rpf auto-active-path --workspace ci-auto-results
       - run: rpf auto-rollback --workspace ci-auto-results
       - run: python tests/run_go2_auto_acceptance.py --source ci-data/go2/scene_mjx.xml --output ci-auto-negative-results
+      - run: python tests/run_downstream_demo.py --source ci-data/go2/scene_mjx.xml --output ci-downstream-results
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -26,3 +27,4 @@ jobs:
             ci-physics-results
             ci-auto-results
             ci-auto-negative-results/**/*.json
+            ci-downstream-results/**/*.json

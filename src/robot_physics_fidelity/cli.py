@@ -8,11 +8,13 @@ from pathlib import Path
 EXIT={'PASS':0,'PLANNED':0,'SUPPORTED':0,'SELECTED':0,'ROLLED_BACK':0,'READY':0,'FETCHED':0,'FAIL':4,'INSUFFICIENT':5,'UNSUPPORTED':3,'ERROR':2}
 EXIT.update(EXPECTED_RESULTS_VERIFIED=0,REVIEW_REQUIRED=6,UNEXPECTED_RESULT=7,SEMANTIC_DIFFERENCES=6,MATCH_WITHIN_AUDIT_TOLERANCE=0)
 EXIT.update(CONFIRMED_WITHIN_TEST=0,NO_FAILURE=0,UNRESOLVED=8,UNRESOLVED_COMBINATION=8,BUDGET_EXHAUSTED=9)
+EXIT.update(COMPLETED=0,BLOCKED=10)
 
 def main(argv=None):
     parser=argparse.ArgumentParser(description=__doc__)
     sub=parser.add_subparsers(dest='command',required=True)
     sub.add_parser('doctor')
+    load=sub.add_parser('auto-run');load.add_argument('--workspace',required=True);load.add_argument('--output',required=True);load.add_argument('--profile',choices=['home','raised','joint-offset','control-offset'],default='home')
     ap=sub.add_parser('auto-plan');ap.add_argument('--source',required=True);ap.add_argument('--workspace',required=True);ap.add_argument('--report')
     av=sub.add_parser('auto-validate');av.add_argument('--source',required=True);av.add_argument('--candidate',required=True);av.add_argument('--report')
     for name in ['auto-verify','auto-active-path','auto-rollback']:
@@ -44,7 +46,10 @@ def main(argv=None):
             from . import engine, transactions
             if args.command.startswith('auto-'):
                 from . import automatic, auto_transactions
-                if args.command=='auto-plan':result=auto_transactions.prepare(args.source,args.workspace)
+                if args.command=='auto-run':
+                    from . import downstream
+                    result=downstream.run(args.workspace,args.output,args.profile)
+                elif args.command=='auto-plan':result=auto_transactions.prepare(args.source,args.workspace)
                 elif args.command=='auto-validate':result=automatic.validate(args.source,args.candidate)
                 else:
                     action={'auto-verify':auto_transactions.verify,'auto-active-path':auto_transactions.active_path,'auto-rollback':auto_transactions.rollback}[args.command]

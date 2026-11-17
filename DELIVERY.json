@@ -1,22 +1,12 @@
 {
-  "version": "2.1.0",
-  "contract": "go2-auto-sphere-plane-v1",
-  "unit_tests": 33,
-  "collision_geoms": 24,
-  "pair_checks": 276,
-  "eligible_pairs": 233,
-  "profiles": [
-    "home",
-    "raised",
-    "joint-offset",
-    "control-offset"
-  ],
-  "fault_cases_blocked": 5,
-  "asset_repair_performed": false,
-  "original_source_files_unchanged": true,
-  "legacy_lane_unchanged": true,
-  "requires_recorded_runtime_configuration": true,
-  "new_human_trial": false,
-  "hardware_validation": false,
-  "wheel_sha256": "d796a20a407af11d2c7f6c86c52b8d3d8f8a0d531258e7527afc289b55167e02"
+  "version": "2.2.0",
+  "unit_tests": 37,
+  "normal_steps": 250,
+  "pre_load_cases_blocked": 3,
+  "running_revocation_steps": 3,
+  "source_files_unchanged": true,
+  "scope": "Fixed Go2 native CPU, four certified profiles",
+  "video": "Actual target states with source visual meshes",
+  "human_or_hardware_trial": false,
+  "wheel_sha256": "62fe0ed2480d198022fb5fcdf9c7a03d747c41e30c80b5eba17cd4602b82c2d0"
 }

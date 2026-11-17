@@ -1,0 +1,19 @@
+{
+  "status": "BLOCKED",
+  "profile": "home",
+  "loader_called": false,
+  "model_created": false,
+  "steps_executed": 0,
+  "gate_checked": true,
+  "events": [
+    {
+      "event": "qualification_checked",
+      "steps_executed": 0
+    }
+  ],
+  "scope": "Fixed Go2 native CPU load and stepping; not a robot controller, hardware trial or generic simulator plugin",
+  "block_code": "NOT_QUALIFIED",
+  "reason": "当前资产未认证或认证已撤销；下游加载器未调用。",
+  "frames_qualified": false,
+  "raw_local_sha256": "264828e8eed77ed651a8e5b6234f7238e402b256decf560539cf3b152b38431d"
+}
