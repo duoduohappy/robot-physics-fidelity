@@ -92,3 +92,7 @@ py -3.11 -m venv .venv
 `evidence/clean/acceptance.json`、`environment.json`、物理验收与回退报告是原始本机证据。`docs/ACCEPTANCE.md` 为交付结论，`docs/TRIAL_GUIDE.md` 为交给另一位工程师的试用任务。**真实外部使用者试用尚未开展**，没有伪造反馈或代替其签收。
 
 依赖和公开资产遵循各自许可；模型原许可见随包文件。新 wheel 不包含大型网格或二进制依赖。
+
+## 一条命令运行复现流程
+
+安装完成后，可使用 [试用辅助脚本](tools/trial/README.md) 自动运行离线流程及可选 G1 失败案例，保存各步日志和 JSON，避免手工复制候选路径。辅助脚本已在本机隔离环境验证；不代表真实外部使用者试用。

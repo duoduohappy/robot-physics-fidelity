@@ -1,0 +1,149 @@
+{
+  "external_human_trial": false,
+  "runs": [
+    {
+      "kind": "automated_reproduction_only",
+      "external_human_trial": false,
+      "python": "isolated Python 3.11 installed v1 wheel",
+      "steps": [
+        {
+          "name": "doctor",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "seconds": 0.234,
+          "status": null,
+          "expected_status": null
+        },
+        {
+          "name": "offline-plan",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "seconds": 3.688,
+          "status": "PLANNED",
+          "expected_status": "PLANNED"
+        },
+        {
+          "name": "offline-repair",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "seconds": 20.015,
+          "status": "PASS",
+          "expected_status": "PASS"
+        },
+        {
+          "name": "offline-active",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "seconds": 3.657,
+          "status": "SELECTED",
+          "expected_status": "SELECTED"
+        },
+        {
+          "name": "offline-rollback",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "seconds": 3.671,
+          "status": "ROLLED_BACK",
+          "expected_status": "ROLLED_BACK"
+        },
+        {
+          "name": "offline-restored",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "seconds": 3.438,
+          "status": "SELECTED",
+          "expected_status": "SELECTED"
+        }
+      ],
+      "status": "EXPECTED_RESULTS_VERIFIED"
+    },
+    {
+      "kind": "automated_reproduction_only",
+      "external_human_trial": false,
+      "python": "isolated Python 3.11 installed v1 wheel",
+      "steps": [
+        {
+          "name": "doctor",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "seconds": 0.219,
+          "status": null,
+          "expected_status": null
+        },
+        {
+          "name": "offline-plan",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "seconds": 3.609,
+          "status": "PLANNED",
+          "expected_status": "PLANNED"
+        },
+        {
+          "name": "offline-repair",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "seconds": 20.203,
+          "status": "PASS",
+          "expected_status": "PASS"
+        },
+        {
+          "name": "offline-active",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "seconds": 3.688,
+          "status": "SELECTED",
+          "expected_status": "SELECTED"
+        },
+        {
+          "name": "offline-rollback",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "seconds": 3.562,
+          "status": "ROLLED_BACK",
+          "expected_status": "ROLLED_BACK"
+        },
+        {
+          "name": "offline-restored",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "seconds": 3.469,
+          "status": "SELECTED",
+          "expected_status": "SELECTED"
+        },
+        {
+          "name": "g1-plan",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "seconds": 4.516,
+          "status": "PLANNED",
+          "expected_status": "PLANNED"
+        },
+        {
+          "name": "g1-repair",
+          "exit_code": 4,
+          "expected_exit_code": 4,
+          "seconds": 11.625,
+          "status": "FAIL",
+          "expected_status": "FAIL"
+        },
+        {
+          "name": "g1-active",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "seconds": 3.781,
+          "status": "SELECTED",
+          "expected_status": "SELECTED"
+        },
+        {
+          "name": "g1-diagnosis",
+          "exit_code": 4,
+          "expected_exit_code": 4,
+          "seconds": 8.531,
+          "status": "FAIL",
+          "expected_status": "FAIL"
+        }
+      ],
+      "status": "EXPECTED_RESULTS_VERIFIED"
+    }
+  ]
+}
