@@ -75,3 +75,7 @@ Apollo 使用 `data/apollo/scene.xml`、`stand`；G1 使用 `data/g1/scene_mjx.x
 退出码：0 对应命令成功或预期流程完成；2 ERROR；3 UNSUPPORTED；4 物理 FAIL；5 INSUFFICIENT；6 语义差异或基线需审核；7 批量意外结果；8 研究 UNRESOLVED；9 研究预算耗尽。批量返回 0 不代表其中已知失败资产通过。上游日志可能混入 stdout，自动化读取 JSON 报告。
 
 当前没有外部团队采用、真实使用者节时或硬件效果证据。试用清单见 `docs/TRIAL_GUIDE.md`。历史 v1 结果与安装包仍保留；第二/三档结论以本版验收与研究报告为准。
+
+## 独立公开资产接入记录
+
+[Unitree Go2 接入案例](case-studies/go2/REPORT.md)：原始 CPU 模型可运行、官方转换器可导出，但本工具因自动碰撞不受支持而拒绝接入。保留源文件校验、拒绝证据与[操作向导](case-studies/go2/README.md)，不将安全拒绝说成业务接入成功。

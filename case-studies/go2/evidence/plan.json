@@ -1,0 +1,6 @@
+{
+  "status": "UNSUPPORTED",
+  "error": "Moving-body automatic masks must be zero; At least one explicit pair required; Static automatic collider not represented by pair contract",
+  "activation_state": "inspect active-path for an existing workspace; no success is implied",
+  "raw_local_report_sha256": "905d3f3eba803c3987da197f571a4a4117ea4022b5e0687c6a8d69858fa3f617"
+}

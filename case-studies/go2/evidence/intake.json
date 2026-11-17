@@ -1,0 +1,99 @@
+{
+  "status": "REJECTED_UNSUPPORTED_WITH_EVIDENCE",
+  "asset": "Unitree Go2 MJX",
+  "keyframe": "home",
+  "steps": [
+    {
+      "step": "installation-check",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "seconds": 0.21899999998277053
+    },
+    {
+      "step": "inspect",
+      "exit_code": 3,
+      "expected_exit_code": 3,
+      "seconds": 3.5780000000086147
+    },
+    {
+      "step": "plan",
+      "exit_code": 3,
+      "expected_exit_code": 3,
+      "seconds": 3.5469999999913853
+    }
+  ],
+  "source_files_unchanged": true,
+  "verified_file_count": 21,
+  "managed_workspace_created": false,
+  "candidate_activated": false,
+  "repair_performed": false,
+  "audit_performed": false,
+  "independent_official_conversion": {
+    "status": "EXPORTED_UNQUALIFIED",
+    "exit_code": 0,
+    "seconds": 4.4210000000020955,
+    "qualified": false,
+    "activated": false,
+    "meaning": "Independent upstream export experiment, outside the managed rejected workflow; not a repair or behavioral verification"
+  },
+  "source_rollout_status": "FINITE_SOURCE_ROLLOUT",
+  "source_peak_contacts": 4,
+  "source_model": {
+    "status": "COMPILED",
+    "source_fingerprint": {
+      "sha256": "c71d4b18be7ef29222e5bc6adf3a5a4b53021e753c16d44180a131a973e51916",
+      "public_fields": 616,
+      "scope": "public numeric arrays/scalars and bytes exposed by pinned MuJoCo; not external files or a cryptographic attestation"
+    },
+    "nbody": 14,
+    "ngeom": 57,
+    "njnt": 13,
+    "nv": 18,
+    "nu": 12,
+    "explicit_pairs": 0,
+    "excludes": 0,
+    "moving_automatic_geoms": [
+      "geom[6]",
+      "geom[7]",
+      "geom[8]",
+      "geom[11]",
+      "geom[14]",
+      "geom[17]",
+      "geom[18]",
+      "FL",
+      "geom[23]",
+      "geom[26]",
+      "geom[29]",
+      "geom[30]",
+      "FR",
+      "geom[35]",
+      "geom[38]",
+      "geom[41]",
+      "geom[42]",
+      "RL",
+      "geom[47]",
+      "geom[50]",
+      "geom[53]",
+      "geom[54]",
+      "RR"
+    ],
+    "unnamed_geoms": 52,
+    "keyframe": "home",
+    "timestep": 0.002,
+    "compile_seconds": 0.375
+  },
+  "installation": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "prefix": "$WORKSPACE\\work\\rpf-v2-final-env",
+    "base_prefix": "$USER_HOME\\AppData\\Local\\Programs\\Python\\Python311",
+    "module": "$WORKSPACE\\work\\rpf-v2-final-env\\Lib\\site-packages\\robot_physics_fidelity\\__init__.py",
+    "package_version": "2.0.0",
+    "existing_qualified_venv_reused": true,
+    "fresh_install_claim": false
+  },
+  "independent_asset": true,
+  "external_user_trial": false,
+  "business_adoption": false,
+  "conclusion": "Source runs and upstream export is checked, but automatic collisions are outside RPF 2.0. No silent source adaptation.",
+  "raw_local_report_sha256": "9c0ece97b8b8e11570eeeebad83cbfa545506d75230ba67a95fe0e2480051a98"
+}

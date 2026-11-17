@@ -1,0 +1,66 @@
+{
+  "status": "SCRIPTED_GUIDE_REPLAY_PASSED",
+  "kind": "automated replay, not owner or external user trial",
+  "steps": [
+    {
+      "step": "installation",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "status": null,
+      "expected_status": null
+    },
+    {
+      "step": "plan",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "status": "PLANNED",
+      "expected_status": "PLANNED"
+    },
+    {
+      "step": "repair",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "status": "PASS",
+      "expected_status": "PASS"
+    },
+    {
+      "step": "active",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "status": "SELECTED",
+      "expected_status": "SELECTED"
+    },
+    {
+      "step": "rollback",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "status": "ROLLED_BACK",
+      "expected_status": "ROLLED_BACK"
+    },
+    {
+      "step": "restored",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "status": "SELECTED",
+      "expected_status": "SELECTED"
+    },
+    {
+      "step": "go2-inspect",
+      "exit_code": 3,
+      "expected_exit_code": 3,
+      "status": "UNSUPPORTED",
+      "expected_status": "UNSUPPORTED"
+    },
+    {
+      "step": "go2-plan",
+      "exit_code": 3,
+      "expected_exit_code": 3,
+      "status": "UNSUPPORTED",
+      "expected_status": "UNSUPPORTED"
+    }
+  ],
+  "external_user_trial": false,
+  "owner_trial_completed": false,
+  "source_files_unchanged": true,
+  "raw_local_report_sha256": "95cc1af3e695f9dc9b0f835d4cfa0dd00864ce654c44ad2046207d8375512ccd"
+}

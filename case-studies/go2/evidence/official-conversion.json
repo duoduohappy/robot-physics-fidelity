@@ -1,0 +1,9 @@
+{
+  "status": "EXPORTED_UNQUALIFIED",
+  "exit_code": 0,
+  "seconds": 4.4210000000020955,
+  "qualified": false,
+  "activated": false,
+  "meaning": "Independent upstream export experiment, outside the managed rejected workflow; not a repair or behavioral verification",
+  "raw_local_report_sha256": "093d39348d6b245f3ed5a6289264fa2599a1213094b149ff31de2fd9aeb5c1e6"
+}
