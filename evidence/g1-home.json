@@ -1,0 +1,420 @@
+{
+  "scope": "Qualified pair-only moving bodies; static world masks retained; native CPU reconstruction",
+  "asset": "g1",
+  "keyframe": "home",
+  "duration_s": 0.5,
+  "thresholds": {
+    "body_position_m": 0.001,
+    "qvel": 0.01,
+    "pair_rtol": 1e-06,
+    "steps": 125
+  },
+  "passed": true,
+  "explicit_joint_limit_fix": true,
+  "native_pairs": 49,
+  "rebuilt_pairs": 49,
+  "restored_endpoints": 28,
+  "max_body_position_error_m": 6.209867010192882e-07,
+  "max_qvel_error": 0.00029009838186944137,
+  "native_peak_contacts": 12,
+  "rebuilt_peak_contacts": 12,
+  "extra_contact_pairs": 0,
+  "observed_pair_count": 6,
+  "observed_pairs": [
+    [
+      "floor",
+      "left_foot1_collision"
+    ],
+    [
+      "floor",
+      "left_foot2_collision"
+    ],
+    [
+      "floor",
+      "left_foot3_collision"
+    ],
+    [
+      "floor",
+      "right_foot1_collision"
+    ],
+    [
+      "floor",
+      "right_foot2_collision"
+    ],
+    [
+      "floor",
+      "right_foot3_collision"
+    ]
+  ],
+  "settings_matched": [
+    "timestep",
+    "integrator",
+    "iterations",
+    "ls_iterations",
+    "solver",
+    "cone",
+    "jacobian",
+    "tolerance",
+    "ls_tolerance",
+    "noslip_iterations",
+    "impratio",
+    "gravity",
+    "disableflags",
+    "enableflags"
+  ],
+  "manual_correct_configuration": {
+    "compiled_parameters_match": true,
+    "max_qpos_difference_vs_bridge": 0.0
+  },
+  "explicit_limit_authoring": [
+    {
+      "joint": "left_hip_pitch_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "left_hip_roll_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "left_hip_yaw_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "left_knee_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "left_ankle_pitch_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "left_ankle_roll_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "right_hip_pitch_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "right_hip_roll_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "right_hip_yaw_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "right_knee_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "right_ankle_pitch_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "right_ankle_roll_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "waist_yaw_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "waist_roll_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "waist_pitch_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "left_shoulder_pitch_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "left_shoulder_roll_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "left_shoulder_yaw_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "left_elbow_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "left_wrist_roll_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "left_wrist_pitch_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "left_wrist_yaw_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "right_shoulder_pitch_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "right_shoulder_roll_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "right_shoulder_yaw_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "right_elbow_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "right_wrist_roll_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "right_wrist_pitch_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    },
+    {
+      "joint": "right_wrist_yaw_joint",
+      "had_authored_value": true,
+      "fallback": [
+        0.008,
+        1.0
+      ],
+      "source": [
+        0.008,
+        1.0
+      ]
+    }
+  ],
+  "source_commit": "71f066ad0be9cd271f7ed58c030243ef157af9f4"
+}

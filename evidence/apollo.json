@@ -1,0 +1,444 @@
+{
+  "scope": "Qualified pair-only moving bodies; static world masks retained; native CPU reconstruction",
+  "asset": "apollo",
+  "keyframe": "stand",
+  "duration_s": 0.5,
+  "thresholds": {
+    "body_position_m": 0.001,
+    "qvel": 0.01,
+    "pair_rtol": 1e-06,
+    "steps": 100
+  },
+  "passed": true,
+  "explicit_joint_limit_fix": true,
+  "native_pairs": 6,
+  "rebuilt_pairs": 6,
+  "restored_endpoints": 10,
+  "max_body_position_error_m": 2.8735773310861745e-07,
+  "max_qvel_error": 2.787427153227995e-05,
+  "native_peak_contacts": 8,
+  "rebuilt_peak_contacts": 8,
+  "extra_contact_pairs": 0,
+  "observed_pair_count": 3,
+  "observed_pairs": [
+    [
+      "floor",
+      "collision_l_sole"
+    ],
+    [
+      "floor",
+      "collision_r_sole"
+    ],
+    [
+      "collision_capsule_body_l_thigh",
+      "collision_capsule_body_r_thigh"
+    ]
+  ],
+  "settings_matched": [
+    "timestep",
+    "integrator",
+    "iterations",
+    "ls_iterations",
+    "solver",
+    "cone",
+    "jacobian",
+    "tolerance",
+    "ls_tolerance",
+    "noslip_iterations",
+    "impratio",
+    "gravity",
+    "disableflags",
+    "enableflags"
+  ],
+  "manual_correct_configuration": {
+    "compiled_parameters_match": true,
+    "max_qpos_difference_vs_bridge": 0.0
+  },
+  "explicit_limit_authoring": [
+    {
+      "joint": "torso_yaw",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "torso_roll",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "torso_pitch",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "neck_yaw",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "neck_roll",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "neck_pitch",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "l_shoulder_aa",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "l_shoulder_ie",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "l_shoulder_fe",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "l_elbow_fe",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "l_wrist_roll",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "l_wrist_yaw",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "l_wrist_pitch",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "r_shoulder_aa",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "r_shoulder_ie",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "r_shoulder_fe",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "r_elbow_fe",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "r_wrist_roll",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "r_wrist_yaw",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "r_wrist_pitch",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "l_hip_ie",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "l_hip_aa",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "l_hip_fe",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "l_knee_fe",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "l_ankle_ie",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "l_ankle_pd",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "r_hip_ie",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "r_hip_aa",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "r_hip_fe",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "r_knee_fe",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "r_ankle_ie",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "joint": "r_ankle_pd",
+      "had_authored_value": false,
+      "fallback": [
+        0.02,
+        1.0
+      ],
+      "source": [
+        0.02,
+        1.0
+      ]
+    }
+  ],
+  "source_commit": "71f066ad0be9cd271f7ed58c030243ef157af9f4"
+}

@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-17",
+  "source_commit": "71f066ad0be9cd271f7ed58c030243ef157af9f4",
+  "scope": "Fixed source/keyframe/open-loop control and 0.5 s native CPU tests; not general robot qualification",
+  "thresholds": {
+    "body_position_m": 0.001,
+    "qvel_component_native_units": 0.01
+  },
+  "cases": [
+    {
+      "asset": "apollo",
+      "keyframe": "stand",
+      "passed": true,
+      "duration_s": 0.5,
+      "native_pairs": 6,
+      "rebuilt_pairs": 6,
+      "restored_endpoints": 10,
+      "max_body_position_error_m": 2.8735773310861745e-07,
+      "max_qvel_error": 2.787427153227995e-05,
+      "observed_pair_count": 3,
+      "extra_contact_pairs": 0,
+      "manual_correct_configuration": {
+        "compiled_parameters_match": true,
+        "max_qpos_difference_vs_bridge": 0.0
+      },
+      "evidence": "apollo.json"
+    },
+    {
+      "asset": "g1",
+      "keyframe": "home",
+      "passed": true,
+      "duration_s": 0.5,
+      "native_pairs": 49,
+      "rebuilt_pairs": 49,
+      "restored_endpoints": 28,
+      "max_body_position_error_m": 6.209867010192882e-07,
+      "max_qvel_error": 0.00029009838186944137,
+      "observed_pair_count": 6,
+      "extra_contact_pairs": 0,
+      "manual_correct_configuration": {
+        "compiled_parameters_match": true,
+        "max_qpos_difference_vs_bridge": 0.0
+      },
+      "evidence": "g1-home.json"
+    },
+    {
+      "asset": "g1",
+      "keyframe": "knees_bent",
+      "passed": false,
+      "duration_s": 0.5,
+      "native_pairs": 49,
+      "rebuilt_pairs": 49,
+      "restored_endpoints": 28,
+      "max_body_position_error_m": 0.00019509633026271872,
+      "max_qvel_error": 0.15500007109600666,
+      "observed_pair_count": 6,
+      "extra_contact_pairs": 0,
+      "manual_correct_configuration": {
+        "compiled_parameters_match": true,
+        "max_qpos_difference_vs_bridge": 0.0
+      },
+      "evidence": "g1-knees.json"
+    }
+  ],
+  "decision": "CONDITIONAL_ENGINEERING_DEMO_TWO_CASES_PASS_ONE_CASE_REJECTED",
+  "claims_not_supported": [
+    "real-robot transfer",
+    "general asset conversion",
+    "long-horizon standing",
+    "original physics algorithm",
+    "measured manual-time savings"
+  ]
+}

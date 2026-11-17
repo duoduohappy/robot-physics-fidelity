@@ -1,0 +1,154 @@
+[
+  {
+    "name": "mujoco-usd-converter",
+    "version": "0.9.0",
+    "url": "https://files.pythonhosted.org/packages/8e/e8/4634b1b0ffe5318db114d15e34414f7667cb8dff205878221a9d2c982f8f/mujoco_usd_converter-0.9.0-py3-none-any.whl",
+    "hashes": {
+      "sha256": "849d83381245d15079f13099fc7a7320e1e9d7c590ed581b7a28398847bc6cdb"
+    }
+  },
+  {
+    "name": "newton",
+    "version": "1.8.0",
+    "url": "https://files.pythonhosted.org/packages/0f/c9/699c3df965c558e28a786906ba00bb24c182880fa2b5e21e78627ef0008e/newton-1.8.0-py3-none-any.whl",
+    "hashes": {
+      "sha256": "f17435c1a8bc6451acd5306ce00e296e7c6931eb8b9d9d61e44e876b2cd9caa2"
+    }
+  },
+  {
+    "name": "mujoco",
+    "version": "3.17.0",
+    "url": "https://files.pythonhosted.org/packages/fc/c8/e9d1d012c8a76b4bc4141d28b9483f8d5c1512aa5a3ae884fcde68adfd26/mujoco-3.17.0-cp311-cp311-win_amd64.whl",
+    "hashes": {
+      "sha256": "390c4820796e2b905f64f011ae3c307d686f8548a3571b7420da0001ee6faaf2"
+    }
+  },
+  {
+    "name": "newton-usd-schemas",
+    "version": "0.7.0",
+    "url": "https://files.pythonhosted.org/packages/ad/7c/3cc9cd3d4e04d9d39a5ad0501119a390bd87f285db74e00be50da0cd7d6f/newton_usd_schemas-0.7.0-py3-none-any.whl",
+    "hashes": {
+      "sha256": "194c7ef6a2bdfe3b2b119090141c5c87ea5180f0d0a64433805eed39b55938d8"
+    }
+  },
+  {
+    "name": "numpy-stl",
+    "version": "4.1.4",
+    "url": "https://files.pythonhosted.org/packages/f0/cb/ad83833d22ee0e01803f1cdc1bd0df37e220f38e777c8353f1d014b694b8/numpy_stl-4.1.4-py3-none-any.whl",
+    "hashes": {
+      "sha256": "b54aa2792ed70a52440c0be0167a4cf6bca67e4d2b5f69de73f796bfaaece640"
+    }
+  },
+  {
+    "name": "tinyobjloader",
+    "version": "2.0.0rc13",
+    "url": "https://files.pythonhosted.org/packages/48/bf/7bc5b353aa8162fa47e2cd5b0878cace0fd903a6e1e799807dc8eda96949/tinyobjloader-2.0.0rc13-cp311-cp311-win_amd64.whl",
+    "hashes": {
+      "sha256": "d5458372d0db083ad92fb83ab298f8615766c40723127b1f0208c633c4d7fa90"
+    }
+  },
+  {
+    "name": "usd-exchange",
+    "version": "3.0.1",
+    "url": "https://files.pythonhosted.org/packages/de/f3/6cbd687e8b045b277df2ae2297720c37a7509bd798df3fc42251f8b2c42b/usd_exchange-3.0.1-cp311-cp311-win_amd64.whl",
+    "hashes": {
+      "sha256": "b6cbbd3f1af06d9f2dd3aa48b2bcdaba6e724240f3ac0edfcee5f7a96ca29123"
+    }
+  },
+  {
+    "name": "warp-lang",
+    "version": "1.19.0",
+    "url": "https://files.pythonhosted.org/packages/82/d5/d345c030772d3493a51a8beb3e7f71b6f5e41742072db0cdbcd1461ea94e/warp_lang-1.19.0-py3-none-win_amd64.whl",
+    "hashes": {
+      "sha256": "bb4865dde4c2ae916d3d2a4e20ed1cd406e1d0a76ae722c3c574a9d43385c4d9"
+    }
+  },
+  {
+    "name": "numpy",
+    "version": "2.4.6",
+    "url": "https://files.pythonhosted.org/packages/c5/31/7fc6239c12bce7e931463251cca4426c465e1876ba3cc785402ef4dd8f4e/numpy-2.4.6-cp311-cp311-win_amd64.whl",
+    "hashes": {
+      "sha256": "1e254a00cdf42b1e4d5b3d68d33af63268d41340d8885df2ab6470f2e1500147"
+    }
+  },
+  {
+    "name": "python-utils",
+    "version": "4.2.2",
+    "url": "https://files.pythonhosted.org/packages/ac/f7/653d9774d62d17efe8a9ceb6982387aa02bf2641e3112fb8a2a8557f34ec/python_utils-4.2.2-py3-none-any.whl",
+    "hashes": {
+      "sha256": "7cb810c9d536108b5c6c4de886605cd1e86e25e77d809b778f33110666fc7630"
+    }
+  },
+  {
+    "name": "typing_extensions",
+    "version": "4.16.0",
+    "url": "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl",
+    "hashes": {
+      "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
+    }
+  },
+  {
+    "name": "websockets",
+    "version": "17.4",
+    "url": "https://files.pythonhosted.org/packages/55/66/00ca8b75a634c9fcf70579f9a242b96a7f7a3abeb21a02e2380fff491d2c/websockets-17.4-cp311-cp311-win_amd64.whl",
+    "hashes": {
+      "sha256": "e4beaef2f4796558e738e15ca0b8802e35f419a9fa374a978e41706f43c48b26"
+    }
+  },
+  {
+    "name": "absl-py",
+    "version": "2.5.1",
+    "url": "https://files.pythonhosted.org/packages/b3/7d/01e62f59e4166af1be6238d9f2b7f3453630c51b8044b412d05b5606532a/absl_py-2.5.1-py3-none-any.whl",
+    "hashes": {
+      "sha256": "721200f2f0e9960f2ca9dc3a2a706b201f5f75d812c158f059cbbe29eeafbdb8"
+    }
+  },
+  {
+    "name": "glfw",
+    "version": "2.11.0",
+    "url": "https://files.pythonhosted.org/packages/78/d6/b0d9d83177397c018efa3579c54990f8d9b3af17fdcf97b0e549609a0571/glfw-2.11.0-py2.py3-none-win_amd64.whl",
+    "hashes": {
+      "sha256": "bd39c1adb57b7273813e33b9768bed88d1ea656abfc914b4a6424ec0c5d62674"
+    }
+  },
+  {
+    "name": "PyOpenGL",
+    "version": "3.1.10",
+    "url": "https://files.pythonhosted.org/packages/de/e4/1ba6f44e491c4eece978685230dde56b14d51a0365bc1b774ddaa94d14cd/pyopengl-3.1.10-py3-none-any.whl",
+    "hashes": {
+      "sha256": "794a943daced39300879e4e47bd94525280685f42dbb5a998d336cfff151d74f"
+    }
+  },
+  {
+    "name": "etils",
+    "version": "1.15.0",
+    "url": "https://files.pythonhosted.org/packages/0f/67/95b34e8557551d01e35005dc3059f13d1380bb46867cd580beed8bf95171/etils-1.15.0-py3-none-any.whl",
+    "hashes": {
+      "sha256": "b9e7f3d7ab980c564245cd54e2b928e6abcb0521d6042ad3fdb13eea725309f0"
+    }
+  },
+  {
+    "name": "fsspec",
+    "version": "2026.9.0",
+    "url": "https://files.pythonhosted.org/packages/6c/c0/a98505f18594f1bce828bb159cec0fcf9860562f1a2c85913409fc8f3d9e/fsspec-2026.9.0-py3-none-any.whl",
+    "hashes": {
+      "sha256": "8dd6e646e99ea382bd85f97a45e6b526a442d79423a7dc673f1e2756d05fcb5f"
+    }
+  },
+  {
+    "name": "zipp",
+    "version": "4.1.2",
+    "url": "https://files.pythonhosted.org/packages/b8/44/7bd2007260da11cccca29ba2d4c345f1287aa663db38ee7cefeabf6386a5/zipp-4.1.2-py3-none-any.whl",
+    "hashes": {
+      "sha256": "b30cb6cd253122169c47de245ca24a86bac2a5d3802ba15bf7ba6414eb9e144d"
+    }
+  },
+  {
+    "name": "mujoco-warp",
+    "version": "3.17.0",
+    "url": "https://files.pythonhosted.org/packages/df/81/f651b9f3ee97786f375c879c2386734da1d0aba257b654c6c181edb824fd/mujoco_warp-3.17.0-py3-none-any.whl",
+    "hashes": {
+      "sha256": "3c7d4a6c27e60c61679d3746c6fa32e55803d22dd2f3faf79bcc3b643d61ae0a"
+    }
+  }
+]
