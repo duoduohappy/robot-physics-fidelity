@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "wheel": "robot_physics_fidelity-1.0.0-py3-none-any.whl",
+  "wheel_sha256": "1cd75d5691a6ebf7c5c0b9a0f15490765043c3d6a8f580a2991c61c301f3bcd7",
+  "engineering_acceptance": "PASS_WITH_KNOWN_UNRESOLVED_G1_CASE",
+  "clean_cli_invocations": 19,
+  "transaction_tests": 8,
+  "second_human_usability_test": false,
+  "three_deliverables": [
+    "automatic divergence evidence with uncertainty",
+    "verified bounded repair and pointer rollback",
+    "standalone wheel and clean-environment reproduction"
+  ]
+}

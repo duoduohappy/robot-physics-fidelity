@@ -1,0 +1,1044 @@
+{
+  "status": "PASS",
+  "thresholds": {
+    "position_m": 0.001,
+    "qvel_native_units": 0.01,
+    "duration_s": 0.5
+  },
+  "max_body_position_error_m": 2.8735773310861745e-07,
+  "max_qvel_error": 2.787427153227995e-05,
+  "first_divergence": null,
+  "pair_parameters_pass": true,
+  "joint_limit_parameters_pass": true,
+  "configured_pairs": 6,
+  "observed_pair_count": 3,
+  "extra_contact_pairs": [],
+  "source_peak_contacts": 8,
+  "target_peak_contacts": 8,
+  "trace": [
+    {
+      "step": 1,
+      "time_s": 0.005,
+      "position_error_m": 3.4697247991433144e-08,
+      "qvel_error": 1.3091520657537714e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_knee_fe",
+      "source_contacts": 6,
+      "target_contacts": 6
+    },
+    {
+      "step": 2,
+      "time_s": 0.01,
+      "position_error_m": 4.1828337349336664e-08,
+      "qvel_error": 2.787427153227995e-05,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "l_ankle_pd",
+      "source_contacts": 7,
+      "target_contacts": 7
+    },
+    {
+      "step": 3,
+      "time_s": 0.015,
+      "position_error_m": 4.4495214956974394e-08,
+      "qvel_error": 2.030561607879733e-05,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 8,
+      "target_contacts": 8
+    },
+    {
+      "step": 4,
+      "time_s": 0.02,
+      "position_error_m": 4.913604720324649e-08,
+      "qvel_error": 2.12651590771884e-05,
+      "worst_body": "r_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 8,
+      "target_contacts": 8
+    },
+    {
+      "step": 5,
+      "time_s": 0.025,
+      "position_error_m": 5.169814817906904e-08,
+      "qvel_error": 1.3044537641615506e-05,
+      "worst_body": "r_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 7,
+      "target_contacts": 7
+    },
+    {
+      "step": 6,
+      "time_s": 0.030000000000000002,
+      "position_error_m": 5.402527716857897e-08,
+      "qvel_error": 7.532216768524336e-06,
+      "worst_body": "r_ankle_ie_link",
+      "worst_joint": "l_ankle_pd",
+      "source_contacts": 5,
+      "target_contacts": 5
+    },
+    {
+      "step": 7,
+      "time_s": 0.035,
+      "position_error_m": 5.572748987270337e-08,
+      "qvel_error": 4.750642895956503e-06,
+      "worst_body": "r_ankle_ie_link",
+      "worst_joint": "l_ankle_pd",
+      "source_contacts": 5,
+      "target_contacts": 5
+    },
+    {
+      "step": 8,
+      "time_s": 0.04,
+      "position_error_m": 5.706201910982145e-08,
+      "qvel_error": 3.776599830418448e-06,
+      "worst_body": "r_ankle_ie_link",
+      "worst_joint": "l_ankle_ie",
+      "source_contacts": 4,
+      "target_contacts": 4
+    },
+    {
+      "step": 9,
+      "time_s": 0.045,
+      "position_error_m": 5.8365720118080944e-08,
+      "qvel_error": 2.662374237516474e-06,
+      "worst_body": "r_ankle_ie_link",
+      "worst_joint": "l_knee_fe",
+      "source_contacts": 3,
+      "target_contacts": 3
+    },
+    {
+      "step": 10,
+      "time_s": 0.049999999999999996,
+      "position_error_m": 5.964672100677859e-08,
+      "qvel_error": 2.3877842787456416e-06,
+      "worst_body": "r_ankle_ie_link",
+      "worst_joint": "l_knee_fe",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 11,
+      "time_s": 0.05499999999999999,
+      "position_error_m": 6.097227481238754e-08,
+      "qvel_error": 2.0903165589558625e-06,
+      "worst_body": "r_ankle_ie_link",
+      "worst_joint": "l_knee_fe",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 12,
+      "time_s": 0.05999999999999999,
+      "position_error_m": 6.230011248553602e-08,
+      "qvel_error": 1.8878895060581158e-06,
+      "worst_body": "r_ankle_ie_link",
+      "worst_joint": "l_knee_fe",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 13,
+      "time_s": 0.06499999999999999,
+      "position_error_m": 6.369516025728217e-08,
+      "qvel_error": 1.6572739784947998e-06,
+      "worst_body": "r_ankle_ie_link",
+      "worst_joint": "l_knee_fe",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 14,
+      "time_s": 0.06999999999999999,
+      "position_error_m": 6.502055979740184e-08,
+      "qvel_error": 4.878856779022556e-06,
+      "worst_body": "r_ankle_ie_link",
+      "worst_joint": "l_ankle_pd",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 15,
+      "time_s": 0.075,
+      "position_error_m": 6.638157876159845e-08,
+      "qvel_error": 8.197758283756684e-06,
+      "worst_body": "r_ankle_ie_link",
+      "worst_joint": "l_ankle_pd",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 16,
+      "time_s": 0.08,
+      "position_error_m": 6.76217982165106e-08,
+      "qvel_error": 1.0827937580337732e-05,
+      "worst_body": "r_ankle_ie_link",
+      "worst_joint": "l_ankle_pd",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 17,
+      "time_s": 0.085,
+      "position_error_m": 6.876608479866597e-08,
+      "qvel_error": 1.1873068287648891e-05,
+      "worst_body": "r_ankle_ie_link",
+      "worst_joint": "l_ankle_pd",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 18,
+      "time_s": 0.09000000000000001,
+      "position_error_m": 6.983864836440645e-08,
+      "qvel_error": 1.174308671325619e-05,
+      "worst_body": "r_ankle_ie_link",
+      "worst_joint": "l_ankle_pd",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 19,
+      "time_s": 0.09500000000000001,
+      "position_error_m": 7.067172080876816e-08,
+      "qvel_error": 1.086422430107703e-05,
+      "worst_body": "r_ankle_ie_link",
+      "worst_joint": "l_ankle_pd",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 20,
+      "time_s": 0.10000000000000002,
+      "position_error_m": 7.127083387348243e-08,
+      "qvel_error": 9.537753427935058e-06,
+      "worst_body": "r_ankle_ie_link",
+      "worst_joint": "l_ankle_pd",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 21,
+      "time_s": 0.10500000000000002,
+      "position_error_m": 7.176136818110024e-08,
+      "qvel_error": 7.999889528376158e-06,
+      "worst_body": "r_ankle_ie_link",
+      "worst_joint": "l_ankle_pd",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 22,
+      "time_s": 0.11000000000000003,
+      "position_error_m": 7.267168311564376e-08,
+      "qvel_error": 6.430669788670684e-06,
+      "worst_body": "r_ankle_ie_link",
+      "worst_joint": "l_ankle_pd",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 23,
+      "time_s": 0.11500000000000003,
+      "position_error_m": 7.409752877940434e-08,
+      "qvel_error": 5.70382174380768e-06,
+      "worst_body": "r_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 24,
+      "time_s": 0.12000000000000004,
+      "position_error_m": 7.62308557666902e-08,
+      "qvel_error": 8.329571111076461e-06,
+      "worst_body": "r_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 25,
+      "time_s": 0.12500000000000003,
+      "position_error_m": 7.844894614472686e-08,
+      "qvel_error": 9.670284058849177e-06,
+      "worst_body": "r_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 0,
+      "target_contacts": 0
+    },
+    {
+      "step": 26,
+      "time_s": 0.13000000000000003,
+      "position_error_m": 8.034757804920023e-08,
+      "qvel_error": 9.993375197581145e-06,
+      "worst_body": "r_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 0,
+      "target_contacts": 0
+    },
+    {
+      "step": 27,
+      "time_s": 0.13500000000000004,
+      "position_error_m": 8.199672901776367e-08,
+      "qvel_error": 9.533281131623994e-06,
+      "worst_body": "r_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 0,
+      "target_contacts": 0
+    },
+    {
+      "step": 28,
+      "time_s": 0.14000000000000004,
+      "position_error_m": 8.343909876917799e-08,
+      "qvel_error": 8.576114646885458e-06,
+      "worst_body": "r_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 0,
+      "target_contacts": 0
+    },
+    {
+      "step": 29,
+      "time_s": 0.14500000000000005,
+      "position_error_m": 8.606522583498588e-08,
+      "qvel_error": 7.347293456083648e-06,
+      "worst_body": "l_wrist_yaw_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 30,
+      "time_s": 0.15000000000000005,
+      "position_error_m": 8.905371023937292e-08,
+      "qvel_error": 6.032138904155104e-06,
+      "worst_body": "l_wrist_yaw_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 31,
+      "time_s": 0.15500000000000005,
+      "position_error_m": 9.190150346283232e-08,
+      "qvel_error": 3.959444622614328e-06,
+      "worst_body": "l_wrist_yaw_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 32,
+      "time_s": 0.16000000000000006,
+      "position_error_m": 9.462019046058145e-08,
+      "qvel_error": 3.0544453155090245e-06,
+      "worst_body": "l_wrist_yaw_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 33,
+      "time_s": 0.16500000000000006,
+      "position_error_m": 9.722247945598284e-08,
+      "qvel_error": 2.2337606263300724e-06,
+      "worst_body": "l_wrist_yaw_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 34,
+      "time_s": 0.17000000000000007,
+      "position_error_m": 9.97184876616597e-08,
+      "qvel_error": 1.5272940609156738e-06,
+      "worst_body": "l_wrist_yaw_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 35,
+      "time_s": 0.17500000000000007,
+      "position_error_m": 1.0211807655036154e-07,
+      "qvel_error": 9.98058110823763e-07,
+      "worst_body": "l_wrist_yaw_link",
+      "worst_joint": "r_hip_aa",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 36,
+      "time_s": 0.18000000000000008,
+      "position_error_m": 1.0443048348296458e-07,
+      "qvel_error": 9.864656473901334e-07,
+      "worst_body": "l_wrist_yaw_link",
+      "worst_joint": "r_knee_fe",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 37,
+      "time_s": 0.18500000000000008,
+      "position_error_m": 1.066642358049652e-07,
+      "qvel_error": 9.69502755854279e-07,
+      "worst_body": "l_wrist_yaw_link",
+      "worst_joint": "r_knee_fe",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 38,
+      "time_s": 0.19000000000000009,
+      "position_error_m": 1.0881800022177757e-07,
+      "qvel_error": 9.42008306914488e-07,
+      "worst_body": "l_wrist_yaw_link",
+      "worst_joint": "r_knee_fe",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 39,
+      "time_s": 0.1950000000000001,
+      "position_error_m": 1.1091025092779816e-07,
+      "qvel_error": 9.120253117167465e-07,
+      "worst_body": "l_wrist_yaw_link",
+      "worst_joint": "r_knee_fe",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 40,
+      "time_s": 0.2000000000000001,
+      "position_error_m": 1.1294386947913182e-07,
+      "qvel_error": 8.631913921419709e-07,
+      "worst_body": "l_wrist_yaw_link",
+      "worst_joint": "r_knee_fe",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 41,
+      "time_s": 0.2050000000000001,
+      "position_error_m": 1.1492384016653645e-07,
+      "qvel_error": 8.102203801207963e-07,
+      "worst_body": "l_wrist_yaw_link",
+      "worst_joint": "r_knee_fe",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 42,
+      "time_s": 0.2100000000000001,
+      "position_error_m": 1.1685557246843281e-07,
+      "qvel_error": 7.539189330607599e-07,
+      "worst_body": "l_wrist_yaw_link",
+      "worst_joint": "r_knee_fe",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 43,
+      "time_s": 0.2150000000000001,
+      "position_error_m": 1.1874359992503081e-07,
+      "qvel_error": 6.985556857408426e-07,
+      "worst_body": "l_wrist_yaw_link",
+      "worst_joint": "r_knee_fe",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 44,
+      "time_s": 0.2200000000000001,
+      "position_error_m": 1.2059163026489905e-07,
+      "qvel_error": 6.460210233427688e-07,
+      "worst_body": "l_wrist_yaw_link",
+      "worst_joint": "r_knee_fe",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 45,
+      "time_s": 0.22500000000000012,
+      "position_error_m": 1.2240263702611998e-07,
+      "qvel_error": 5.969290250984471e-07,
+      "worst_body": "l_wrist_yaw_link",
+      "worst_joint": "r_knee_fe",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 46,
+      "time_s": 0.23000000000000012,
+      "position_error_m": 1.2417897818362e-07,
+      "qvel_error": 5.512747984770527e-07,
+      "worst_body": "l_wrist_yaw_link",
+      "worst_joint": "r_knee_fe",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 47,
+      "time_s": 0.23500000000000013,
+      "position_error_m": 1.2592529197164026e-07,
+      "qvel_error": 5.081437666198951e-07,
+      "worst_body": "l_wrist_yaw_link",
+      "worst_joint": "r_knee_fe",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 48,
+      "time_s": 0.24000000000000013,
+      "position_error_m": 1.2763755100064778e-07,
+      "qvel_error": 4.694603605859271e-07,
+      "worst_body": "l_wrist_yaw_link",
+      "worst_joint": "r_knee_fe",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 49,
+      "time_s": 0.24500000000000013,
+      "position_error_m": 1.3022741730817078e-07,
+      "qvel_error": 4.3118932779862007e-07,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "floating_base",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 50,
+      "time_s": 0.2500000000000001,
+      "position_error_m": 1.3489616709078112e-07,
+      "qvel_error": 4.2185867910049524e-07,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "floating_base",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 51,
+      "time_s": 0.2550000000000001,
+      "position_error_m": 1.3950573446441794e-07,
+      "qvel_error": 4.0894781161426863e-07,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "floating_base",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 52,
+      "time_s": 0.2600000000000001,
+      "position_error_m": 1.4404908592335897e-07,
+      "qvel_error": 3.980531411151844e-07,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "floating_base",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 53,
+      "time_s": 0.2650000000000001,
+      "position_error_m": 1.4851637028523434e-07,
+      "qvel_error": 3.898969107574146e-07,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "floating_base",
+      "source_contacts": 1,
+      "target_contacts": 1
+    },
+    {
+      "step": 54,
+      "time_s": 0.27000000000000013,
+      "position_error_m": 1.5289842863336345e-07,
+      "qvel_error": 3.8407829405784355e-07,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "floating_base",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 55,
+      "time_s": 0.27500000000000013,
+      "position_error_m": 1.57706461716145e-07,
+      "qvel_error": 7.740350547624786e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_ie",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 56,
+      "time_s": 0.28000000000000014,
+      "position_error_m": 1.612476824633391e-07,
+      "qvel_error": 1.017671742431503e-05,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_ie",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 57,
+      "time_s": 0.28500000000000014,
+      "position_error_m": 1.6436958956422831e-07,
+      "qvel_error": 9.632281772198326e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_ie",
+      "source_contacts": 3,
+      "target_contacts": 3
+    },
+    {
+      "step": 58,
+      "time_s": 0.29000000000000015,
+      "position_error_m": 1.6828039929583927e-07,
+      "qvel_error": 7.249795868080611e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 3,
+      "target_contacts": 3
+    },
+    {
+      "step": 59,
+      "time_s": 0.29500000000000015,
+      "position_error_m": 1.72335075987462e-07,
+      "qvel_error": 3.4959534120915237e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 3,
+      "target_contacts": 3
+    },
+    {
+      "step": 60,
+      "time_s": 0.30000000000000016,
+      "position_error_m": 1.7650940123403736e-07,
+      "qvel_error": 3.442985070822857e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_ie",
+      "source_contacts": 4,
+      "target_contacts": 4
+    },
+    {
+      "step": 61,
+      "time_s": 0.30500000000000016,
+      "position_error_m": 1.978197720770014e-07,
+      "qvel_error": 1.7685793442634434e-05,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "l_ankle_pd",
+      "source_contacts": 3,
+      "target_contacts": 3
+    },
+    {
+      "step": 62,
+      "time_s": 0.31000000000000016,
+      "position_error_m": 2.1450373966641623e-07,
+      "qvel_error": 1.3760961178110875e-05,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "l_knee_fe",
+      "source_contacts": 3,
+      "target_contacts": 3
+    },
+    {
+      "step": 63,
+      "time_s": 0.31500000000000017,
+      "position_error_m": 2.296041833882434e-07,
+      "qvel_error": 2.1390551482536324e-05,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "l_ankle_ie",
+      "source_contacts": 3,
+      "target_contacts": 3
+    },
+    {
+      "step": 64,
+      "time_s": 0.3200000000000002,
+      "position_error_m": 2.419300434361449e-07,
+      "qvel_error": 1.2809472944130817e-05,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "l_ankle_ie",
+      "source_contacts": 3,
+      "target_contacts": 3
+    },
+    {
+      "step": 65,
+      "time_s": 0.3250000000000002,
+      "position_error_m": 2.520460403998559e-07,
+      "qvel_error": 9.239349032297284e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 3,
+      "target_contacts": 3
+    },
+    {
+      "step": 66,
+      "time_s": 0.3300000000000002,
+      "position_error_m": 2.6034528927826317e-07,
+      "qvel_error": 8.746595762110232e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 3,
+      "target_contacts": 3
+    },
+    {
+      "step": 67,
+      "time_s": 0.3350000000000002,
+      "position_error_m": 2.671838064752241e-07,
+      "qvel_error": 7.794910693137425e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 3,
+      "target_contacts": 3
+    },
+    {
+      "step": 68,
+      "time_s": 0.3400000000000002,
+      "position_error_m": 2.72761494085616e-07,
+      "qvel_error": 6.534644881650564e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 3,
+      "target_contacts": 3
+    },
+    {
+      "step": 69,
+      "time_s": 0.3450000000000002,
+      "position_error_m": 2.77268834433797e-07,
+      "qvel_error": 6.1349814883676634e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "l_ankle_ie",
+      "source_contacts": 3,
+      "target_contacts": 3
+    },
+    {
+      "step": 70,
+      "time_s": 0.3500000000000002,
+      "position_error_m": 2.8090192376317713e-07,
+      "qvel_error": 6.72133408705089e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "l_ankle_ie",
+      "source_contacts": 3,
+      "target_contacts": 3
+    },
+    {
+      "step": 71,
+      "time_s": 0.3550000000000002,
+      "position_error_m": 2.8371338210708696e-07,
+      "qvel_error": 6.733531291283623e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "l_ankle_ie",
+      "source_contacts": 3,
+      "target_contacts": 3
+    },
+    {
+      "step": 72,
+      "time_s": 0.3600000000000002,
+      "position_error_m": 2.857038220865915e-07,
+      "qvel_error": 6.361590719566879e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "l_ankle_ie",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 73,
+      "time_s": 0.3650000000000002,
+      "position_error_m": 2.8689431411099697e-07,
+      "qvel_error": 5.742129263422435e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "l_ankle_ie",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 74,
+      "time_s": 0.3700000000000002,
+      "position_error_m": 2.8735773310861745e-07,
+      "qvel_error": 4.982211756821009e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "l_ankle_ie",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 75,
+      "time_s": 0.3750000000000002,
+      "position_error_m": 2.8716832549402493e-07,
+      "qvel_error": 4.165662243517387e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "l_ankle_ie",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 76,
+      "time_s": 0.3800000000000002,
+      "position_error_m": 2.863239701444975e-07,
+      "qvel_error": 3.3598332964887567e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "l_ankle_ie",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 77,
+      "time_s": 0.38500000000000023,
+      "position_error_m": 2.849008253341667e-07,
+      "qvel_error": 2.6058045598242874e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "l_ankle_ie",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 78,
+      "time_s": 0.39000000000000024,
+      "position_error_m": 2.8297131561549893e-07,
+      "qvel_error": 2.2717562051521867e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 79,
+      "time_s": 0.39500000000000024,
+      "position_error_m": 2.8056510156804215e-07,
+      "qvel_error": 2.2016708183247857e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 80,
+      "time_s": 0.40000000000000024,
+      "position_error_m": 2.78372556644646e-07,
+      "qvel_error": 2.125846010087029e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 81,
+      "time_s": 0.40500000000000025,
+      "position_error_m": 2.7600485739964764e-07,
+      "qvel_error": 4.601472398557682e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 82,
+      "time_s": 0.41000000000000025,
+      "position_error_m": 2.7338518478192686e-07,
+      "qvel_error": 3.3059404933415137e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "torso_yaw",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 83,
+      "time_s": 0.41500000000000026,
+      "position_error_m": 2.7113490196073453e-07,
+      "qvel_error": 2.796476142874482e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_ie",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 84,
+      "time_s": 0.42000000000000026,
+      "position_error_m": 2.6821245881214484e-07,
+      "qvel_error": 2.850835240375549e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_ie",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 85,
+      "time_s": 0.42500000000000027,
+      "position_error_m": 2.652966384214528e-07,
+      "qvel_error": 2.4311540627042216e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_ie",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 86,
+      "time_s": 0.43000000000000027,
+      "position_error_m": 2.626591459192751e-07,
+      "qvel_error": 2.1697791450572823e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 87,
+      "time_s": 0.4350000000000003,
+      "position_error_m": 2.602350220315408e-07,
+      "qvel_error": 2.7550659141527267e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 88,
+      "time_s": 0.4400000000000003,
+      "position_error_m": 2.580063592494408e-07,
+      "qvel_error": 3.0452967049662827e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 89,
+      "time_s": 0.4450000000000003,
+      "position_error_m": 2.5590086838445103e-07,
+      "qvel_error": 3.1034021910208986e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 90,
+      "time_s": 0.4500000000000003,
+      "position_error_m": 2.538484933090057e-07,
+      "qvel_error": 2.9990948543778817e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 91,
+      "time_s": 0.4550000000000003,
+      "position_error_m": 2.5179449149315136e-07,
+      "qvel_error": 2.786590604569872e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 92,
+      "time_s": 0.4600000000000003,
+      "position_error_m": 2.4968429229721423e-07,
+      "qvel_error": 2.4803718276372733e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 93,
+      "time_s": 0.4650000000000003,
+      "position_error_m": 2.4749753778363637e-07,
+      "qvel_error": 2.1431112440101208e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 94,
+      "time_s": 0.4700000000000003,
+      "position_error_m": 2.4518078632629337e-07,
+      "qvel_error": 1.8378127963764035e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 95,
+      "time_s": 0.4750000000000003,
+      "position_error_m": 2.4276419317847964e-07,
+      "qvel_error": 1.5339873662562065e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "r_ankle_pd",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 96,
+      "time_s": 0.4800000000000003,
+      "position_error_m": 2.4027926646963405e-07,
+      "qvel_error": 1.3511114282938053e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "floating_base",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 97,
+      "time_s": 0.4850000000000003,
+      "position_error_m": 2.3775570948125768e-07,
+      "qvel_error": 1.3386693290540208e-06,
+      "worst_body": "l_ankle_ie_link",
+      "worst_joint": "floating_base",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 98,
+      "time_s": 0.4900000000000003,
+      "position_error_m": 2.399567994304519e-07,
+      "qvel_error": 1.3305051508316623e-06,
+      "worst_body": "neck_roll_link",
+      "worst_joint": "floating_base",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 99,
+      "time_s": 0.49500000000000033,
+      "position_error_m": 2.4222156896902547e-07,
+      "qvel_error": 1.3267204561628887e-06,
+      "worst_body": "neck_roll_link",
+      "worst_joint": "floating_base",
+      "source_contacts": 2,
+      "target_contacts": 2
+    },
+    {
+      "step": 100,
+      "time_s": 0.5000000000000003,
+      "position_error_m": 2.445133919504183e-07,
+      "qvel_error": 1.3268030601976122e-06,
+      "worst_body": "neck_roll_link",
+      "worst_joint": "floating_base",
+      "source_contacts": 2,
+      "target_contacts": 2
+    }
+  ],
+  "contact_snapshots": [],
+  "settings_explicitly_matched": [
+    "timestep",
+    "integrator",
+    "iterations",
+    "ls_iterations",
+    "solver",
+    "cone",
+    "jacobian",
+    "tolerance",
+    "ls_tolerance",
+    "noslip_iterations",
+    "impratio",
+    "gravity",
+    "disableflags",
+    "enableflags"
+  ],
+  "scope": "fixed source/keyframe/controls; reconstructed native CPU model; not general qualification",
+  "candidate": "<workspace>\\work\\rpf-clean-run-a4dc0ea1f25d43e4a7c58e64213368ce\\apollo\\candidate-a51c590b83b441c09ae815f3e563199d\\asset.usda",
+  "candidate_tree_sha256": "9b0f7017597820fc3a4e346d624a7a104162a75b18afb991e462f945cffd1dcd",
+  "candidate_activated": true,
+  "source_signature": "227e01c016389065c608667e7c66edf4be11b456e211a3fad6ca1a07b571ae76",
+  "keyframe": "stand",
+  "raw_local_report_sha256": "59b324cbb3ba28804cc3a8c9f4502346a3c204ded332a4bcd17252f4d1aaea6c"
+}

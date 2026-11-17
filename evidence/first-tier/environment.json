@@ -1,0 +1,20 @@
+{
+  "prefix": "<workspace>\\work\\rpf-clean",
+  "base_prefix": "<user-home>\\AppData\\Local\\Programs\\Python\\Python311",
+  "package_file": "<workspace>\\work\\rpf-clean\\Lib\\site-packages\\robot_physics_fidelity\\__init__.py",
+  "system_site_packages": false,
+  "PYTHONPATH": null,
+  "sys_path": [
+    "",
+    "<user-home>\\AppData\\Local\\Programs\\Python\\Python311\\python311.zip",
+    "<user-home>\\AppData\\Local\\Programs\\Python\\Python311\\DLLs",
+    "<user-home>\\AppData\\Local\\Programs\\Python\\Python311\\Lib",
+    "<user-home>\\AppData\\Local\\Programs\\Python\\Python311",
+    "<workspace>\\work\\rpf-clean",
+    "<workspace>\\work\\rpf-clean\\Lib\\site-packages"
+  ],
+  "dependency_install": "offline --no-index from 22 SHA256-verified wheels; no old site-packages/PYTHONPATH",
+  "asset_input": "existing readonly fixed-commit original mesh cache; converted USD regenerated in this run",
+  "wheel_sha256": "1cd75d5691a6ebf7c5c0b9a0f15490765043c3d6a8f580a2991c61c301f3bcd7",
+  "raw_local_report_sha256": "5a467de974f10b2bdf3cb212af6b3b3e26619d59cfcc305b86952ea6bb2797a9"
+}

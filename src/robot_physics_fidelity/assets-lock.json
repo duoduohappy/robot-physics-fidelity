@@ -1,0 +1,524 @@
+{
+  "apollo": {
+    "commit": "71f066ad0be9cd271f7ed58c030243ef157af9f4",
+    "files": [
+      {
+        "path": "apptronik_apollo/assets/ability_hand/FB_palm_ref.STL",
+        "bytes": 581984,
+        "git_blob_sha1": "88954044ab5ad535aba2e4f4175706876fc2bd9e",
+        "sha256": "d9917a43ca1ce6fb2cbf7b651e0ed6b0c322acf75b8485806cc5d5a365b06db0"
+      },
+      {
+        "path": "apptronik_apollo/assets/ability_hand/FB_palm_ref_MIR.STL",
+        "bytes": 581984,
+        "git_blob_sha1": "8527248258f0fe9f26fb2365cb90234e0cc5fad2",
+        "sha256": "3d0e9d29efbd8deb94bfab1c84464a2c46a33e839cb5f553115b27d2610193c2"
+      },
+      {
+        "path": "apptronik_apollo/assets/ability_hand/idx-F1.STL",
+        "bytes": 44284,
+        "git_blob_sha1": "4d72784477c77a76a1bfde7308f0a12338fa3ed2",
+        "sha256": "f983d18177fecfdcf0141bd8e94e351fad67f62a74fb70819cdc017ae5af6d0e"
+      },
+      {
+        "path": "apptronik_apollo/assets/ability_hand/idx-F2.STL",
+        "bytes": 24384,
+        "git_blob_sha1": "cffbfb348813f15b9823c5a157a1eaaa51c513b3",
+        "sha256": "37d5e938e9e924fbf0262bd044ee04eec28c73cd73ea91ad97b37bf037c12198"
+      },
+      {
+        "path": "apptronik_apollo/assets/ability_hand/thumb-F1-MIR.STL",
+        "bytes": 6084,
+        "git_blob_sha1": "69de40d9660336b8724b04b9b0c113c99073a251",
+        "sha256": "0ff962d2c6f8b0af39607439f4d48a247e4eb925f7a0c20ca00b0d27d8e7c2e0"
+      },
+      {
+        "path": "apptronik_apollo/assets/ability_hand/thumb-F1.STL",
+        "bytes": 6084,
+        "git_blob_sha1": "d9379a1d0ac02cec1f1047e438085d096ec50a80",
+        "sha256": "b20ec97a4682e85abe977fbe0d0108362719573830556f3b75350fe8a084af21"
+      },
+      {
+        "path": "apptronik_apollo/assets/ability_hand/thumb-F2-left.STL",
+        "bytes": 13484,
+        "git_blob_sha1": "89c333c68c8986a71f6c9ddc33c49b47048cfeca",
+        "sha256": "9dcd48a151fe1de3f3eee0615ac679f0eb4182ae0ebee398d372ea102e718c89"
+      },
+      {
+        "path": "apptronik_apollo/assets/ability_hand/thumb-F2-right.STL",
+        "bytes": 13484,
+        "git_blob_sha1": "c10eb40fd16462eace107aca3d6d89e4120017a9",
+        "sha256": "09623bce14d85db7b035ab4333f702505fa13f834845adda1179544d3c456a77"
+      },
+      {
+        "path": "apptronik_apollo/assets/ability_hand/wrist_adapter.STL",
+        "bytes": 3853984,
+        "git_blob_sha1": "ec1e3f0e1e1c431b25d429dcd62da2dc4ecbab18",
+        "sha256": "b1d1c627d239acf058bb5df4b270e8f6ab7728c5b01f5fb7f0d269994f55b1a8"
+      },
+      {
+        "path": "apptronik_apollo/assets/ability_hand/wristmesh.STL",
+        "bytes": 2143184,
+        "git_blob_sha1": "d5e8dff8ad794fa04db501850ad66c8c3d37f6d1",
+        "sha256": "4d67306f775a5da7d6e8c9c2faddb12f1497ea289a6c7dc1584c213b42da43ee"
+      },
+      {
+        "path": "apptronik_apollo/assets/afh_2_1_link.stl",
+        "bytes": 2711384,
+        "git_blob_sha1": "3dccacc6c839c272779c80d533acf72de8ea2a7a",
+        "sha256": "76604d5c5db8472bf24322c33fe03b32c0f2dff45985edefb96c11e1c9b0e801"
+      },
+      {
+        "path": "apptronik_apollo/assets/battery_mount_fix.stl",
+        "bytes": 300084,
+        "git_blob_sha1": "5747e00aa484510b118a321369a578469f05b574",
+        "sha256": "9785105c0b606b5f229b70ba95bd64b239ddb90578f1dc9ccd439f4c182b5c33"
+      },
+      {
+        "path": "apptronik_apollo/assets/l_ankle_ie_link.stl",
+        "bytes": 679134,
+        "git_blob_sha1": "e816ee9267670ed8064882284817b56e1e25523f",
+        "sha256": "1e5526d09d5f418c4c428e5e58497c2807df06742e0e24874ccbcadd11e9bea1"
+      },
+      {
+        "path": "apptronik_apollo/assets/l_elbow_fe_link.stl",
+        "bytes": 1290984,
+        "git_blob_sha1": "1333b4fcab83e736d944ca6d9f0709c1c6704e8f",
+        "sha256": "ac17ac98b6564a75886311fe88482b9cdbcb632556c80bdc3fd338dca26d43dd"
+      },
+      {
+        "path": "apptronik_apollo/assets/l_foot_link.stl",
+        "bytes": 1841984,
+        "git_blob_sha1": "b58ece6be61bc3e43442a59fd1499602aa371581",
+        "sha256": "6506c651d16a4fcf6f8ce37a056b349bd1abea1c4526866383249addd3609659"
+      },
+      {
+        "path": "apptronik_apollo/assets/l_hip_aa_link.stl",
+        "bytes": 538784,
+        "git_blob_sha1": "fe9c2247fd8e640ecfef81912356ffffb23f1212",
+        "sha256": "9192292ec7093bde26d5ead25685d69e1a75d079f5cd800ae1817e789977c515"
+      },
+      {
+        "path": "apptronik_apollo/assets/l_hip_fe_link.stl",
+        "bytes": 2499784,
+        "git_blob_sha1": "43e46eb2ae87973735bc57f89bf1e00484e020f1",
+        "sha256": "3c0729f7988d19a99caecda8afedd690dfc939cf2017680b15af7906186aecf2"
+      },
+      {
+        "path": "apptronik_apollo/assets/l_hip_ie_link.stl",
+        "bytes": 2961884,
+        "git_blob_sha1": "ee4f3366750a17dd29b780cb8f25079f3622da58",
+        "sha256": "db5e43d77b0308b0aaed54b54f022c90d8d8efc9f809de14d8eee8ddda2d7430"
+      },
+      {
+        "path": "apptronik_apollo/assets/l_knee_fe_link.stl",
+        "bytes": 1403484,
+        "git_blob_sha1": "93db805089551f5677bd2d3e8b6a3d4c64e3da49",
+        "sha256": "818d5660fb778eae7d28c05be806f76cbc298bd4fe8a8db7417a93b8ee9b48ed"
+      },
+      {
+        "path": "apptronik_apollo/assets/l_shoulder_aa_link.stl",
+        "bytes": 276084,
+        "git_blob_sha1": "0c86e92aa91df609cde4cccc65b8faa4717ca225",
+        "sha256": "96dea690d6288d5e81b651d4da7214ccf860aed74329d261aaef760533c12742"
+      },
+      {
+        "path": "apptronik_apollo/assets/l_shoulder_fe_link.stl",
+        "bytes": 2053634,
+        "git_blob_sha1": "16bfbf2f51fa4262d634ef19be4a2198622caa9a",
+        "sha256": "cd6b89ece6320388b792e910ddac222d6e4244d310efe4aa642788dc00232fb4"
+      },
+      {
+        "path": "apptronik_apollo/assets/l_shoulder_ie_link.stl",
+        "bytes": 3142984,
+        "git_blob_sha1": "f5f0e8f9f68f7010edee2b9166f94d4ad15b3c2c",
+        "sha256": "1932049068158367e09a6ee70a0a6d908c6e2adc6dcf471cb451205c320c4a2d"
+      },
+      {
+        "path": "apptronik_apollo/assets/l_wrist_pitch_link.stl",
+        "bytes": 1587934,
+        "git_blob_sha1": "7142b5b496eff008ef6bdcb17d28ef8086db0e5c",
+        "sha256": "6ae61d22369ae6ed0f7122df902c9ebabc482891739460cbb953317de24b90ab"
+      },
+      {
+        "path": "apptronik_apollo/assets/l_wrist_roll_link.stl",
+        "bytes": 2500084,
+        "git_blob_sha1": "f8bed8548ba0fa1ae61ae0d1abb763ca5e654d81",
+        "sha256": "e752b5aca75ebd5430e45ee37c9eb57f4cf9d6def6370c29234c811d40a028c0"
+      },
+      {
+        "path": "apptronik_apollo/assets/l_wrist_yaw_link.stl",
+        "bytes": 370384,
+        "git_blob_sha1": "6ad622a0bb395225438c802c06c077e984fad09b",
+        "sha256": "06b118e59ec0e6308a842f7fd3c572ed657c7d3cb93b17fb1de72ea56b3f27eb"
+      },
+      {
+        "path": "apptronik_apollo/assets/neck_mount_fix_link.stl",
+        "bytes": 2267984,
+        "git_blob_sha1": "ec46e3b0f2749e40c41850b149e83f1463ea2bb4",
+        "sha256": "d6f64c42a5bfed7abb0dc48414e58164ad0042a71f5f5fe27382049e48608d7a"
+      },
+      {
+        "path": "apptronik_apollo/assets/neck_yaw_link.stl",
+        "bytes": 3512084,
+        "git_blob_sha1": "c737f3883169ff841f81f909c9482bef600cb68a",
+        "sha256": "86160c43db315955e9e24c323602a74bad026bdd83df55fecb3413c333b2e453"
+      },
+      {
+        "path": "apptronik_apollo/assets/pelvis_link.stl",
+        "bytes": 3500084,
+        "git_blob_sha1": "7871a027f6e91e92475efeea63622423d6d744aa",
+        "sha256": "f344c0928d39626394edff076e9eca00274cbf69830f6ff1b3ff6d019baa1a65"
+      },
+      {
+        "path": "apptronik_apollo/assets/r_ankle_ie_link.stl",
+        "bytes": 652134,
+        "git_blob_sha1": "5242d2f5f60c59829c6bd02f7c27befbd9ae3713",
+        "sha256": "cb33be19fe5202b6ed638c1816e3ba8e14d8407be9e0045c6e644f1fd54a5056"
+      },
+      {
+        "path": "apptronik_apollo/assets/r_elbow_fe_link.stl",
+        "bytes": 1290684,
+        "git_blob_sha1": "670f846bbabc8b91239d01027e950c7966b35ecf",
+        "sha256": "9564899c9031c4d68942c5d6e065d3e8b39634bcaaf0a23b91f0241420d8530f"
+      },
+      {
+        "path": "apptronik_apollo/assets/r_foot_link.stl",
+        "bytes": 1845934,
+        "git_blob_sha1": "023781bd1f54ccc0fc4fd5d44e2d5216d51bf2db",
+        "sha256": "0ea4a2c27a89f944cd838c6c6c471c1b3a859bc4174c86c41773e6a20079b903"
+      },
+      {
+        "path": "apptronik_apollo/assets/r_hip_aa_link.stl",
+        "bytes": 539884,
+        "git_blob_sha1": "35102bca84b0de28672d3009dabecd4c0a466ec8",
+        "sha256": "5cca53bcd1cedff71106dd0d276d6767e1bd7a7ceb6a6a0601b28c7d4361f79c"
+      },
+      {
+        "path": "apptronik_apollo/assets/r_hip_fe_link.stl",
+        "bytes": 2103184,
+        "git_blob_sha1": "a111086efc339e0d8d4a49f68a709b0acb9f7926",
+        "sha256": "53bbb28f4688e4a9562d6d54a51c1d7784774117ecb2034f10f6f9ee470e0fa7"
+      },
+      {
+        "path": "apptronik_apollo/assets/r_hip_ie_link.stl",
+        "bytes": 2961634,
+        "git_blob_sha1": "60cef4ff903c91e83e922f8ab6fd25addbfbab67",
+        "sha256": "3b9cee0dab3e564b12fd6293fe21da1724261dd7347e184d84239d60cfe6551c"
+      },
+      {
+        "path": "apptronik_apollo/assets/r_knee_fe_link.stl",
+        "bytes": 1386984,
+        "git_blob_sha1": "7c8c44fe00310c8f5a150beb54efb529ab3e45d5",
+        "sha256": "19a73643d4dd8ff90894b0a712cf828c7f79a8091218ad2dee8fec419f5f0666"
+      },
+      {
+        "path": "apptronik_apollo/assets/r_shoulder_aa_link.stl",
+        "bytes": 290084,
+        "git_blob_sha1": "04cd7eff9970f07252f7151cb00e2799af9e8654",
+        "sha256": "d41fd7d6d599cb28cdd8fb135bc1f905f89acf0f768d771d1c0d24fa54921247"
+      },
+      {
+        "path": "apptronik_apollo/assets/r_shoulder_fe_link.stl",
+        "bytes": 2053084,
+        "git_blob_sha1": "c44d361e2b404f991786af50d72af99032a9d56e",
+        "sha256": "9d702645d36fc09958b9c61cb92cab48c4902b2049f0d7839cea61761c521fd0"
+      },
+      {
+        "path": "apptronik_apollo/assets/r_shoulder_ie_link.stl",
+        "bytes": 2896884,
+        "git_blob_sha1": "1fc8eaee6f651d8198d1da8db1d89e9715aed18a",
+        "sha256": "0ccc0413f98ed9a9549a6a6cbc0395c69fa4516381956d37b7717c0cb8e89dbd"
+      },
+      {
+        "path": "apptronik_apollo/assets/r_wrist_pitch_link.stl",
+        "bytes": 1589534,
+        "git_blob_sha1": "20cf63252a456340a7dc79f66e04f41a6acce2b6",
+        "sha256": "61a85a23dc80ebbe954fcc669655d36159d4a7cb91a7a815f244f5ff94455f30"
+      },
+      {
+        "path": "apptronik_apollo/assets/r_wrist_roll_link.stl",
+        "bytes": 2500084,
+        "git_blob_sha1": "ea096a07abc86cf88165bb9d7b13572c7e20f906",
+        "sha256": "97a2459f5cba8c03a59c9f8a7e9795a91c1b46a5d81d054bbb6cbb629e8cdafd"
+      },
+      {
+        "path": "apptronik_apollo/assets/r_wrist_yaw_link.stl",
+        "bytes": 369534,
+        "git_blob_sha1": "c92beda1b8384eb703cf150e4a8eb728a6cc2dfe",
+        "sha256": "84ac6e91f41cd993ceba238969e7b09facc1733df603ac7dc439dfb327c60c12"
+      },
+      {
+        "path": "apptronik_apollo/assets/torso_link.stl",
+        "bytes": 7500084,
+        "git_blob_sha1": "c6c99a7825bd847a9148d112fb547b3fac541b5b",
+        "sha256": "0301f1d9c925df169ba12a79cb2dab532156aae3821750cb5820349ac60a92f6"
+      },
+      {
+        "path": "apptronik_apollo/assets/torso_pitch_link.stl",
+        "bytes": 705334,
+        "git_blob_sha1": "2564e2d9635332ebd9e7eca24d5cc8cf67d416d4",
+        "sha256": "dc5174d8a748a0c372641dca94172646693edd1d6ead8fb1259a26cf53a08f93"
+      },
+      {
+        "path": "apptronik_apollo/assets/torso_roll_link.stl",
+        "bytes": 1819384,
+        "git_blob_sha1": "71f910e7ca6ac1f192e3f91d4cbe888f445126a0",
+        "sha256": "db0bfaecf809e3f877cbdfadcf7e3ec162b4f5f362f61d3ea62d26ab3e1983a6"
+      },
+      {
+        "path": "apptronik_apollo/scene.xml",
+        "bytes": 1518,
+        "git_blob_sha1": "590c1a787e8afde8ad790234a04c75bf46836cab",
+        "sha256": "d57694726b430548fc2719d5f08440dd6a152cda0f04283a64a4dd4edf546499"
+      },
+      {
+        "path": "apptronik_apollo/apptronik_apollo.xml",
+        "bytes": 35569,
+        "git_blob_sha1": "893fd606ac9e9c4432ce5b72ef954262263c874c",
+        "sha256": "1b9f77a9e743088ea7ac0fa66ebc422960b62187773a0deb2fb5bcf79715a8e6"
+      },
+      {
+        "path": "apptronik_apollo/LICENSE",
+        "bytes": 11344,
+        "git_blob_sha1": "63be3c45dea8e0079197b895d71a3b7a20acdd1c",
+        "sha256": "10b53325854d8aa8172b846f96eb47d5fbba6366161c480292cf4627606ef430"
+      }
+    ],
+    "scene": "scene.xml"
+  },
+  "g1": {
+    "commit": "71f066ad0be9cd271f7ed58c030243ef157af9f4",
+    "files": [
+      {
+        "path": "unitree_g1/assets/head_link.STL",
+        "bytes": 932784,
+        "git_blob_sha1": "2ee5fba15de3ccd4c31774bc7a66de7aeefab770",
+        "sha256": "005fb67fbd3eff94aa8bf4a6e83238174e9f91b6721f7111594322f223724411"
+      },
+      {
+        "path": "unitree_g1/assets/left_ankle_pitch_link.STL",
+        "bytes": 71184,
+        "git_blob_sha1": "69de8490184afc698f633e34bb74e65351bd4689",
+        "sha256": "d49e3abc6f5b12e532062cd575b87b5ef40cd2a3fc18f54a1ca5bba4f773d51d"
+      },
+      {
+        "path": "unitree_g1/assets/left_ankle_roll_link.STL",
+        "bytes": 653384,
+        "git_blob_sha1": "8864e9f98103190883d1ba027aba5469925f2bca",
+        "sha256": "c4092af943141d4d9f74232f3cfa345afc6565f46a077793b8ae0e68b39dc33f"
+      },
+      {
+        "path": "unitree_g1/assets/left_elbow_link.STL",
+        "bytes": 88784,
+        "git_blob_sha1": "1a96d99ba469960173129084ab6dd3bf8a732a71",
+        "sha256": "fa752198accd104d5c4c3a01382e45165b944fbbc5acce085059223324e5bed3"
+      },
+      {
+        "path": "unitree_g1/assets/left_hip_pitch_link.STL",
+        "bytes": 181684,
+        "git_blob_sha1": "5b751c767ecf03b29c707b19f1faf5367e8d33d2",
+        "sha256": "4725168105ee768ee31638ef22b53f6be2d7641bfd7cfefe803488d884776fa4"
+      },
+      {
+        "path": "unitree_g1/assets/left_hip_roll_link.STL",
+        "bytes": 192184,
+        "git_blob_sha1": "778437ffe61731915fa4cb7cf2390e9cbe738c43",
+        "sha256": "91f25922ee8a7c3152790051bebad17b4d9cd243569c38fe340285ff93a97acf"
+      },
+      {
+        "path": "unitree_g1/assets/left_hip_yaw_link.STL",
+        "bytes": 296284,
+        "git_blob_sha1": "383093ab96ed3a099ab79f5d6ed144fc0b7067a9",
+        "sha256": "a16d88aa6ddac8083aa7ad55ed317bea44b1fa003d314fba88965b7ed0f3b55b"
+      },
+      {
+        "path": "unitree_g1/assets/left_knee_link.STL",
+        "bytes": 854884,
+        "git_blob_sha1": "f2e98e54e8f1980eb62ad25c7a838044c23bbadf",
+        "sha256": "8d92b9e3d3a636761150bb8025e32514c4602b91c7028d523ee42b3e632de477"
+      },
+      {
+        "path": "unitree_g1/assets/left_rubber_hand.STL",
+        "bytes": 2287484,
+        "git_blob_sha1": "c44830f1fd519ee28750cad04d7d0adb209c265f",
+        "sha256": "cff2221a690fa69303f61fce68f2d155c1517b52efb6ca9262dd56e0bc6e70fe"
+      },
+      {
+        "path": "unitree_g1/assets/left_shoulder_pitch_link.STL",
+        "bytes": 176784,
+        "git_blob_sha1": "e698311fb12d3f22f018b668c40dab667c39b8d3",
+        "sha256": "f0d1cfd02fcf0d42f95e678eeca33da3afbcc366ffba5c052847773ec4f31d52"
+      },
+      {
+        "path": "unitree_g1/assets/left_shoulder_roll_link.STL",
+        "bytes": 400284,
+        "git_blob_sha1": "80bca84aca41137f8270fb35e263dcc5d9658e43",
+        "sha256": "fb9df21687773522598dc384f1a2945c7519f11cbc8bd372a49170316d6eee88"
+      },
+      {
+        "path": "unitree_g1/assets/left_shoulder_yaw_link.STL",
+        "bytes": 249184,
+        "git_blob_sha1": "281e699055ffafe094f52a440547eb4b64f83bfa",
+        "sha256": "1aa97e9748e924336567992181f78c7cd0652fd52a4afcca3df6b2ef6f9e712e"
+      },
+      {
+        "path": "unitree_g1/assets/left_wrist_pitch_link.STL",
+        "bytes": 85984,
+        "git_blob_sha1": "82cc224a8e41251d879502f9809e31d0988ec7f9",
+        "sha256": "b251d8e05047f695d0f536cd78c11973cfa4e78d08cfe82759336cc3471de3a9"
+      },
+      {
+        "path": "unitree_g1/assets/left_wrist_roll_link.STL",
+        "bytes": 356184,
+        "git_blob_sha1": "f3c263a7ab3fc1e902bf2513064d4bc666c6b59f",
+        "sha256": "edc387c9a0ba8c2237e9b296d32531426fabeb6f53e58df45c76106bca74148c"
+      },
+      {
+        "path": "unitree_g1/assets/left_wrist_yaw_link.STL",
+        "bytes": 318684,
+        "git_blob_sha1": "31be4fd45fa18987b35b3386fdce2ce98c798774",
+        "sha256": "83f8fb3a726bf9613d65dd14f0f447cb918c3c95b3938042a0c9c09749267d3b"
+      },
+      {
+        "path": "unitree_g1/assets/logo_link.STL",
+        "bytes": 243384,
+        "git_blob_sha1": "e9792098504b64b359fbffa983373e5e6fa1b50a",
+        "sha256": "8571a0a19bc4916fa55f91449f51d5fdefd751000054865a842449429d5f155b"
+      },
+      {
+        "path": "unitree_g1/assets/pelvis.STL",
+        "bytes": 1060884,
+        "git_blob_sha1": "691a779b9c9f4c97f48eaa9edf9eb336ca3b4411",
+        "sha256": "5ba6bbc888e630550140d3c26763f10206da8c8bd30ed886b8ede41c61f57a31"
+      },
+      {
+        "path": "unitree_g1/assets/pelvis_contour_link.STL",
+        "bytes": 1805184,
+        "git_blob_sha1": "42434339abf5a0a3816f890389e3e61af3b1e03c",
+        "sha256": "5cc5c2c7a312329e3feeb2b03d3fc09fc29705bd01864f6767e51be959662420"
+      },
+      {
+        "path": "unitree_g1/assets/right_ankle_pitch_link.STL",
+        "bytes": 71184,
+        "git_blob_sha1": "e77d8a2fe1e5d56fac049833d254d6ffa4f6b350",
+        "sha256": "15be426539ec1be70246d4d82a168806db64a41301af8b35c197a33348c787a9"
+      },
+      {
+        "path": "unitree_g1/assets/right_ankle_roll_link.STL",
+        "bytes": 653784,
+        "git_blob_sha1": "d4261dd7ccf39dd9c54cad37c1982f1d50e6fccc",
+        "sha256": "4b66222ea56653e627711b56d0a8949b4920da5df091da0ceb343f54e884e3a5"
+      },
+      {
+        "path": "unitree_g1/assets/right_elbow_link.STL",
+        "bytes": 88784,
+        "git_blob_sha1": "f259e3812efb9985d6463c04d3e8a4b53793a699",
+        "sha256": "1be925d7aa268bb8fddf5362b9173066890c7d32092c05638608126e59d1e2ab"
+      },
+      {
+        "path": "unitree_g1/assets/right_hip_pitch_link.STL",
+        "bytes": 181284,
+        "git_blob_sha1": "998a0a0f5c248b217cf82c5088d6d365d9654ecd",
+        "sha256": "e4f3c99d7f4a7d34eadbef9461fc66e3486cb5442db1ec50c86317d459f1a9c6"
+      },
+      {
+        "path": "unitree_g1/assets/right_hip_roll_link.STL",
+        "bytes": 192684,
+        "git_blob_sha1": "47b2eebdd36c7289679eebb9583c65a15514e194",
+        "sha256": "4c254ef66a356f492947f360dd931965477b631e3fcc841f91ccc46d945d54f6"
+      },
+      {
+        "path": "unitree_g1/assets/right_hip_yaw_link.STL",
+        "bytes": 296284,
+        "git_blob_sha1": "371856427c7cc31ae7463c83f00ef6652c72d672",
+        "sha256": "e479c2936ca2057e9eb2f7dff6c189b7419d7b8484dea0b298cbb36a2a6aa668"
+      },
+      {
+        "path": "unitree_g1/assets/right_knee_link.STL",
+        "bytes": 852284,
+        "git_blob_sha1": "76d21a3d81e4e34520c5d6b3f28d7e43c1874364",
+        "sha256": "63c4008449c9bbe701a6e2b557b7a252e90cf3a5abcf54cee46862b9a69f8ec8"
+      },
+      {
+        "path": "unitree_g1/assets/right_rubber_hand.STL",
+        "bytes": 2192684,
+        "git_blob_sha1": "0aacffbb8168f0bb588f8cba3f37f9e2c6e0421a",
+        "sha256": "99533b778bca6246144fa511bb9d4e555e075c641f2a0251e04372869cd99d67"
+      },
+      {
+        "path": "unitree_g1/assets/right_shoulder_pitch_link.STL",
+        "bytes": 176784,
+        "git_blob_sha1": "3f5b4ed47ade68e83f617ef3fd65cb810e9b0e07",
+        "sha256": "24cdb387e0128dfe602770a81c56cdce3a0181d34d039a11d1aaf8819b7b8c02"
+      },
+      {
+        "path": "unitree_g1/assets/right_shoulder_roll_link.STL",
+        "bytes": 401884,
+        "git_blob_sha1": "179d61753d48b3a55165b81ded2c14e84deb81c2",
+        "sha256": "962b97c48f9ce9e8399f45dd9522e0865d19aa9fd299406b2d475a8fc4a53e81"
+      },
+      {
+        "path": "unitree_g1/assets/right_shoulder_yaw_link.STL",
+        "bytes": 249984,
+        "git_blob_sha1": "2ba6076a8853edac5e3e17cffd2c256318e88d92",
+        "sha256": "a0b76489271da0c72461a344c9ffb0f0c6e64f019ea5014c1624886c442a2fe5"
+      },
+      {
+        "path": "unitree_g1/assets/right_wrist_pitch_link.STL",
+        "bytes": 79584,
+        "git_blob_sha1": "da194543c40df9d492abb0553c06cc614a78caae",
+        "sha256": "d22f8f3b3127f15a63e5be1ee273cd5075786c3142f1c3d9f76cbf43d2a26477"
+      },
+      {
+        "path": "unitree_g1/assets/right_wrist_roll_link.STL",
+        "bytes": 356084,
+        "git_blob_sha1": "26868d2282b7e38c2ba40e00968d2c92c421fbd2",
+        "sha256": "a7ee9212ff5b94d6cb7f52bb1bbf3f352194d5b598acff74f4c77d340c5b344f"
+      },
+      {
+        "path": "unitree_g1/assets/right_wrist_yaw_link.STL",
+        "bytes": 341484,
+        "git_blob_sha1": "d788902867014c5984e6029fce822508579f73dc",
+        "sha256": "bc9dece2d12509707e0057ba2e48df8f3d56db0c79410212963a25e8a50f61a6"
+      },
+      {
+        "path": "unitree_g1/assets/torso_link_rev_1_0.STL",
+        "bytes": 2570584,
+        "git_blob_sha1": "8a759a709750ad97e1f372db0ebbff246daedcc1",
+        "sha256": "11ddb46f2098efbbd8816b1d65893632d8e78be936376c7cdcd6771899ccc723"
+      },
+      {
+        "path": "unitree_g1/assets/waist_roll_link_rev_1_0.STL",
+        "bytes": 85884,
+        "git_blob_sha1": "a64f330c592582dc31cdf38f4d08cfff06681c5f",
+        "sha256": "b67c347a05abc3e8ddae600d98a082bee273bb39f8e651647708b0a7140a8a97"
+      },
+      {
+        "path": "unitree_g1/assets/waist_yaw_link_rev_1_0.STL",
+        "bytes": 619984,
+        "git_blob_sha1": "0fabb63d37627cb77f64c5d2a46cf25d4acc66fc",
+        "sha256": "ec6db442b11f25eed898b5add07940c85d804f300de24dcbd264ccd8be7d554c"
+      },
+      {
+        "path": "unitree_g1/scene_mjx.xml",
+        "bytes": 7423,
+        "git_blob_sha1": "aae62d45770280edffb84b8b0fa661f9ac88cd9d",
+        "sha256": "112b12e4d2cb3330e5062ff7b331b946c3c37121f35de0bace507d274ef06bda"
+      },
+      {
+        "path": "unitree_g1/g1_mjx.xml",
+        "bytes": 27445,
+        "git_blob_sha1": "2b6a9d8519c8924812b832e485e29db5b0a7e7b4",
+        "sha256": "7bf99a486bc3d4f24629dd5ccae30b7c9c3ad595d84e685fbd1e4920d457a61f"
+      },
+      {
+        "path": "unitree_g1/LICENSE",
+        "bytes": 1537,
+        "git_blob_sha1": "62637c8d1416c57ef1aafdf0d4867502e96b9164",
+        "sha256": "98335465f43a20b5850e4651db6e74c4aa1e9fc8e8813d38f345178045c0da50"
+      }
+    ],
+    "scene": "scene_mjx.xml"
+  }
+}

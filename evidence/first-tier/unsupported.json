@@ -1,0 +1,6 @@
+{
+  "status": "UNSUPPORTED",
+  "error": "Exactly one free root and named hinge joints required; At least one explicit pair required; Static automatic collider not represented by pair contract",
+  "activation_state": "inspect active-path for an existing workspace; no success is implied",
+  "raw_local_report_sha256": "8ae3d592cf2cf17cf5925dae1eed2f499158f5fdc8a530194b63ee23ef75a687"
+}

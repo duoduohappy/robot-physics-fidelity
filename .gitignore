@@ -1,4 +1,10 @@
 work/
+runs/
+.venv/
+.rpf-cache/
+.rpf-test-work/
 __pycache__/
 *.pyc
+build/
+src/*.egg-info/
 outputs/cross-asset-results/

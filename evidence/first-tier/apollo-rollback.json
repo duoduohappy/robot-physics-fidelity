@@ -1,0 +1,9 @@
+{
+  "status": "ROLLED_BACK",
+  "previous_selection": "candidate",
+  "restored_asset": "original/apptronik_apollo scene.usda",
+  "source_files_modified": false,
+  "original_integrity_verified": true,
+  "runtime_state_restored": false,
+  "raw_local_report_sha256": "a0818eeb886edd084e0e9831b99cdcafa2fec42bdc6fa9f863c5c3916328fc6c"
+}

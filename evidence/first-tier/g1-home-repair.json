@@ -1,0 +1,1294 @@
+{
+  "status": "PASS",
+  "thresholds": {
+    "position_m": 0.001,
+    "qvel_native_units": 0.01,
+    "duration_s": 0.5
+  },
+  "max_body_position_error_m": 6.209867010192882e-07,
+  "max_qvel_error": 0.00029009838186944137,
+  "first_divergence": null,
+  "pair_parameters_pass": true,
+  "joint_limit_parameters_pass": true,
+  "configured_pairs": 49,
+  "observed_pair_count": 6,
+  "extra_contact_pairs": [],
+  "source_peak_contacts": 12,
+  "target_peak_contacts": 12,
+  "trace": [
+    {
+      "step": 1,
+      "time_s": 0.004,
+      "position_error_m": 4.1637422700663285e-07,
+      "qvel_error": 1.1483473849716042e-05,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "right_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 2,
+      "time_s": 0.008,
+      "position_error_m": 4.075633867686723e-07,
+      "qvel_error": 1.0448437545072797e-05,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_elbow_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 3,
+      "time_s": 0.012,
+      "position_error_m": 4.057795972151057e-07,
+      "qvel_error": 8.044382356259955e-06,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_elbow_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 4,
+      "time_s": 0.016,
+      "position_error_m": 4.0763498608195614e-07,
+      "qvel_error": 1.1128445582542223e-05,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 5,
+      "time_s": 0.02,
+      "position_error_m": 4.1710051250712366e-07,
+      "qvel_error": 1.478228032181228e-05,
+      "worst_body": "left_ankle_roll_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 6,
+      "time_s": 0.024,
+      "position_error_m": 4.179689442711243e-07,
+      "qvel_error": 4.251110380104617e-06,
+      "worst_body": "left_ankle_roll_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 7,
+      "time_s": 0.028,
+      "position_error_m": 4.2517533638611327e-07,
+      "qvel_error": 5.22686898335456e-06,
+      "worst_body": "left_ankle_roll_link",
+      "worst_joint": "left_hip_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 8,
+      "time_s": 0.032,
+      "position_error_m": 4.317619022552177e-07,
+      "qvel_error": 1.2555917762058222e-05,
+      "worst_body": "left_ankle_roll_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 9,
+      "time_s": 0.036000000000000004,
+      "position_error_m": 4.3250280959417076e-07,
+      "qvel_error": 8.167465054387257e-06,
+      "worst_body": "left_ankle_roll_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 10,
+      "time_s": 0.04000000000000001,
+      "position_error_m": 4.3655461409025653e-07,
+      "qvel_error": 1.5753388403760837e-05,
+      "worst_body": "left_ankle_roll_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 11,
+      "time_s": 0.04400000000000001,
+      "position_error_m": 4.3652715918385265e-07,
+      "qvel_error": 9.71950276063005e-06,
+      "worst_body": "left_ankle_roll_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 12,
+      "time_s": 0.048000000000000015,
+      "position_error_m": 4.4404646050086316e-07,
+      "qvel_error": 1.799787852474477e-05,
+      "worst_body": "left_ankle_roll_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 13,
+      "time_s": 0.05200000000000002,
+      "position_error_m": 4.2705514366470076e-07,
+      "qvel_error": 0.00011969624554086788,
+      "worst_body": "left_knee_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 14,
+      "time_s": 0.05600000000000002,
+      "position_error_m": 4.272545208877654e-07,
+      "qvel_error": 2.8988918146177767e-05,
+      "worst_body": "left_knee_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 15,
+      "time_s": 0.060000000000000026,
+      "position_error_m": 4.261796084092939e-07,
+      "qvel_error": 2.301142506333509e-05,
+      "worst_body": "left_knee_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 16,
+      "time_s": 0.06400000000000003,
+      "position_error_m": 4.2744564525409867e-07,
+      "qvel_error": 0.0002333062440493805,
+      "worst_body": "left_knee_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 17,
+      "time_s": 0.06800000000000003,
+      "position_error_m": 4.3368424042927733e-07,
+      "qvel_error": 0.0002157211135500603,
+      "worst_body": "left_knee_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 18,
+      "time_s": 0.07200000000000004,
+      "position_error_m": 4.3783677752817773e-07,
+      "qvel_error": 2.581257668721193e-05,
+      "worst_body": "left_knee_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 19,
+      "time_s": 0.07600000000000004,
+      "position_error_m": 4.376587070462068e-07,
+      "qvel_error": 0.00019436908929482133,
+      "worst_body": "left_knee_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 20,
+      "time_s": 0.08000000000000004,
+      "position_error_m": 4.2142959711527483e-07,
+      "qvel_error": 0.00017644985441012118,
+      "worst_body": "left_knee_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 8,
+      "target_contacts": 8
+    },
+    {
+      "step": 21,
+      "time_s": 0.08400000000000005,
+      "position_error_m": 4.025649318617486e-07,
+      "qvel_error": 0.00023692368514638407,
+      "worst_body": "left_knee_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 9,
+      "target_contacts": 9
+    },
+    {
+      "step": 22,
+      "time_s": 0.08800000000000005,
+      "position_error_m": 3.7796335104756107e-07,
+      "qvel_error": 0.00029009838186944137,
+      "worst_body": "left_knee_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 7,
+      "target_contacts": 7
+    },
+    {
+      "step": 23,
+      "time_s": 0.09200000000000005,
+      "position_error_m": 3.5734672716725147e-07,
+      "qvel_error": 0.00011279057119506497,
+      "worst_body": "left_knee_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 9,
+      "target_contacts": 9
+    },
+    {
+      "step": 24,
+      "time_s": 0.09600000000000006,
+      "position_error_m": 3.411619806312216e-07,
+      "qvel_error": 3.73799720375656e-05,
+      "worst_body": "left_knee_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 25,
+      "time_s": 0.10000000000000006,
+      "position_error_m": 3.2418347346852006e-07,
+      "qvel_error": 0.00013416113709263655,
+      "worst_body": "right_knee_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 26,
+      "time_s": 0.10400000000000006,
+      "position_error_m": 3.231198347913855e-07,
+      "qvel_error": 4.37388281973039e-05,
+      "worst_body": "right_knee_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 27,
+      "time_s": 0.10800000000000007,
+      "position_error_m": 3.22978626142445e-07,
+      "qvel_error": 7.611188063771923e-05,
+      "worst_body": "right_knee_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 28,
+      "time_s": 0.11200000000000007,
+      "position_error_m": 3.212721894838011e-07,
+      "qvel_error": 0.00027876409851335104,
+      "worst_body": "right_knee_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 9,
+      "target_contacts": 9
+    },
+    {
+      "step": 29,
+      "time_s": 0.11600000000000008,
+      "position_error_m": 3.222104752800825e-07,
+      "qvel_error": 0.00014102622210176996,
+      "worst_body": "right_knee_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 8,
+      "target_contacts": 8
+    },
+    {
+      "step": 30,
+      "time_s": 0.12000000000000008,
+      "position_error_m": 3.3014877200143733e-07,
+      "qvel_error": 7.442641797356098e-05,
+      "worst_body": "right_knee_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 31,
+      "time_s": 0.12400000000000008,
+      "position_error_m": 3.4618581710305074e-07,
+      "qvel_error": 0.00012663268590096255,
+      "worst_body": "right_knee_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 8,
+      "target_contacts": 8
+    },
+    {
+      "step": 32,
+      "time_s": 0.12800000000000009,
+      "position_error_m": 3.620977653273627e-07,
+      "qvel_error": 0.00011179527138927003,
+      "worst_body": "right_knee_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 33,
+      "time_s": 0.1320000000000001,
+      "position_error_m": 3.755065744182051e-07,
+      "qvel_error": 0.00011072525993449656,
+      "worst_body": "right_knee_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 34,
+      "time_s": 0.1360000000000001,
+      "position_error_m": 3.8502247409061274e-07,
+      "qvel_error": 9.540766673860057e-05,
+      "worst_body": "right_knee_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 35,
+      "time_s": 0.1400000000000001,
+      "position_error_m": 3.9072125297689997e-07,
+      "qvel_error": 7.587545613801927e-05,
+      "worst_body": "right_knee_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 36,
+      "time_s": 0.1440000000000001,
+      "position_error_m": 3.9321772476313965e-07,
+      "qvel_error": 5.721671317326926e-05,
+      "worst_body": "right_knee_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 37,
+      "time_s": 0.1480000000000001,
+      "position_error_m": 3.9325496066500154e-07,
+      "qvel_error": 4.156409304800768e-05,
+      "worst_body": "right_knee_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 38,
+      "time_s": 0.1520000000000001,
+      "position_error_m": 3.9151697151657006e-07,
+      "qvel_error": 2.9435875225081176e-05,
+      "worst_body": "right_knee_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 39,
+      "time_s": 0.1560000000000001,
+      "position_error_m": 3.885609618017871e-07,
+      "qvel_error": 2.056277983447652e-05,
+      "worst_body": "right_knee_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 40,
+      "time_s": 0.16000000000000011,
+      "position_error_m": 3.848707697332032e-07,
+      "qvel_error": 1.4318444034877587e-05,
+      "worst_body": "right_knee_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 41,
+      "time_s": 0.16400000000000012,
+      "position_error_m": 3.8068066651741894e-07,
+      "qvel_error": 1.0251533894259715e-05,
+      "worst_body": "right_knee_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 11,
+      "target_contacts": 11
+    },
+    {
+      "step": 42,
+      "time_s": 0.16800000000000012,
+      "position_error_m": 3.762399226336921e-07,
+      "qvel_error": 7.475260555145011e-06,
+      "worst_body": "right_knee_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 43,
+      "time_s": 0.17200000000000013,
+      "position_error_m": 3.713663044926929e-07,
+      "qvel_error": 5.165208872085977e-06,
+      "worst_body": "right_knee_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 44,
+      "time_s": 0.17600000000000013,
+      "position_error_m": 3.6633484721410037e-07,
+      "qvel_error": 5.111839922133932e-06,
+      "worst_body": "right_knee_link",
+      "worst_joint": "waist_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 45,
+      "time_s": 0.18000000000000013,
+      "position_error_m": 3.6126464181968077e-07,
+      "qvel_error": 5.071592653504986e-06,
+      "worst_body": "right_knee_link",
+      "worst_joint": "waist_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 46,
+      "time_s": 0.18400000000000014,
+      "position_error_m": 3.562244308419338e-07,
+      "qvel_error": 4.993650370654912e-06,
+      "worst_body": "right_knee_link",
+      "worst_joint": "waist_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 47,
+      "time_s": 0.18800000000000014,
+      "position_error_m": 3.512139621908439e-07,
+      "qvel_error": 4.903289550939327e-06,
+      "worst_body": "right_knee_link",
+      "worst_joint": "waist_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 48,
+      "time_s": 0.19200000000000014,
+      "position_error_m": 3.462258668165963e-07,
+      "qvel_error": 4.679618546110653e-06,
+      "worst_body": "right_knee_link",
+      "worst_joint": "waist_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 49,
+      "time_s": 0.19600000000000015,
+      "position_error_m": 3.4127740908274085e-07,
+      "qvel_error": 4.436121182282982e-06,
+      "worst_body": "right_knee_link",
+      "worst_joint": "waist_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 50,
+      "time_s": 0.20000000000000015,
+      "position_error_m": 3.3637168397882e-07,
+      "qvel_error": 4.1800703883820844e-06,
+      "worst_body": "right_knee_link",
+      "worst_joint": "waist_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 51,
+      "time_s": 0.20400000000000015,
+      "position_error_m": 3.4173341444468375e-07,
+      "qvel_error": 3.917407726650168e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "waist_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 52,
+      "time_s": 0.20800000000000016,
+      "position_error_m": 3.5199637160674563e-07,
+      "qvel_error": 3.937597690351069e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 53,
+      "time_s": 0.21200000000000016,
+      "position_error_m": 3.6190489586911123e-07,
+      "qvel_error": 4.220934706189276e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 54,
+      "time_s": 0.21600000000000016,
+      "position_error_m": 3.7142951079052744e-07,
+      "qvel_error": 4.4755912709127516e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 55,
+      "time_s": 0.22000000000000017,
+      "position_error_m": 3.805442843861362e-07,
+      "qvel_error": 4.67434100176814e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 56,
+      "time_s": 0.22400000000000017,
+      "position_error_m": 3.89480775041251e-07,
+      "qvel_error": 4.809961179036253e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 57,
+      "time_s": 0.22800000000000017,
+      "position_error_m": 3.981303815254328e-07,
+      "qvel_error": 4.917586423230404e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 58,
+      "time_s": 0.23200000000000018,
+      "position_error_m": 4.0641501362903565e-07,
+      "qvel_error": 4.999091762974278e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 59,
+      "time_s": 0.23600000000000018,
+      "position_error_m": 4.142798445197493e-07,
+      "qvel_error": 5.056951937522543e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 60,
+      "time_s": 0.24000000000000019,
+      "position_error_m": 4.216875214430038e-07,
+      "qvel_error": 5.093807506731038e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 61,
+      "time_s": 0.2440000000000002,
+      "position_error_m": 4.2861369290228546e-07,
+      "qvel_error": 5.112279845696788e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 62,
+      "time_s": 0.2480000000000002,
+      "position_error_m": 4.3504364258262207e-07,
+      "qvel_error": 5.114870853191716e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 63,
+      "time_s": 0.25200000000000017,
+      "position_error_m": 4.4096980811314523e-07,
+      "qvel_error": 5.103903666561077e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 64,
+      "time_s": 0.25600000000000017,
+      "position_error_m": 4.463899846082753e-07,
+      "qvel_error": 5.081489594943242e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 65,
+      "time_s": 0.2600000000000002,
+      "position_error_m": 4.513060469467367e-07,
+      "qvel_error": 5.049513919370193e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 66,
+      "time_s": 0.2640000000000002,
+      "position_error_m": 4.5572305459526397e-07,
+      "qvel_error": 5.0096353280812064e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 67,
+      "time_s": 0.2680000000000002,
+      "position_error_m": 4.5964863037636916e-07,
+      "qvel_error": 4.96329482893923e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 68,
+      "time_s": 0.2720000000000002,
+      "position_error_m": 4.6309253312962206e-07,
+      "qvel_error": 4.911730777497781e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 69,
+      "time_s": 0.2760000000000002,
+      "position_error_m": 4.6606636054311035e-07,
+      "qvel_error": 4.855997397325111e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 70,
+      "time_s": 0.2800000000000002,
+      "position_error_m": 4.6858333764554505e-07,
+      "qvel_error": 4.796984820712447e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 71,
+      "time_s": 0.2840000000000002,
+      "position_error_m": 4.7065815929336896e-07,
+      "qvel_error": 4.735439269864909e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 72,
+      "time_s": 0.2880000000000002,
+      "position_error_m": 4.7230686279001177e-07,
+      "qvel_error": 4.6719823952926474e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 73,
+      "time_s": 0.2920000000000002,
+      "position_error_m": 4.73546716773382e-07,
+      "qvel_error": 4.607129225729298e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 74,
+      "time_s": 0.2960000000000002,
+      "position_error_m": 4.7439611730940023e-07,
+      "qvel_error": 4.541304374743992e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 75,
+      "time_s": 0.3000000000000002,
+      "position_error_m": 4.7487448337490967e-07,
+      "qvel_error": 4.4748564123164684e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 76,
+      "time_s": 0.3040000000000002,
+      "position_error_m": 4.7500215140383606e-07,
+      "qvel_error": 4.4080703798903e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 77,
+      "time_s": 0.3080000000000002,
+      "position_error_m": 4.7480026579838075e-07,
+      "qvel_error": 4.3411785544985974e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 78,
+      "time_s": 0.3120000000000002,
+      "position_error_m": 4.742906660609725e-07,
+      "qvel_error": 4.274369612539651e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 79,
+      "time_s": 0.3160000000000002,
+      "position_error_m": 4.7345550518995694e-07,
+      "qvel_error": 4.214925380373671e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 80,
+      "time_s": 0.32000000000000023,
+      "position_error_m": 4.7236196806799136e-07,
+      "qvel_error": 4.149398826783831e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 81,
+      "time_s": 0.32400000000000023,
+      "position_error_m": 4.715276502031962e-07,
+      "qvel_error": 4.0896552674909645e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 82,
+      "time_s": 0.32800000000000024,
+      "position_error_m": 4.7088947501688905e-07,
+      "qvel_error": 4.026287315894023e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 83,
+      "time_s": 0.33200000000000024,
+      "position_error_m": 4.7039962582096084e-07,
+      "qvel_error": 3.960979709453222e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 84,
+      "time_s": 0.33600000000000024,
+      "position_error_m": 4.700230998508359e-07,
+      "qvel_error": 3.894906562469137e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 85,
+      "time_s": 0.34000000000000025,
+      "position_error_m": 4.6939305358567607e-07,
+      "qvel_error": 3.824083829967635e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 86,
+      "time_s": 0.34400000000000025,
+      "position_error_m": 4.6854022760223213e-07,
+      "qvel_error": 3.7558184826473606e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 87,
+      "time_s": 0.34800000000000025,
+      "position_error_m": 4.6749169264198587e-07,
+      "qvel_error": 3.68977293189977e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 88,
+      "time_s": 0.35200000000000026,
+      "position_error_m": 4.6627295414991554e-07,
+      "qvel_error": 3.625674665947397e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 89,
+      "time_s": 0.35600000000000026,
+      "position_error_m": 4.649085768235195e-07,
+      "qvel_error": 3.5633001697031597e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 90,
+      "time_s": 0.36000000000000026,
+      "position_error_m": 4.6342238013696857e-07,
+      "qvel_error": 3.5024664930879273e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 91,
+      "time_s": 0.36400000000000027,
+      "position_error_m": 4.6183749258937867e-07,
+      "qvel_error": 3.443024904349959e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 92,
+      "time_s": 0.36800000000000027,
+      "position_error_m": 4.6017635304401727e-07,
+      "qvel_error": 3.431675587112215e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 93,
+      "time_s": 0.3720000000000003,
+      "position_error_m": 4.584814598529441e-07,
+      "qvel_error": 3.515942701357022e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 94,
+      "time_s": 0.3760000000000003,
+      "position_error_m": 4.5684614111835e-07,
+      "qvel_error": 3.773885466538951e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 95,
+      "time_s": 0.3800000000000003,
+      "position_error_m": 4.552220074088842e-07,
+      "qvel_error": 3.7452368204515807e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 96,
+      "time_s": 0.3840000000000003,
+      "position_error_m": 4.535976000780151e-07,
+      "qvel_error": 3.69807872849931e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 97,
+      "time_s": 0.3880000000000003,
+      "position_error_m": 4.520124844142881e-07,
+      "qvel_error": 4.180202608620315e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 98,
+      "time_s": 0.3920000000000003,
+      "position_error_m": 4.5046398877701677e-07,
+      "qvel_error": 3.113227086942033e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 99,
+      "time_s": 0.3960000000000003,
+      "position_error_m": 4.4898869702020283e-07,
+      "qvel_error": 3.152688765523104e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 100,
+      "time_s": 0.4000000000000003,
+      "position_error_m": 4.4754897547683026e-07,
+      "qvel_error": 3.5252500854843216e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 101,
+      "time_s": 0.4040000000000003,
+      "position_error_m": 4.4616391549345824e-07,
+      "qvel_error": 4.115632595586005e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 102,
+      "time_s": 0.4080000000000003,
+      "position_error_m": 4.448512266816418e-07,
+      "qvel_error": 4.141835035192942e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 103,
+      "time_s": 0.4120000000000003,
+      "position_error_m": 4.436273126212642e-07,
+      "qvel_error": 3.9120854292973295e-06,
+      "worst_body": "left_wrist_yaw_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 104,
+      "time_s": 0.4160000000000003,
+      "position_error_m": 4.5094165913861506e-07,
+      "qvel_error": 3.5985798720328255e-06,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 105,
+      "time_s": 0.4200000000000003,
+      "position_error_m": 4.5884871724410914e-07,
+      "qvel_error": 3.419241997915795e-06,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 106,
+      "time_s": 0.4240000000000003,
+      "position_error_m": 4.667836763366795e-07,
+      "qvel_error": 3.5417685565822254e-06,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 107,
+      "time_s": 0.4280000000000003,
+      "position_error_m": 4.747453575676408e-07,
+      "qvel_error": 3.6580391550092295e-06,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 108,
+      "time_s": 0.43200000000000033,
+      "position_error_m": 4.827324803363675e-07,
+      "qvel_error": 3.767818761372943e-06,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 109,
+      "time_s": 0.43600000000000033,
+      "position_error_m": 4.907436793877284e-07,
+      "qvel_error": 3.871213710475441e-06,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 110,
+      "time_s": 0.44000000000000034,
+      "position_error_m": 4.987786439564212e-07,
+      "qvel_error": 3.969398563841153e-06,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 111,
+      "time_s": 0.44400000000000034,
+      "position_error_m": 5.068347566777875e-07,
+      "qvel_error": 4.065577163224476e-06,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 112,
+      "time_s": 0.44800000000000034,
+      "position_error_m": 5.149103997487137e-07,
+      "qvel_error": 4.156202959723632e-06,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 113,
+      "time_s": 0.45200000000000035,
+      "position_error_m": 5.230040952403092e-07,
+      "qvel_error": 4.2404407077090145e-06,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 114,
+      "time_s": 0.45600000000000035,
+      "position_error_m": 5.311143533581753e-07,
+      "qvel_error": 4.3182509860406615e-06,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 115,
+      "time_s": 0.46000000000000035,
+      "position_error_m": 5.392396596887172e-07,
+      "qvel_error": 4.389832111137415e-06,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 116,
+      "time_s": 0.46400000000000036,
+      "position_error_m": 5.473784869397536e-07,
+      "qvel_error": 4.455439989309307e-06,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 117,
+      "time_s": 0.46800000000000036,
+      "position_error_m": 5.555293072223577e-07,
+      "qvel_error": 4.515334143015415e-06,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 118,
+      "time_s": 0.47200000000000036,
+      "position_error_m": 5.636905992534302e-07,
+      "qvel_error": 4.569761018716201e-06,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 119,
+      "time_s": 0.47600000000000037,
+      "position_error_m": 5.718608508259448e-07,
+      "qvel_error": 4.618951106996616e-06,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 120,
+      "time_s": 0.48000000000000037,
+      "position_error_m": 5.800385586979262e-07,
+      "qvel_error": 4.663122544990017e-06,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 121,
+      "time_s": 0.4840000000000004,
+      "position_error_m": 5.882222270242599e-07,
+      "qvel_error": 4.702484303037435e-06,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 122,
+      "time_s": 0.4880000000000004,
+      "position_error_m": 5.964103646227681e-07,
+      "qvel_error": 4.7372376362209145e-06,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 123,
+      "time_s": 0.4920000000000004,
+      "position_error_m": 6.046014826704971e-07,
+      "qvel_error": 4.767579796505217e-06,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 124,
+      "time_s": 0.4960000000000004,
+      "position_error_m": 6.127940919004038e-07,
+      "qvel_error": 4.793703648114933e-06,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 125,
+      "time_s": 0.5000000000000003,
+      "position_error_m": 6.209867010192882e-07,
+      "qvel_error": 4.815798609808519e-06,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    }
+  ],
+  "contact_snapshots": [],
+  "settings_explicitly_matched": [
+    "timestep",
+    "integrator",
+    "iterations",
+    "ls_iterations",
+    "solver",
+    "cone",
+    "jacobian",
+    "tolerance",
+    "ls_tolerance",
+    "noslip_iterations",
+    "impratio",
+    "gravity",
+    "disableflags",
+    "enableflags"
+  ],
+  "scope": "fixed source/keyframe/controls; reconstructed native CPU model; not general qualification",
+  "candidate": "<workspace>\\work\\rpf-clean-run-a4dc0ea1f25d43e4a7c58e64213368ce\\g1-home\\candidate-575a12be7b5c45feb5b071198fbaf17d\\asset.usda",
+  "candidate_tree_sha256": "e9ef60b4028fe4b2ecc02007241cb26277e0efbfc4216e03f340fed13558db09",
+  "candidate_activated": true,
+  "source_signature": "e57fc8ea6f936665da97dd96d01871cc38b19a96d20556a05ea1a8cab7b1b8dc",
+  "keyframe": "home",
+  "raw_local_report_sha256": "74d6c9646fea9d8005be34ac23d7a744fad83c9efdc4ba7429cd6f42fd9b70ac"
+}

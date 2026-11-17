@@ -1,0 +1,243 @@
+{
+  "status": "ACCEPTED_FIRST_TIER_WITH_KNOWN_UNRESOLVED_G1_CASE",
+  "cases": [
+    {
+      "case": "apollo",
+      "status": "PASS",
+      "activated": true,
+      "max_position_error_m": 2.8735773310861745e-07,
+      "max_qvel_error": 2.787427153227995e-05,
+      "source_entry_unchanged": true
+    },
+    {
+      "case": "g1-home",
+      "status": "PASS",
+      "activated": true,
+      "max_position_error_m": 6.209867010192882e-07,
+      "max_qvel_error": 0.00029009838186944137,
+      "source_entry_unchanged": true
+    },
+    {
+      "case": "g1-knees",
+      "status": "FAIL",
+      "activated": false,
+      "max_position_error_m": 0.00019509633026271872,
+      "max_qvel_error": 0.15500007109600666,
+      "source_entry_unchanged": true
+    },
+    {
+      "case": "offline-example",
+      "status": "PASS",
+      "activated": true,
+      "max_position_error_m": 7.435499785324318e-10,
+      "max_qvel_error": 1.0651421789020787e-07,
+      "source_entry_unchanged": true
+    }
+  ],
+  "transaction_tests": 8,
+  "unsupported_preflight": true,
+  "insufficient_not_activated": true,
+  "clean_venv": true,
+  "second_human_usability_test": false,
+  "commands": [
+    {
+      "arguments": [
+        "doctor"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "arguments": [
+        "plan",
+        "--source",
+        "<workspace>\\work\\apollo-original\\scene.xml",
+        "--keyframe",
+        "stand",
+        "--workspace",
+        "<workspace>\\work\\rpf-clean-run-a4dc0ea1f25d43e4a7c58e64213368ce\\apollo"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "arguments": [
+        "repair",
+        "--workspace",
+        "<workspace>\\work\\rpf-clean-run-a4dc0ea1f25d43e4a7c58e64213368ce\\apollo"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "arguments": [
+        "active-path",
+        "--workspace",
+        "<workspace>\\work\\rpf-clean-run-a4dc0ea1f25d43e4a7c58e64213368ce\\apollo"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "arguments": [
+        "rollback",
+        "--workspace",
+        "<workspace>\\work\\rpf-clean-run-a4dc0ea1f25d43e4a7c58e64213368ce\\apollo"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "arguments": [
+        "active-path",
+        "--workspace",
+        "<workspace>\\work\\rpf-clean-run-a4dc0ea1f25d43e4a7c58e64213368ce\\apollo"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "arguments": [
+        "plan",
+        "--source",
+        "<workspace>\\work\\g1-original\\scene_mjx.xml",
+        "--keyframe",
+        "home",
+        "--workspace",
+        "<workspace>\\work\\rpf-clean-run-a4dc0ea1f25d43e4a7c58e64213368ce\\g1-home"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "arguments": [
+        "repair",
+        "--workspace",
+        "<workspace>\\work\\rpf-clean-run-a4dc0ea1f25d43e4a7c58e64213368ce\\g1-home"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "arguments": [
+        "active-path",
+        "--workspace",
+        "<workspace>\\work\\rpf-clean-run-a4dc0ea1f25d43e4a7c58e64213368ce\\g1-home"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "arguments": [
+        "plan",
+        "--source",
+        "<workspace>\\work\\g1-original\\scene_mjx.xml",
+        "--keyframe",
+        "knees_bent",
+        "--workspace",
+        "<workspace>\\work\\rpf-clean-run-a4dc0ea1f25d43e4a7c58e64213368ce\\g1-knees"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "arguments": [
+        "repair",
+        "--workspace",
+        "<workspace>\\work\\rpf-clean-run-a4dc0ea1f25d43e4a7c58e64213368ce\\g1-knees"
+      ],
+      "exit_code": 4,
+      "expected": 4
+    },
+    {
+      "arguments": [
+        "active-path",
+        "--workspace",
+        "<workspace>\\work\\rpf-clean-run-a4dc0ea1f25d43e4a7c58e64213368ce\\g1-knees"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "arguments": [
+        "diagnose",
+        "--source",
+        "<workspace>\\work\\g1-original\\scene_mjx.xml",
+        "--keyframe",
+        "knees_bent",
+        "--candidate",
+        "<workspace>\\work\\rpf-clean-run-a4dc0ea1f25d43e4a7c58e64213368ce\\g1-knees\\candidate-608aacfa510244beb2363068b3fee561\\asset.usda"
+      ],
+      "exit_code": 4,
+      "expected": 4
+    },
+    {
+      "arguments": [
+        "plan",
+        "--source",
+        "<workspace>\\outputs\\robot-physics-fidelity-v1\\examples\\pair_only.xml",
+        "--keyframe",
+        "home",
+        "--workspace",
+        "<workspace>\\work\\rpf-clean-run-a4dc0ea1f25d43e4a7c58e64213368ce\\offline-example"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "arguments": [
+        "repair",
+        "--workspace",
+        "<workspace>\\work\\rpf-clean-run-a4dc0ea1f25d43e4a7c58e64213368ce\\offline-example"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "arguments": [
+        "active-path",
+        "--workspace",
+        "<workspace>\\work\\rpf-clean-run-a4dc0ea1f25d43e4a7c58e64213368ce\\offline-example"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "arguments": [
+        "plan",
+        "--source",
+        "<workspace>\\work\\rpf-clean-run-a4dc0ea1f25d43e4a7c58e64213368ce\\unsupported.xml",
+        "--keyframe",
+        "home",
+        "--workspace",
+        "<workspace>\\work\\rpf-clean-run-a4dc0ea1f25d43e4a7c58e64213368ce\\must-not-be-created"
+      ],
+      "exit_code": 3,
+      "expected": 3
+    },
+    {
+      "arguments": [
+        "plan",
+        "--source",
+        "<workspace>\\work\\rpf-clean-run-a4dc0ea1f25d43e4a7c58e64213368ce\\airborne.xml",
+        "--keyframe",
+        "home",
+        "--workspace",
+        "<workspace>\\work\\rpf-clean-run-a4dc0ea1f25d43e4a7c58e64213368ce\\airborne-workspace"
+      ],
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "arguments": [
+        "repair",
+        "--workspace",
+        "<workspace>\\work\\rpf-clean-run-a4dc0ea1f25d43e4a7c58e64213368ce\\airborne-workspace"
+      ],
+      "exit_code": 5,
+      "expected": 5
+    }
+  ],
+  "run_directory": "<workspace>\\work\\rpf-clean-run-a4dc0ea1f25d43e4a7c58e64213368ce",
+  "raw_local_report_sha256": "1d157405a8f7538cd6237672b9f84ece010412603b60c83f071d1f6bfb483814"
+}

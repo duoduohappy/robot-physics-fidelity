@@ -1,0 +1,2539 @@
+{
+  "status": "FAIL",
+  "thresholds": {
+    "position_m": 0.001,
+    "qvel_native_units": 0.01,
+    "duration_s": 0.5
+  },
+  "max_body_position_error_m": 0.00019509633026271872,
+  "max_qvel_error": 0.15500007109600666,
+  "first_divergence": {
+    "step": 17,
+    "time_s": 0.06800000000000003,
+    "position_error_m": 1.4078763810709827e-05,
+    "qvel_error": 0.03236915997280097,
+    "worst_body": "right_ankle_pitch_link",
+    "worst_joint": "left_shoulder_yaw_joint",
+    "source_contacts": 12,
+    "target_contacts": 12,
+    "same_state_max_qacc_error": 0.01441697068636838,
+    "same_state_fields_matched": [
+      "qpos",
+      "qvel",
+      "ctrl",
+      "qacc_warmstart",
+      "time"
+    ]
+  },
+  "pair_parameters_pass": true,
+  "joint_limit_parameters_pass": true,
+  "configured_pairs": 49,
+  "observed_pair_count": 6,
+  "extra_contact_pairs": [],
+  "source_peak_contacts": 12,
+  "target_peak_contacts": 12,
+  "trace": [
+    {
+      "step": 1,
+      "time_s": 0.004,
+      "position_error_m": 4.000101622074568e-07,
+      "qvel_error": 4.528204150788806e-05,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 2,
+      "time_s": 0.008,
+      "position_error_m": 3.8404459959395787e-07,
+      "qvel_error": 3.65960738144544e-05,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 3,
+      "time_s": 0.012,
+      "position_error_m": 6.021245654078394e-07,
+      "qvel_error": 0.0006840944219608791,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 4,
+      "time_s": 0.016,
+      "position_error_m": 6.058810600071633e-07,
+      "qvel_error": 2.1064922870239755e-05,
+      "worst_body": "left_ankle_roll_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 5,
+      "time_s": 0.02,
+      "position_error_m": 7.143517812720473e-07,
+      "qvel_error": 5.0482913343419256e-05,
+      "worst_body": "left_ankle_roll_link",
+      "worst_joint": "right_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 6,
+      "time_s": 0.024,
+      "position_error_m": 7.470509108401576e-07,
+      "qvel_error": 0.00013613200921880342,
+      "worst_body": "left_ankle_roll_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 7,
+      "time_s": 0.028,
+      "position_error_m": 7.89569212419558e-07,
+      "qvel_error": 0.00015535234319163926,
+      "worst_body": "left_ankle_roll_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 8,
+      "time_s": 0.032,
+      "position_error_m": 8.129102918063343e-07,
+      "qvel_error": 3.348481734843922e-05,
+      "worst_body": "left_ankle_roll_link",
+      "worst_joint": "right_knee_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 9,
+      "time_s": 0.036000000000000004,
+      "position_error_m": 8.354444721678667e-07,
+      "qvel_error": 9.341413502428342e-05,
+      "worst_body": "left_ankle_roll_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 10,
+      "time_s": 0.04000000000000001,
+      "position_error_m": 8.950792728733108e-07,
+      "qvel_error": 3.920362108755793e-05,
+      "worst_body": "left_ankle_roll_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 11,
+      "time_s": 0.04400000000000001,
+      "position_error_m": 9.158687536926693e-07,
+      "qvel_error": 9.835183776274459e-05,
+      "worst_body": "left_ankle_roll_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 12,
+      "time_s": 0.048000000000000015,
+      "position_error_m": 9.328599315625193e-07,
+      "qvel_error": 0.00011545484818031859,
+      "worst_body": "left_ankle_roll_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 13,
+      "time_s": 0.05200000000000002,
+      "position_error_m": 1.0460650049096479e-06,
+      "qvel_error": 0.0003579496228710566,
+      "worst_body": "left_ankle_roll_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 14,
+      "time_s": 0.05600000000000002,
+      "position_error_m": 1.074945286073806e-06,
+      "qvel_error": 2.6125302218460433e-05,
+      "worst_body": "left_ankle_roll_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 15,
+      "time_s": 0.060000000000000026,
+      "position_error_m": 1.3596101375147693e-06,
+      "qvel_error": 0.0004155755900331348,
+      "worst_body": "left_ankle_roll_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 16,
+      "time_s": 0.06400000000000003,
+      "position_error_m": 1.6726980511746776e-06,
+      "qvel_error": 0.005844231947803813,
+      "worst_body": "left_ankle_roll_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 17,
+      "time_s": 0.06800000000000003,
+      "position_error_m": 1.4078763810709827e-05,
+      "qvel_error": 0.03236915997280097,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 18,
+      "time_s": 0.07200000000000004,
+      "position_error_m": 2.3115487487703618e-05,
+      "qvel_error": 0.06384619007721914,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 19,
+      "time_s": 0.07600000000000004,
+      "position_error_m": 2.4880624045680276e-05,
+      "qvel_error": 0.12427765958004255,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 11,
+      "target_contacts": 12
+    },
+    {
+      "step": 20,
+      "time_s": 0.08000000000000004,
+      "position_error_m": 6.0695251810135176e-05,
+      "qvel_error": 0.061108199308753844,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 9,
+      "target_contacts": 12
+    },
+    {
+      "step": 21,
+      "time_s": 0.08400000000000005,
+      "position_error_m": 7.378270637622584e-05,
+      "qvel_error": 0.10234379473365651,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 8,
+      "target_contacts": 12
+    },
+    {
+      "step": 22,
+      "time_s": 0.08800000000000005,
+      "position_error_m": 0.00010421055558634514,
+      "qvel_error": 0.15500007109600666,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 9,
+      "target_contacts": 10
+    },
+    {
+      "step": 23,
+      "time_s": 0.09200000000000005,
+      "position_error_m": 0.0001079436665827882,
+      "qvel_error": 0.05696767975714101,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 11,
+      "target_contacts": 10
+    },
+    {
+      "step": 24,
+      "time_s": 0.09600000000000006,
+      "position_error_m": 0.00010774280544914583,
+      "qvel_error": 0.051609134752368654,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 8,
+      "target_contacts": 10
+    },
+    {
+      "step": 25,
+      "time_s": 0.10000000000000006,
+      "position_error_m": 0.00010477678481189603,
+      "qvel_error": 0.05753883988574726,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 26,
+      "time_s": 0.10400000000000006,
+      "position_error_m": 0.0001090107450808786,
+      "qvel_error": 0.05687690552602942,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 11,
+      "target_contacts": 7
+    },
+    {
+      "step": 27,
+      "time_s": 0.10800000000000007,
+      "position_error_m": 0.00012008551839950976,
+      "qvel_error": 0.09669661552000552,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 11,
+      "target_contacts": 9
+    },
+    {
+      "step": 28,
+      "time_s": 0.11200000000000007,
+      "position_error_m": 0.00011247559999122132,
+      "qvel_error": 0.057513805208241564,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 10,
+      "target_contacts": 11
+    },
+    {
+      "step": 29,
+      "time_s": 0.11600000000000008,
+      "position_error_m": 0.0001078710762593086,
+      "qvel_error": 0.07713597615947787,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 6,
+      "target_contacts": 12
+    },
+    {
+      "step": 30,
+      "time_s": 0.12000000000000008,
+      "position_error_m": 0.0001231831681004034,
+      "qvel_error": 0.059196289794527956,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 9,
+      "target_contacts": 12
+    },
+    {
+      "step": 31,
+      "time_s": 0.12400000000000008,
+      "position_error_m": 0.00012578110744403343,
+      "qvel_error": 0.06597315543166404,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 10,
+      "target_contacts": 12
+    },
+    {
+      "step": 32,
+      "time_s": 0.12800000000000009,
+      "position_error_m": 0.00012765425173089096,
+      "qvel_error": 0.03966398238770208,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 33,
+      "time_s": 0.1320000000000001,
+      "position_error_m": 0.00012789207129043634,
+      "qvel_error": 0.021721132462773463,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "right_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 10
+    },
+    {
+      "step": 34,
+      "time_s": 0.1360000000000001,
+      "position_error_m": 0.00012607647729909188,
+      "qvel_error": 0.021371080531982885,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_shoulder_yaw_joint",
+      "source_contacts": 12,
+      "target_contacts": 10
+    },
+    {
+      "step": 35,
+      "time_s": 0.1400000000000001,
+      "position_error_m": 0.0001240100628455698,
+      "qvel_error": 0.02024964970513798,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_shoulder_yaw_joint",
+      "source_contacts": 11,
+      "target_contacts": 10
+    },
+    {
+      "step": 36,
+      "time_s": 0.1440000000000001,
+      "position_error_m": 0.00012358426610211337,
+      "qvel_error": 0.018169949352834336,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_shoulder_yaw_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 37,
+      "time_s": 0.1480000000000001,
+      "position_error_m": 0.0001236118493481771,
+      "qvel_error": 0.01576426046729648,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_shoulder_yaw_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 38,
+      "time_s": 0.1520000000000001,
+      "position_error_m": 0.00012370357959686504,
+      "qvel_error": 0.013464918290091473,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_shoulder_yaw_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 39,
+      "time_s": 0.1560000000000001,
+      "position_error_m": 0.00012380969532793423,
+      "qvel_error": 0.011400082665189753,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_shoulder_yaw_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 40,
+      "time_s": 0.16000000000000011,
+      "position_error_m": 0.0001239079673433026,
+      "qvel_error": 0.009613345488810602,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_shoulder_yaw_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 41,
+      "time_s": 0.16400000000000012,
+      "position_error_m": 0.00012399003779394314,
+      "qvel_error": 0.008100570938964992,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_shoulder_yaw_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 42,
+      "time_s": 0.16800000000000012,
+      "position_error_m": 0.00012405460239533475,
+      "qvel_error": 0.006836228998274194,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_shoulder_yaw_joint",
+      "source_contacts": 10,
+      "target_contacts": 12
+    },
+    {
+      "step": 43,
+      "time_s": 0.17200000000000013,
+      "position_error_m": 0.0001256244196686518,
+      "qvel_error": 0.0060403739456373895,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 11,
+      "target_contacts": 10
+    },
+    {
+      "step": 44,
+      "time_s": 0.17600000000000013,
+      "position_error_m": 0.00012405889611744048,
+      "qvel_error": 0.004874846879827051,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_shoulder_yaw_joint",
+      "source_contacts": 11,
+      "target_contacts": 10
+    },
+    {
+      "step": 45,
+      "time_s": 0.18000000000000013,
+      "position_error_m": 0.0001239067605664434,
+      "qvel_error": 0.006051418903341044,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 46,
+      "time_s": 0.18400000000000014,
+      "position_error_m": 0.0001239353303782889,
+      "qvel_error": 0.003312779486691565,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_shoulder_yaw_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 47,
+      "time_s": 0.18800000000000014,
+      "position_error_m": 0.00012399000696928651,
+      "qvel_error": 0.0027020594719054584,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_shoulder_yaw_joint",
+      "source_contacts": 10,
+      "target_contacts": 12
+    },
+    {
+      "step": 48,
+      "time_s": 0.19200000000000014,
+      "position_error_m": 0.00012560916097612007,
+      "qvel_error": 0.005395123177183714,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 10
+    },
+    {
+      "step": 49,
+      "time_s": 0.19600000000000015,
+      "position_error_m": 0.00012399036300073107,
+      "qvel_error": 0.004434315206069073,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 10,
+      "target_contacts": 10
+    },
+    {
+      "step": 50,
+      "time_s": 0.20000000000000015,
+      "position_error_m": 0.00012388260532994076,
+      "qvel_error": 0.0025615470501381132,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 10,
+      "target_contacts": 12
+    },
+    {
+      "step": 51,
+      "time_s": 0.20400000000000015,
+      "position_error_m": 0.00012549370303605034,
+      "qvel_error": 0.005076429706005747,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 10
+    },
+    {
+      "step": 52,
+      "time_s": 0.20800000000000016,
+      "position_error_m": 0.00012384150029001728,
+      "qvel_error": 0.004730460385493185,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 11,
+      "target_contacts": 12
+    },
+    {
+      "step": 53,
+      "time_s": 0.21200000000000016,
+      "position_error_m": 0.00012382090000294865,
+      "qvel_error": 0.003771947150375432,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 11,
+      "target_contacts": 10
+    },
+    {
+      "step": 54,
+      "time_s": 0.21600000000000016,
+      "position_error_m": 0.000123892434813558,
+      "qvel_error": 0.004839907875644589,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 11,
+      "target_contacts": 12
+    },
+    {
+      "step": 55,
+      "time_s": 0.22000000000000017,
+      "position_error_m": 0.00012553672599979748,
+      "qvel_error": 0.005398788140112298,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "right_ankle_pitch_joint",
+      "source_contacts": 11,
+      "target_contacts": 12
+    },
+    {
+      "step": 56,
+      "time_s": 0.22400000000000017,
+      "position_error_m": 0.00012560158015217926,
+      "qvel_error": 0.005098775682114642,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 10
+    },
+    {
+      "step": 57,
+      "time_s": 0.22800000000000017,
+      "position_error_m": 0.00012498034389432644,
+      "qvel_error": 0.02508534802573259,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 11,
+      "target_contacts": 12
+    },
+    {
+      "step": 58,
+      "time_s": 0.23200000000000018,
+      "position_error_m": 0.00012474532671516436,
+      "qvel_error": 0.0048532878284542474,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "right_elbow_joint",
+      "source_contacts": 11,
+      "target_contacts": 12
+    },
+    {
+      "step": 59,
+      "time_s": 0.23600000000000018,
+      "position_error_m": 0.00012461655482851053,
+      "qvel_error": 0.009046159309119006,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 11,
+      "target_contacts": 12
+    },
+    {
+      "step": 60,
+      "time_s": 0.24000000000000019,
+      "position_error_m": 0.00012416244459034775,
+      "qvel_error": 0.017239673989020265,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 11,
+      "target_contacts": 12
+    },
+    {
+      "step": 61,
+      "time_s": 0.2440000000000002,
+      "position_error_m": 0.00012396717010607072,
+      "qvel_error": 0.005956708478405672,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_elbow_joint",
+      "source_contacts": 11,
+      "target_contacts": 12
+    },
+    {
+      "step": 62,
+      "time_s": 0.2480000000000002,
+      "position_error_m": 0.00012370590974392082,
+      "qvel_error": 0.012822139688874912,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 11,
+      "target_contacts": 12
+    },
+    {
+      "step": 63,
+      "time_s": 0.25200000000000017,
+      "position_error_m": 0.0001234376910453916,
+      "qvel_error": 0.014431527604715,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 11,
+      "target_contacts": 12
+    },
+    {
+      "step": 64,
+      "time_s": 0.25600000000000017,
+      "position_error_m": 0.0001232023657405379,
+      "qvel_error": 0.01306113774988954,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 65,
+      "time_s": 0.2600000000000002,
+      "position_error_m": 0.00012301394285677003,
+      "qvel_error": 0.00458677524863732,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_ankle_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 66,
+      "time_s": 0.2640000000000002,
+      "position_error_m": 0.00012286987749371425,
+      "qvel_error": 0.0035283373018323433,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_elbow_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 67,
+      "time_s": 0.2680000000000002,
+      "position_error_m": 0.00012276580886361188,
+      "qvel_error": 0.0033856702658481425,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_elbow_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 68,
+      "time_s": 0.2720000000000002,
+      "position_error_m": 0.00012269446944659923,
+      "qvel_error": 0.003086650061388682,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_elbow_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 69,
+      "time_s": 0.2760000000000002,
+      "position_error_m": 0.0001226484194617461,
+      "qvel_error": 0.00271816375799018,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_elbow_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 70,
+      "time_s": 0.2800000000000002,
+      "position_error_m": 0.00012262102261142993,
+      "qvel_error": 0.002333049155653237,
+      "worst_body": "right_ankle_pitch_link",
+      "worst_joint": "left_elbow_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 71,
+      "time_s": 0.2840000000000002,
+      "position_error_m": 0.00012260705974208503,
+      "qvel_error": 0.001962471527657564,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_elbow_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 72,
+      "time_s": 0.2880000000000002,
+      "position_error_m": 0.0001226087662874896,
+      "qvel_error": 0.0016234581358885586,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_elbow_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 73,
+      "time_s": 0.2920000000000002,
+      "position_error_m": 0.00012261357033876812,
+      "qvel_error": 0.0013238873675626012,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_elbow_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 74,
+      "time_s": 0.2960000000000002,
+      "position_error_m": 0.00012262023260924712,
+      "qvel_error": 0.0010658675624371783,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_elbow_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 75,
+      "time_s": 0.3000000000000002,
+      "position_error_m": 0.0001226279501107216,
+      "qvel_error": 0.0008480264541982363,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_elbow_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 76,
+      "time_s": 0.3040000000000002,
+      "position_error_m": 0.00012263622739886577,
+      "qvel_error": 0.0008208017341712059,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "waist_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 77,
+      "time_s": 0.3080000000000002,
+      "position_error_m": 0.00012264477676323976,
+      "qvel_error": 0.0008260028059866587,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "waist_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 78,
+      "time_s": 0.3120000000000002,
+      "position_error_m": 0.00012265344473270066,
+      "qvel_error": 0.0008314190011855516,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "waist_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 79,
+      "time_s": 0.3160000000000002,
+      "position_error_m": 0.0001226621603222244,
+      "qvel_error": 0.000836475962607941,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "waist_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 80,
+      "time_s": 0.32000000000000023,
+      "position_error_m": 0.00012267090010713365,
+      "qvel_error": 0.0008406779560328204,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "waist_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 81,
+      "time_s": 0.32400000000000023,
+      "position_error_m": 0.00012267966566303673,
+      "qvel_error": 0.0008436150573964962,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "waist_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 82,
+      "time_s": 0.32800000000000024,
+      "position_error_m": 0.00012268846969357237,
+      "qvel_error": 0.0008449622382480371,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "waist_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 83,
+      "time_s": 0.33200000000000024,
+      "position_error_m": 0.00012269732801612615,
+      "qvel_error": 0.0008444736145393206,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "waist_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 84,
+      "time_s": 0.33600000000000024,
+      "position_error_m": 0.00012270625532665087,
+      "qvel_error": 0.0008419741774257083,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "waist_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 85,
+      "time_s": 0.34000000000000025,
+      "position_error_m": 0.00012271526328452246,
+      "qvel_error": 0.0008373505669826975,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "waist_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 86,
+      "time_s": 0.34400000000000025,
+      "position_error_m": 0.00012272435994734173,
+      "qvel_error": 0.0008305418758849381,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "waist_pitch_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 87,
+      "time_s": 0.34800000000000025,
+      "position_error_m": 0.0001227335499197524,
+      "qvel_error": 0.0008228530809214069,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_shoulder_roll_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 88,
+      "time_s": 0.35200000000000026,
+      "position_error_m": 0.0001227428348333122,
+      "qvel_error": 0.00081768477321955,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "left_shoulder_roll_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 89,
+      "time_s": 0.35600000000000026,
+      "position_error_m": 0.00012275221393043354,
+      "qvel_error": 0.000809531738012223,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 90,
+      "time_s": 0.36000000000000026,
+      "position_error_m": 0.00012276168464114704,
+      "qvel_error": 0.0008085975090151576,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 91,
+      "time_s": 0.36400000000000027,
+      "position_error_m": 0.0001227712430882182,
+      "qvel_error": 0.0008075314049467153,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 92,
+      "time_s": 0.36800000000000027,
+      "position_error_m": 0.00012278088451014445,
+      "qvel_error": 0.0008063659436885751,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 93,
+      "time_s": 0.3720000000000003,
+      "position_error_m": 0.00012279060359475925,
+      "qvel_error": 0.0008051290383350174,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 94,
+      "time_s": 0.3760000000000003,
+      "position_error_m": 0.00012280073714581114,
+      "qvel_error": 0.0008038805289551088,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 95,
+      "time_s": 0.3800000000000003,
+      "position_error_m": 0.0001228108223370974,
+      "qvel_error": 0.0008025814749359483,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 96,
+      "time_s": 0.3840000000000003,
+      "position_error_m": 0.00012282426398756954,
+      "qvel_error": 0.0008015791751825319,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 97,
+      "time_s": 0.3880000000000003,
+      "position_error_m": 0.00012284393579174236,
+      "qvel_error": 0.0007723352278166673,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 98,
+      "time_s": 0.3920000000000003,
+      "position_error_m": 0.00012285573127586132,
+      "qvel_error": 0.0007895845700549298,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 99,
+      "time_s": 0.3960000000000003,
+      "position_error_m": 0.0001228668846288397,
+      "qvel_error": 0.0007981131034707489,
+      "worst_body": "right_ankle_roll_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 100,
+      "time_s": 0.4000000000000003,
+      "position_error_m": 0.00012529268711675146,
+      "qvel_error": 0.0008009344798215468,
+      "worst_body": "left_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 101,
+      "time_s": 0.4040000000000003,
+      "position_error_m": 0.0001277940118248888,
+      "qvel_error": 0.0007876268549152077,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 102,
+      "time_s": 0.4080000000000003,
+      "position_error_m": 0.00013038092693094805,
+      "qvel_error": 0.0007780080500270625,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 103,
+      "time_s": 0.4120000000000003,
+      "position_error_m": 0.000132983825087276,
+      "qvel_error": 0.0007714191998275943,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 104,
+      "time_s": 0.4160000000000003,
+      "position_error_m": 0.00013560291284468728,
+      "qvel_error": 0.0007672785075021615,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 105,
+      "time_s": 0.4200000000000003,
+      "position_error_m": 0.00013823843519107995,
+      "qvel_error": 0.0007650874983631539,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 106,
+      "time_s": 0.4240000000000003,
+      "position_error_m": 0.0001408906715104838,
+      "qvel_error": 0.000764426177087274,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 107,
+      "time_s": 0.4280000000000003,
+      "position_error_m": 0.00014355993436773046,
+      "qvel_error": 0.0007649469400518583,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 108,
+      "time_s": 0.43200000000000033,
+      "position_error_m": 0.0001462465696413992,
+      "qvel_error": 0.0007663673834297224,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 109,
+      "time_s": 0.43600000000000033,
+      "position_error_m": 0.00014895095716857543,
+      "qvel_error": 0.0007684625420917857,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 110,
+      "time_s": 0.44000000000000034,
+      "position_error_m": 0.00015167351144421484,
+      "qvel_error": 0.0007710570516583082,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 111,
+      "time_s": 0.44400000000000034,
+      "position_error_m": 0.00015441468214457896,
+      "qvel_error": 0.0007740175942183569,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 112,
+      "time_s": 0.44800000000000034,
+      "position_error_m": 0.0001571756607950149,
+      "qvel_error": 0.0007769996296196346,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 113,
+      "time_s": 0.45200000000000035,
+      "position_error_m": 0.00015995671107811582,
+      "qvel_error": 0.0007801608848284625,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 114,
+      "time_s": 0.45600000000000035,
+      "position_error_m": 0.00016275820665307555,
+      "qvel_error": 0.0007834983647169169,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 115,
+      "time_s": 0.46000000000000035,
+      "position_error_m": 0.00016558060985307974,
+      "qvel_error": 0.0007870072810945428,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 116,
+      "time_s": 0.46400000000000036,
+      "position_error_m": 0.00016842445569937442,
+      "qvel_error": 0.0007906829117493852,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 117,
+      "time_s": 0.46800000000000036,
+      "position_error_m": 0.0001712903397200101,
+      "qvel_error": 0.0007945218391668951,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 118,
+      "time_s": 0.47200000000000036,
+      "position_error_m": 0.00017417890851586376,
+      "qvel_error": 0.0007985227645627702,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 119,
+      "time_s": 0.47600000000000037,
+      "position_error_m": 0.00017709085240437752,
+      "qvel_error": 0.0008026868319681579,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 120,
+      "time_s": 0.48000000000000037,
+      "position_error_m": 0.00018002689965765026,
+      "qvel_error": 0.0008070175930469659,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 121,
+      "time_s": 0.4840000000000004,
+      "position_error_m": 0.00018298781196096278,
+      "qvel_error": 0.0008115207478925912,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 122,
+      "time_s": 0.4880000000000004,
+      "position_error_m": 0.0001859743807961292,
+      "qvel_error": 0.0008162037686906265,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 123,
+      "time_s": 0.4920000000000004,
+      "position_error_m": 0.0001889874245165693,
+      "qvel_error": 0.0008210754811930898,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 124,
+      "time_s": 0.4960000000000004,
+      "position_error_m": 0.00019202778593195233,
+      "qvel_error": 0.0008261456549782387,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    },
+    {
+      "step": 125,
+      "time_s": 0.5000000000000003,
+      "position_error_m": 0.00019509633026271872,
+      "qvel_error": 0.0008314246329143571,
+      "worst_body": "right_shoulder_pitch_link",
+      "worst_joint": "floating_base_joint",
+      "source_contacts": 12,
+      "target_contacts": 12
+    }
+  ],
+  "contact_snapshots": [
+    {
+      "event": "first_threshold_exceedance",
+      "source": [
+        {
+          "geom_ids": [
+            0,
+            15
+          ],
+          "geom_names": [
+            "floor",
+            "left_foot1_collision"
+          ],
+          "position_m": [
+            0.09861520561665382,
+            0.0924877746263961,
+            -3.1607039496957257e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -6.321407899391278e-05,
+          "dimension": 3,
+          "force_local": [
+            10.77988174839981,
+            1.2451293420863214,
+            -0.14879015944662788,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            15
+          ],
+          "geom_names": [
+            "floor",
+            "left_foot1_collision"
+          ],
+          "position_m": [
+            0.048615306307470095,
+            0.09148348215704846,
+            -5.074931925353257e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.00010149863850706341,
+          "dimension": 3,
+          "force_local": [
+            27.967788949584445,
+            1.2527404420277026,
+            -0.071052364781095,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            16
+          ],
+          "geom_names": [
+            "floor",
+            "left_foot2_collision"
+          ],
+          "position_m": [
+            -0.04639466786906085,
+            0.1184768658950923,
+            -8.934726576043106e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.00017869453152085865,
+          "dimension": 3,
+          "force_local": [
+            63.231860635719336,
+            -1.3261339338007456,
+            -0.1062154196447338,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            16
+          ],
+          "geom_names": [
+            "floor",
+            "left_foot2_collision"
+          ],
+          "position_m": [
+            0.11860528276450166,
+            0.11849103109522548,
+            -2.5923553713745606e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -5.184710742748774e-05,
+          "dimension": 3,
+          "force_local": [
+            4.970365418037379,
+            -1.2870204677501844,
+            0.1549084918959942,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            17
+          ],
+          "geom_names": [
+            "floor",
+            "left_foot3_collision"
+          ],
+          "position_m": [
+            0.09861074758958599,
+            0.14448777381825256,
+            -3.5612439557762554e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -7.122487911552337e-05,
+          "dimension": 3,
+          "force_local": [
+            12.801694323653386,
+            1.3305764149919663,
+            -0.12402113695202654,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            17
+          ],
+          "geom_names": [
+            "floor",
+            "left_foot3_collision"
+          ],
+          "position_m": [
+            0.048610762549112486,
+            0.1444834813333637,
+            -5.483174623857612e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.0001096634924771505,
+          "dimension": 3,
+          "force_local": [
+            30.090550327344385,
+            1.3397688351867565,
+            -0.04608711225476725,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            29
+          ],
+          "geom_names": [
+            "floor",
+            "right_foot1_collision"
+          ],
+          "position_m": [
+            0.09853317937114478,
+            -0.14451421169102213,
+            -5.590072033945584e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.00011180144067891341,
+          "dimension": 3,
+          "force_local": [
+            11.289602715275356,
+            1.2586575760061915,
+            0.08761401499917776,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            29
+          ],
+          "geom_names": [
+            "floor",
+            "right_foot1_collision"
+          ],
+          "position_m": [
+            0.048533180091948236,
+            -0.14451308944388774,
+            -6.010847820629717e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.00012021695641259607,
+          "dimension": 3,
+          "force_local": [
+            27.91591911380812,
+            1.2608268681648651,
+            0.27606135859019165,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            30
+          ],
+          "geom_names": [
+            "floor",
+            "right_foot2_collision"
+          ],
+          "position_m": [
+            -0.04646791733432067,
+            -0.1185093515318834,
+            -7.019108389139106e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.0001403821677827856,
+          "dimension": 3,
+          "force_local": [
+            60.528424850397954,
+            -1.3653855654920513,
+            -0.6375008436094891,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            30
+          ],
+          "geom_names": [
+            "floor",
+            "right_foot2_collision"
+          ],
+          "position_m": [
+            0.11853208028702789,
+            -0.11851305494742685,
+            -5.6305482930819883e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.00011261096586164324,
+          "dimension": 3,
+          "force_local": [
+            5.368118853985415,
+            -1.356581316784133,
+            -0.01246667676040647,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            31
+          ],
+          "geom_names": [
+            "floor",
+            "right_foot3_collision"
+          ],
+          "position_m": [
+            0.0985343479137123,
+            -0.09251421237470857,
+            -6.00761812206245e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.00012015236244125073,
+          "dimension": 3,
+          "force_local": [
+            12.72327646397964,
+            1.4566318461603998,
+            0.08776603690980966,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            31
+          ],
+          "geom_names": [
+            "floor",
+            "right_foot3_collision"
+          ],
+          "position_m": [
+            0.04853434863451575,
+            -0.09251309012757418,
+            -6.428393908746582e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.00012856787817493338,
+          "dimension": 3,
+          "force_local": [
+            29.395321971047625,
+            1.4594719506650984,
+            0.2766691630004052,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "target": [
+        {
+          "geom_ids": [
+            0,
+            15
+          ],
+          "geom_names": [
+            "floor",
+            "left_foot1_collision"
+          ],
+          "position_m": [
+            0.048615496120818544,
+            0.09148646330440814,
+            -5.367970457601824e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.00010735940915203648,
+          "dimension": 3,
+          "force_local": [
+            28.285435379742523,
+            -1.3626086729743925,
+            0.05835474396370799,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            15
+          ],
+          "geom_names": [
+            "floor",
+            "left_foot1_collision"
+          ],
+          "position_m": [
+            0.09861540430861838,
+            0.0924904162160687,
+            -3.563688637829403e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -7.127377275658806e-05,
+          "dimension": 3,
+          "force_local": [
+            10.865955788586879,
+            -1.3540841672588342,
+            0.14962950313415657,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            16
+          ],
+          "geom_names": [
+            "floor",
+            "left_foot2_collision"
+          ],
+          "position_m": [
+            0.118606100791445,
+            0.11849339511090365,
+            -3.0200605497233274e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -6.040121099446308e-05,
+          "dimension": 3,
+          "force_local": [
+            4.832836225020844,
+            1.4026346126673483,
+            -0.1589213630694104,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            16
+          ],
+          "geom_names": [
+            "floor",
+            "left_foot2_collision"
+          ],
+          "position_m": [
+            -0.04639386190301108,
+            0.11848035089669595,
+            -9.000095091185947e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.00018000190182372242,
+          "dimension": 3,
+          "force_local": [
+            63.805121164582935,
+            1.4445802840472162,
+            0.1477629709907351,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            17
+          ],
+          "geom_names": [
+            "floor",
+            "left_foot3_collision"
+          ],
+          "position_m": [
+            0.048611311373257526,
+            0.14448646291144193,
+            -5.738728233084349e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.00011477456466168524,
+          "dimension": 3,
+          "force_local": [
+            30.141361662641327,
+            -1.46385473557108,
+            0.031164685357008004,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            17
+          ],
+          "geom_names": [
+            "floor",
+            "left_foot3_collision"
+          ],
+          "position_m": [
+            0.09861129883900158,
+            0.14449041570117024,
+            -3.927439535625181e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -7.854879071250535e-05,
+          "dimension": 3,
+          "force_local": [
+            12.630210267873112,
+            -1.4536878202539514,
+            0.12268298959532675,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            29
+          ],
+          "geom_names": [
+            "floor",
+            "right_foot1_collision"
+          ],
+          "position_m": [
+            0.04854537249769557,
+            -0.1445073276728162,
+            -6.623110923636467e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.00013246221847272761,
+          "dimension": 3,
+          "force_local": [
+            28.035842190542663,
+            -0.5380973421725361,
+            -0.37094579663058624,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            29
+          ],
+          "geom_names": [
+            "floor",
+            "right_foot1_collision"
+          ],
+          "position_m": [
+            0.09854537287290087,
+            -0.1445081792220574,
+            -6.322028936910952e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.00012644057873822077,
+          "dimension": 3,
+          "force_local": [
+            11.178812365887495,
+            -0.5376061300375823,
+            -0.09163025212093734,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            30
+          ],
+          "geom_names": [
+            "floor",
+            "right_foot2_collision"
+          ],
+          "position_m": [
+            0.11854461137277522,
+            -0.11850717752482927,
+            -6.374942300507377e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.00012749884601015102,
+          "dimension": 3,
+          "force_local": [
+            5.069430071001784,
+            0.6826571700784547,
+            -0.01984722116451154,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            30
+          ],
+          "geom_names": [
+            "floor",
+            "right_foot2_collision"
+          ],
+          "position_m": [
+            -0.04645539395651216,
+            -0.11850436741972968,
+            -7.371294573490714e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.0001474258914698108,
+          "dimension": 3,
+          "force_local": [
+            60.948118745088294,
+            0.6853844072659161,
+            0.9056119807946974,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            31
+          ],
+          "geom_names": [
+            "floor",
+            "right_foot3_collision"
+          ],
+          "position_m": [
+            0.04854625894933497,
+            -0.09250732707573535,
+            -6.972029598189232e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.0001394405919637829,
+          "dimension": 3,
+          "force_local": [
+            29.338540754182667,
+            -0.8296899920403886,
+            -0.37171623336785764,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            31
+          ],
+          "geom_names": [
+            "floor",
+            "right_foot3_collision"
+          ],
+          "position_m": [
+            0.09854625932454027,
+            -0.09250817862497655,
+            -6.670947611463716e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.00013341895222927606,
+          "dimension": 3,
+          "force_local": [
+            12.440874915016968,
+            -0.828606297692049,
+            -0.09179236545337677,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "same_state_target": [
+        {
+          "geom_ids": [
+            0,
+            15
+          ],
+          "geom_names": [
+            "floor",
+            "left_foot1_collision"
+          ],
+          "position_m": [
+            0.04861491353116683,
+            0.09148348340076402,
+            -5.081847773383795e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.00010163695546767416,
+          "dimension": 3,
+          "force_local": [
+            27.969167181717975,
+            -1.2534587022555819,
+            0.07095834144745261,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            15
+          ],
+          "geom_names": [
+            "floor",
+            "left_foot1_collision"
+          ],
+          "position_m": [
+            0.09861481326831885,
+            0.0924877760078504,
+            -3.168052791124344e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -6.336105582248862e-05,
+          "dimension": 3,
+          "force_local": [
+            10.78274057857601,
+            -1.2458289553626325,
+            0.148731585423044,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            16
+          ],
+          "geom_names": [
+            "floor",
+            "left_foot2_collision"
+          ],
+          "position_m": [
+            0.11860489197691282,
+            0.11849103210018679,
+            -2.5987455458991587e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -5.1974910917986644e-05,
+          "dimension": 3,
+          "force_local": [
+            4.9675995891610105,
+            1.287729135471498,
+            -0.1548492857032855,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            16
+          ],
+          "geom_names": [
+            "floor",
+            "left_foot2_collision"
+          ],
+          "position_m": [
+            -0.046395065191769946,
+            0.11847686688153801,
+            -8.942507848258216e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.00017885015696516085,
+          "dimension": 3,
+          "force_local": [
+            63.24216843817773,
+            1.32693011808038,
+            0.10640121575038641,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            17
+          ],
+          "geom_names": [
+            "floor",
+            "left_foot3_collision"
+          ],
+          "position_m": [
+            0.04861036960665296,
+            0.1444834828680123,
+            -5.4900960323112785e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.00010980192064622557,
+          "dimension": 3,
+          "force_local": [
+            30.09214473344386,
+            -1.340528845999624,
+            0.04597865200949247,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            17
+          ],
+          "geom_names": [
+            "floor",
+            "left_foot3_collision"
+          ],
+          "position_m": [
+            0.09861035539866361,
+            0.14448777535580928,
+            -3.568586803955401e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -7.137173607910802e-05,
+          "dimension": 3,
+          "force_local": [
+            12.804628154894168,
+            -1.3313160440290432,
+            0.1239488203481085,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            29
+          ],
+          "geom_names": [
+            "floor",
+            "right_foot1_collision"
+          ],
+          "position_m": [
+            0.04853278715119634,
+            -0.14451309099389303,
+            -6.0177686035610065e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.00012035537207122186,
+          "dimension": 3,
+          "force_local": [
+            27.91720233136401,
+            -1.261578880969929,
+            -0.2760308817945436,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            29
+          ],
+          "geom_names": [
+            "floor",
+            "right_foot1_collision"
+          ],
+          "position_m": [
+            0.09853278717686899,
+            -0.1445142132403856,
+            -5.597414279088532e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.0001119482855817689,
+          "dimension": 3,
+          "force_local": [
+            11.29245732538078,
+            -1.2594066625476552,
+            -0.08742194557611471,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            30
+          ],
+          "geom_names": [
+            "floor",
+            "right_foot2_collision"
+          ],
+          "position_m": [
+            0.11853168950415816,
+            -0.11851305595588024,
+            -5.63693789449142e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.00011273875788983187,
+          "dimension": 3,
+          "force_local": [
+            5.3653811087339465,
+            1.3574097001955971,
+            0.012210008157391927,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            30
+          ],
+          "geom_names": [
+            "floor",
+            "right_foot2_collision"
+          ],
+          "position_m": [
+            -0.0464683146690173,
+            -0.11850935255129744,
+            -7.026888891786473e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.000140537777835726,
+          "dimension": 3,
+          "force_local": [
+            60.537134783258864,
+            1.366241791079716,
+            0.6377872421355129,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            31
+          ],
+          "geom_names": [
+            "floor",
+            "right_foot3_collision"
+          ],
+          "position_m": [
+            0.048533955691695815,
+            -0.09251309060469637,
+            -6.435314874817487e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.00012870629749635147,
+          "dimension": 3,
+          "force_local": [
+            29.39704474341202,
+            -1.46039839655624,
+            -0.2766393654510244,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "geom_ids": [
+            0,
+            31
+          ],
+          "geom_names": [
+            "floor",
+            "right_foot3_collision"
+          ],
+          "position_m": [
+            0.09853395571736846,
+            -0.09251421285118896,
+            -6.0149605503450124e-05
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "distance_m": -0.00012029921100689851,
+          "dimension": 3,
+          "force_local": [
+            12.726529081691659,
+            -1.4575549369937715,
+            -0.08757380579856644,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "same_state_contact_comparison": {
+        "matched": true,
+        "matching_method": "nearest point within each geom pair; not a formal contact identity proof",
+        "matches": [
+          {
+            "pair": [
+              "floor",
+              "left_foot1_collision"
+            ],
+            "point_distance_m": 3.991737358682301e-07,
+            "normal_angle_rad": 0.0,
+            "distance_error_m": 1.4697682857583994e-07,
+            "normal_force_difference": 0.0028588301762013657,
+            "ambiguous_nearest_match": false
+          },
+          {
+            "pair": [
+              "floor",
+              "left_foot1_collision"
+            ],
+            "point_distance_m": 3.988203438069486e-07,
+            "normal_angle_rad": 0.0,
+            "distance_error_m": 1.3831696061075704e-07,
+            "normal_force_difference": 0.001378232133529167,
+            "ambiguous_nearest_match": false
+          },
+          {
+            "pair": [
+              "floor",
+              "left_foot2_collision"
+            ],
+            "point_distance_m": 4.0487174261250775e-07,
+            "normal_angle_rad": 0.0,
+            "distance_error_m": 1.556254443021987e-07,
+            "normal_force_difference": 0.010307802458392246,
+            "ambiguous_nearest_match": false
+          },
+          {
+            "pair": [
+              "floor",
+              "left_foot2_collision"
+            ],
+            "point_distance_m": 3.9597901786258866e-07,
+            "normal_angle_rad": 0.0,
+            "distance_error_m": 1.2780349049890116e-07,
+            "normal_force_difference": 0.002765828876368559,
+            "ambiguous_nearest_match": false
+          },
+          {
+            "pair": [
+              "floor",
+              "left_foot3_collision"
+            ],
+            "point_distance_m": 3.990085533090286e-07,
+            "normal_angle_rad": 0.0,
+            "distance_error_m": 1.468569635846434e-07,
+            "normal_force_difference": 0.0029338312407816147,
+            "ambiguous_nearest_match": false
+          },
+          {
+            "pair": [
+              "floor",
+              "left_foot3_collision"
+            ],
+            "point_distance_m": 3.989946379905639e-07,
+            "normal_angle_rad": 0.0,
+            "distance_error_m": 1.3842816907506938e-07,
+            "normal_force_difference": 0.00159440609947481,
+            "ambiguous_nearest_match": false
+          },
+          {
+            "pair": [
+              "floor",
+              "right_foot1_collision"
+            ],
+            "point_distance_m": 3.990107853991955e-07,
+            "normal_angle_rad": 0.0,
+            "distance_error_m": 1.468449028554919e-07,
+            "normal_force_difference": 0.0028546101054249817,
+            "ambiguous_nearest_match": false
+          },
+          {
+            "pair": [
+              "floor",
+              "right_foot1_collision"
+            ],
+            "point_distance_m": 3.9899193056291826e-07,
+            "normal_angle_rad": 0.0,
+            "distance_error_m": 1.3841565862579563e-07,
+            "normal_force_difference": 0.001283217555890559,
+            "ambiguous_nearest_match": false
+          },
+          {
+            "pair": [
+              "floor",
+              "right_foot2_collision"
+            ],
+            "point_distance_m": 4.048821093734173e-07,
+            "normal_angle_rad": 0.0,
+            "distance_error_m": 1.5561005294040253e-07,
+            "normal_force_difference": 0.00870993286090993,
+            "ambiguous_nearest_match": false
+          },
+          {
+            "pair": [
+              "floor",
+              "right_foot2_collision"
+            ],
+            "point_distance_m": 3.959734446525469e-07,
+            "normal_angle_rad": 0.0,
+            "distance_error_m": 1.2779202818863356e-07,
+            "normal_force_difference": 0.0027377452514683043,
+            "ambiguous_nearest_match": false
+          },
+          {
+            "pair": [
+              "floor",
+              "right_foot3_collision"
+            ],
+            "point_distance_m": 3.990104315142033e-07,
+            "normal_angle_rad": 0.0,
+            "distance_error_m": 1.468485656477836e-07,
+            "normal_force_difference": 0.0032526177120182354,
+            "ambiguous_nearest_match": false
+          },
+          {
+            "pair": [
+              "floor",
+              "right_foot3_collision"
+            ],
+            "point_distance_m": 3.9899155945905696e-07,
+            "normal_angle_rad": 0.0,
+            "distance_error_m": 1.3841932141808733e-07,
+            "normal_force_difference": 0.0017227723643955528,
+            "ambiguous_nearest_match": false
+          }
+        ]
+      }
+    }
+  ],
+  "settings_explicitly_matched": [
+    "timestep",
+    "integrator",
+    "iterations",
+    "ls_iterations",
+    "solver",
+    "cone",
+    "jacobian",
+    "tolerance",
+    "ls_tolerance",
+    "noslip_iterations",
+    "impratio",
+    "gravity",
+    "disableflags",
+    "enableflags"
+  ],
+  "scope": "fixed source/keyframe/controls; reconstructed native CPU model; not general qualification",
+  "candidate": "<workspace>\\work\\rpf-clean-run-a4dc0ea1f25d43e4a7c58e64213368ce\\g1-knees\\candidate-608aacfa510244beb2363068b3fee561\\asset.usda",
+  "candidate_tree_sha256": "32d816901074f81b0e6b868395500501a2a750da416d864b6f20796625cc51ff",
+  "candidate_activated": false,
+  "source_signature": "e57fc8ea6f936665da97dd96d01871cc38b19a96d20556a05ea1a8cab7b1b8dc",
+  "keyframe": "knees_bent",
+  "raw_local_report_sha256": "8ba085f9ac0ba56997c0e78536ebb4e4fbc32e5fb81e11557f5e37fc6174607c"
+}
